@@ -6,6 +6,7 @@
 ### **Autonomous AI Health Resource & Supply Chain Resilience Platform**
 
 [![Google Cloud GenAI Hackathon 2026](https://img.shields.io/badge/Google_Cloud_GenAI_Hackathon-Track_3:_Smart_Health_%26_Supply_Chain-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://github.com/2007Talha/HealthGrid)
+[![Live Production](https://img.shields.io/badge/Live_Production-Cloud_Run_(asia--south1)-34A853?style=for-the-badge&logo=googlecloud&logoColor=white)](https://swasthya-records-727221214250.asia-south1.run.app)
 [![Gemini 2.5 Flash](https://img.shields.io/badge/Vertex_AI-Gemini_2.5_Flash-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white)](https://cloud.google.com/vertex-ai)
 [![Google OR-Tools](https://img.shields.io/badge/Google_OR--Tools-MILP_Optimizer-34A853?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/optimization)
 
@@ -26,7 +27,7 @@
 
 <br/>
 
-[🚀 Live Demo Walkthrough](#-judge-demonstration-walkthrough-3-minutes) • [✨ Core Features](#-core-features) • [🏗️ System Architecture](#️-system-architecture) • [🧠 AI Methodology](#-ai-approach--scientific-rigor) • [⚡ Quickstart Setup](#-local-setup--quickstart) • [🛡️ Security & Provenance](#-data-integrity--provenance)
+[🌐 **Open Live Cloud Run App**](https://swasthya-records-727221214250.asia-south1.run.app) • [🚀 Live Demo Walkthrough](#-judge-demonstration-walkthrough-3-minutes) • [✨ Core Features](#-core-features) • [🏗️ System Architecture](#️-system-architecture) • [🧠 AI Methodology](#-ai-approach--scientific-rigor) • [⚡ Quickstart Setup](#-local-setup--quickstart) • [🛡️ Security & Provenance](#-data-integrity--provenance)
 
 ---
 
@@ -241,6 +242,18 @@ Swasthya Records maintains strict separation between official public government 
 | **Google BigQuery** | Enterprise Data Warehouse | Stores official RHS, HMIS, and NLEM tables (`arcadeaiagent.swasthyagrid`) for analytics and baselining. |
 | **Google OR-Tools** | Mathematical Optimization | Industrial-strength Mixed-Integer Linear Programming solver computing rebalancing transfers. |
 | **Artifact Registry** | Container Image Management | Secure Docker container repository hosted in Mumbai region (`asia-south1`). |
+
+### 🌐 Live Production Deployment
+
+> **Primary Service URL**: [https://swasthya-records-727221214250.asia-south1.run.app](https://swasthya-records-727221214250.asia-south1.run.app)  
+> **Interactive Swagger API Docs**: [https://swasthya-records-727221214250.asia-south1.run.app/docs](https://swasthya-records-727221214250.asia-south1.run.app/docs)  
+> **Health Probe Endpoint**: [https://swasthya-records-727221214250.asia-south1.run.app/health](https://swasthya-records-727221214250.asia-south1.run.app/health)  
+> **GCP Project**: `arcadeaiagent` | **Region**: `asia-south1` (Mumbai)
+
+To deploy or update to Google Cloud Run in one command:
+```bash
+gcloud run deploy swasthya-records --source . --region asia-south1 --allow-unauthenticated
+```
 
 ---
 

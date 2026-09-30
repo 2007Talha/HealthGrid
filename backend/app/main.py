@@ -18,7 +18,8 @@ if sys.platform == "win32":
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 from fastapi import FastAPI, Request
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, FileResponse
+from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 
 from backend.app.core.config import settings
@@ -96,8 +97,13 @@ async def structured_logging_middleware(request: Request, call_next):
 # Attach API Router
 app.include_router(api_router, prefix=settings.API_V1_STR)
 
+frontend_dist_dir = os.path.join(settings.WORKSPACE_ROOT, "frontend", "dist")
+
 @app.get("/", tags=["Health"])
 def root():
+    index_file = os.path.join(frontend_dist_dir, "index.html")
+    if os.path.exists(frontend_dist_dir) and os.path.exists(index_file):
+        return FileResponse(index_file)
     return {
         "app": "Swasthya Records",
         "tagline": "Predict. Prevent. Redistribute.",
@@ -152,3 +158,21 @@ def health_dependencies():
     dep_status["subsystems"]["simulation_engine"] = "READY" if facility_master_exists else "MISSING_DATA"
 
     return dep_status
+    
+# Serve Built Frontend SPA Assets & Routes
+if os.path.exists(frontend_dist_dir):
+    assets_dir = os.path.join(frontend_dist_dir, "assets")
+    if os.path.exists(assets_dir):
+        app.mount("/assets", StaticFiles(directory=assets_dir), name="static-assets")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    async def serve_spa_fallback(request: Request, full_path: str):
+        if full_path.startswith("api") or full_path.startswith("docs") or full_path.startswith("redoc") or full_path in ("health", "openapi.json"):
+            return JSONResponse(status_code=404, content={"detail": "Not Found"})
+        target_file = os.path.join(frontend_dist_dir, full_path)
+        if full_path and os.path.isfile(target_file):
+            return FileResponse(target_file)
+        index_file = os.path.join(frontend_dist_dir, "index.html")
+        if os.path.exists(index_file):
+            return FileResponse(index_file)
+        return JSONResponse(status_code=404, content={"detail": "Not Found"})
