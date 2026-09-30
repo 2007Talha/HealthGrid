@@ -1,0 +1,28 @@
+# ==============================================================================
+# Netlify Deployment Configuration — Swasthya Records
+# ==============================================================================
+
+[build]
+  # Base directory where frontend source lives
+  base = "frontend"
+  # Directory containing built static assets (relative to base)
+  publish = "dist"
+  # Build command
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Optional: If you deploy the FastAPI backend (e.g. Google Cloud Run or Render),
+# you can uncomment this block to automatically proxy /api/* without CORS issues.
+# [[redirects]]
+#   from = "/api/*"
+#   to = "https://your-cloud-run-backend-url.run.app/api/:splat"
+#   status = 200
+#   force = true
+
+# SPA Fallback: Route all unmatched paths to /index.html for React Router
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
