@@ -1,240 +1,377 @@
-# Swasthya Records
+<div align="center">
 
-### **AI-Powered Health Resource & Supply Chain Resilience Platform**
+# 🏥 Swasthya Records
+### **Autonomous AI Health Resource & Supply Chain Resilience Platform**
 
-> **Tagline**: *Predict. Warn. Redistribute. Respond.*  
-> **Google Cloud GenAI Hackathon 2026 — Track 3: Smart Health & Supply Chain Resilience**  
-> **GCP Project ID**: `arcadeaiagent` | **Region**: `asia-south1` (Mumbai)  
-> **GitHub Repository**: [https://github.com/2007Talha/HealthGrid.git](https://github.com/2007Talha/HealthGrid.git)  
+[![Google Cloud GenAI Hackathon 2026](https://img.shields.io/badge/Google_Cloud_GenAI_Hackathon-Track_3:_Smart_Health_%26_Supply_Chain-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://github.com/2007Talha/HealthGrid)
+[![Gemini 2.5 Flash](https://img.shields.io/badge/Vertex_AI-Gemini_2.5_Flash-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white)](https://cloud.google.com/vertex-ai)
+[![Google OR-Tools](https://img.shields.io/badge/Google_OR--Tools-MILP_Optimizer-34A853?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/optimization)
+
+<br/>
+
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![React 19](https://img.shields.io/badge/React-19.0-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5+-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Vite](https://img.shields.io/badge/Vite-5.0+-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev)
+[![Google BigQuery](https://img.shields.io/badge/Google_BigQuery-OLAP_Warehouse-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)](https://cloud.google.com/bigquery)
+[![Google Cloud Run](https://img.shields.io/badge/Google_Cloud_Run-Serverless-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://cloud.google.com/run)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+
+<br/>
+
+> **"Predict demand spikes before shelves empty. Warn health officers 72 hours early. Rebalance medicines mathematically with zero donor risk. Empower leadership with grounded GenAI."**
+
+<br/>
+
+[🚀 Live Demo Walkthrough](#-judge-demonstration-walkthrough-3-minutes) • [✨ Core Features](#-core-features) • [🏗️ System Architecture](#️-system-architecture) • [🧠 AI Methodology](#-ai-approach--scientific-rigor) • [⚡ Quickstart Setup](#-local-setup--quickstart) • [🛡️ Security & Provenance](#-data-integrity--provenance)
 
 ---
 
-## One-Line Overview
+</div>
 
-> **SwasthyaGrid AI is an India-scale AI platform that forecasts healthcare resource demand, detects emerging shortages, and recommends cross-district redistribution before critical stock-outs occur.**
+<br/>
 
----
+## 📌 Executive Summary
 
-## Executive Summary
+Across India's decentralized network of **30,000+ Primary Health Centres (PHCs)** and **Community Health Centres (CHCs)**, localized demand surges (such as post-monsoon dengue, malaria, and flood-borne diarrheal outbreaks) trigger catastrophic **$300\%\text{–}500\%$ spikes** in medication demand. 
 
-> **SwasthyaGrid AI provides a unified view of medicine stocks, patient demand, beds, staffing and health-resource risks across India's PHC network. Gemini and predictive models transform operational data into early warnings and explainable redistribution recommendations, helping decision-makers respond before shortages become critical.**
+While clinics in flood-hit districts exhaust vital supplies of ORS, IV fluids, and antibiotics, **neighboring facilities often sit on unutilized surplus stock**. Due to paper-based silos, rigid administrative boundaries, and manual logistics coordination, preventable stock-outs persist for days.
 
----
+**Swasthya Records (SwasthyaGrid AI)** closes this visibility gap. Built for the **Google Cloud GenAI Hackathon 2026 (Track 3)**, it creates an autonomous digital twin of public healthcare supply chains that transforms fragmented data into predictive early warnings, optimal redistribution orders, and explainable AI-guided decision support.
 
-## 1. The Healthcare Problem
-
-Across India's vast public healthcare network—spanning over 30,000 Primary Health Centres (PHCs) and Community Health Centres (CHCs)—critical medicine stock-outs and bed saturation often occur unpredictably. Seasonal disease outbreaks (such as post-monsoon dengue, malaria, and flood-borne diarrheal episodes) trigger localized demand surges of $300\%\text{--}500\%$.
-
-Simultaneously, neighboring districts frequently possess substantial unutilized surplus inventory. Because supply-chain records remain siloed and administrative redistributions require days of coordination, preventable patient mortalities and emergency stock-outs persist.
-
-```text
-Fragmented Visibility ──► Late Detection ──► Stock-Outs ──► Reactive Logistics
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                                 THE RESILIENCE LOOP                                    │
+│                                                                                        │
+│   📡 Real-Time Telemetry  ──►  📈 Multi-Horizon Forecast  ──►  ⚠️ Risk & Early Warning  │
+│   (33 Sentinel Facilities)     (Ridge & LightGBM Models)      (DOSA < 3 Days Trigger)  │
+│                                                                          │             │
+│                                                                          ▼             │
+│   🏁 Stock Runway Restored ◄──  🚚 OR-Tools Rebalancing  ◄──  🤖 Gemini 2.5 Copilot   │
+│   (1.4 Days ➔ 14.2 Days)       (Min-Cost MILP Solver)         (Grounded Tool Calling)  │
+└────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 2. The Solution: Swasthya Records
+## ⚡ The Challenge vs. The Swasthya Records Solution
 
-Swasthya Records provides an automated intelligence and decision-support layer:
-
-1. **Predicts**: Multi-horizon AI forecasting (Ridge Regression and LightGBM) predicts demand surges across 7-day and 14-day horizons before shelves empty.
-2. **Warns**: An automated Risk Intelligence Engine classifies facilities into vulnerability tiers using Days of Stock Available ($DOSA = \frac{\text{Stock}}{\text{Demand}}$) and generates early warnings 72 hours in advance.
-3. **Redistributes**: A Mixed-Integer Linear Programming (MILP) solver powered by **Google OR-Tools** computes minimum-cost, capacity-constrained cross-district rebalancing routes with strict source safety stock safeguards.
-4. **Responds**: **Swasthya Records AI Assistant**, powered by **Gemini 2.5 Flash**, provides voice-enabled, grounded operational intelligence and interactive What-If simulation sandboxing for healthcare directors.
-
----
-
-## 3. Core Features
-
-* **National Command Dashboard**: Real-time geospatial telemetry mapping 33 sentinel facilities across Bihar, Uttar Pradesh, and Maharashtra with Leaflet GIS.
-* **AI Demand & Stock Forecasting**: Multi-horizon projections factoring in outpatient footfall (OPD), seasonality, and emergency multipliers.
-* **Google OR-Tools Supply Rebalancing**: Mathematical optimization solving the multi-source, multi-destination transfer problem under road distance and cold-chain constraints.
-* **Gemini 2.5 Flash Operations Copilot**: Natural language assistant utilizing 10+ deterministic backend tools for auditable, hallucination-free decision support.
-* **What-If Practice Sandbox**: Shadow simulation environment evaluating hypothetical demand spikes (+30%), transit delays (+3 days), and emergency shipments before execution.
-* **Bilingual Localization (English / हिन्दी)**: Instant language switching across all navigation, KPI cards, tables, chart labels, and alerts.
-* **Role-Based Access Control (RBAC)**: Role-scoped views for `ADMIN` (National Director), `STATE_OPERATOR` (State Director), and `DISTRICT_OPERATOR` (District Nodal Officer).
-* **1-Click Guided Demo Flow**: 7-step self-guided tour illustrating baseline telemetry $\to$ disaster surge $\to$ forecast spike $\to$ alert $\to$ Copilot explanation $\to$ OR-Tools rebalancing $\to$ risk reduction.
-* **Data Sources & Provenance Page**: Dedicated `/data-sources` transparency route documenting all government data foundations and simulation boundaries.
+| Challenge | Status Quo Healthcare Systems | With Swasthya Records |
+| :--- | :--- | :--- |
+| **Visibility** | Siloed monthly paper registers; zero inter-district sharing | **Real-time GIS telemetry** across 33 sentinel facilities with live stock runway tracking |
+| **Forecasting** | Reactive ordering only after shelves empty | **7-day & 14-day multi-horizon AI projections** factoring in seasonal outbreaks and OPD trends |
+| **Redistribution** | Manual bureaucratic phone calls taking 3–7 days | **Google OR-Tools MILP optimization** computing safe transfer pairs in milliseconds |
+| **Donor Safety** | Donors risk stock-outs by over-supplying | **Strict 7-day safety stock safeguard** prevents any facility from being depleted |
+| **Decision Support**| Static spreadsheets with no contextual reasoning | **Gemini 2.5 Flash Operations Copilot** with 10+ deterministic Python tools and voice input |
+| **Readiness** | No pre-disaster simulation capability | **Interactive What-If Sandbox** (+30% demand spikes, transit delays, emergency shipments) |
 
 ---
 
-## 4. System Architecture
+## ✨ Core Features
+
+<div align="center">
+
+| Feature | Description | Tech Component |
+| :--- | :--- | :--- |
+| **🗺️ National Command Center** | Real-time Leaflet GIS mapping with live color-coded facility vulnerability status across Bihar, UP, and Maharashtra. | `React 19` + `Leaflet GIS` |
+| **📈 Multi-Horizon AI Forecasting** | Machine-learning models forecasting medicine demand over 7- and 14-day horizons with seasonal anomaly weights. | `Ridge Regression` + `LightGBM` |
+| **⚠️ Risk Intelligence Engine** | Automated classification of stock runways using Days of Stock Available ($DOSA$). Triggers alerts 72 hours early. | Mathematical Scoring Engine |
+| **🚚 Google OR-Tools Optimizer** | Mixed-Integer Linear Programming (MILP) solving donor-recipient matching under road distance ($\le 50\text{ km}$) and safety stock constraints. | `Google OR-Tools 9.9+` |
+| **🤖 Gemini 2.5 Operations Copilot** | Conversational assistant grounded in live operational databases via 10+ deterministic backend tool declarations. | `Gemini 2.5 Flash` + Function Calling |
+| **🧪 What-If Scenario Sandbox** | Dynamic stress-testing sandbox evaluating sudden disease outbreaks, monsoon flash floods, and supply delays. | Interactive Simulation Engine |
+| **🌐 Bilingual Localization** | Instant, zero-latency toggle between **English** and **हिन्दी (Hindi)** across all navigation, KPI cards, charts, and alerts. | `i18n Context Engine` |
+| **🔒 Role-Based Access Control** | Least-privilege views for `ADMIN` (National Director), `STATE_OPERATOR` (State Director), and `DISTRICT_OPERATOR` (Nodal Officer). | `FastAPI Security` + JWT/RBAC |
+| **🎬 1-Click Guided Demo Flow** | Automated 7-step guided scenario demonstrating baseline $\to$ flood disaster $\to$ alert $\to$ Copilot analysis $\to$ rebalancing. | `/demo` Guided Interactive Tour |
+| **📊 Public Data Provenance Page** | Full transparency view attributing official data sources (MoHFW RHS, HMIS, NLEM) and simulation boundaries. | `/data-sources` Route |
+
+</div>
+
+---
+
+## 🏗️ System Architecture
 
 ```text
-                           INTERNET / USER BROWSER
-                                      │
-                                      ▼
-                        Google Cloud Run (asia-south1)
-                     Swasthya Records Web Application
-                                      │
-           ┌──────────────────────────┼──────────────────────────┐
-           ▼                          ▼                          ▼
-    React 19 + TypeScript        FastAPI Gateway          Gemini 2.5 Flash
-    (Tailwind + Leaflet GIS)     (REST + RBAC + Audit)    (Operations Copilot)
-           │                          │                          │
-           │                          ▼                          │
-           │            ┌─────────────┴─────────────┐            │
-           │            ▼                           ▼            │
-           │      Google BigQuery               SQLite DB        │
-           │    (Government DW OLAP)          (Operational Twin) │
-           │            │                           │            │
-           │            ▼                           ▼            │
-           │     Demand Forecast              OR-Tools MILP      │
-           │    (Ridge / LightGBM)           (Supply Rebalancer) │
-           │            │                           │            │
-           └────────────┴─────────────┬─────────────┴────────────┘
-                                      ▼
-                        Official Data Provenance
-               MoHFW RHS 2022 • HMIS 2022-23 • NLEM 2022
+                                  INTERNET / CLIENT BROWSER
+                                              │
+                                              ▼
+                                Google Cloud Run (asia-south1)
+                             Swasthya Records Web Application
+                                              │
+                    ┌─────────────────────────┼─────────────────────────┐
+                    ▼                         ▼                         ▼
+         Frontend Presentation           FastAPI Gateway         Vertex AI Engine
+          React 19 + TypeScript        (REST + RBAC + Audit)     Gemini 2.5 Flash
+          (Tailwind + Leaflet)         Asynchronous Python       (Operations Copilot)
+                    │                         │                         │
+                    │                         ▼                         │
+                    │           ┌─────────────┴─────────────┐           │
+                    │           ▼                           ▼           │
+                    │     Google BigQuery               SQLite DB       │
+                    │   (Government DW OLAP)        (Operational Twin)  │
+                    │           │                           │           │
+                    │           ▼                           ▼           │
+                    │    Predictive ML               OR-Tools MILP      │
+                    │  (Ridge / LightGBM)         (Supply Rebalancer)   │
+                    │           │                           │           │
+                    └───────────┴─────────────┬─────────────┴───────────┘
+                                              ▼
+                                Official Data Provenance
+                       MoHFW RHS 2022 • HMIS 2022-23 • NLEM 2022
+```
+
+### End-to-End Data Pipeline Flow
+
+```mermaid
+flowchart LR
+    A[🏥 Sentinel Health Facilities] -->|Telemetry / Footfall| B[⚡ FastAPI Gateway]
+    B -->|Persist State| C[(Operational DB & BigQuery)]
+    C -->|Feature Engineering| D[📈 ML Forecasting: Ridge / LightGBM]
+    D -->|Demand Projections| E[⚠️ Risk Engine: DOSA Calculation]
+    E -->|Shortage Detected| F[🚚 Google OR-Tools: MILP Optimizer]
+    F -->|Optimal Transfer Route| G[🤖 Gemini 2.5 Flash Copilot]
+    G -->|Explainable Actionable Plan| H[👨‍⚕️ Health Director / Nodal Officer]
+    H -->|1-Click Approval| I[✅ Route Execution & Runway Restored]
 ```
 
 ---
 
-## 5. AI Approach & Methodology
+## 🧠 AI Approach & Scientific Rigor
 
-Swasthya Records combines four distinct AI pillars:
+Swasthya Records pairs **deterministic mathematical guarantees** with **explainable generative intelligence**:
 
-1. **Predictive AI**: Multi-horizon Ridge Regression and LightGBM forecasting trained on seasonal consumption curves, OPD visits, and weather/epidemic shocks.
-2. **Risk Intelligence**: Grounded mathematical calculation of Days of Stock Available ($DOSA$). Flags shortages when $DOSA < 3.0\text{ days}$.
-3. **Generative AI (Gemini 2.5 Flash)**: Acts as an explainable operations copilot. All responses are strictly grounded in deterministic backend Python tool outputs (`get_facility_status`, `calculate_stock_risk`, `recommend_redistribution`).
-4. **Combinatorial Optimization (Google OR-Tools)**: Mixed-Integer Linear Programming solver computing optimal donor-recipient transfer pairs while enforcing a 7-day donor safety buffer and a 50 km transit radius.
+```
+                                ┌──────────────────────────────────────────────┐
+                                │        FOUR PILLARS OF SWASTHYA AI           │
+                                └──────────────────────────────────────────────┘
+                                                       │
+         ┌─────────────────────────┬───────────────────┴─────────────────┬─────────────────────────┐
+         ▼                         ▼                                     ▼                         ▼
+ 1. PREDICTIVE AI          2. RISK INTELLIGENCE                  3. OPTIMIZATION           4. GROUNDED GENAI
+ ─────────────────         ─────────────────────                 ───────────────           ─────────────────
+ Ridge & LightGBM          Mathematical Runway                   Google OR-Tools           Gemini 2.5 Flash
+ Multi-horizon (7/14d)     DOSA = Stock / Demand                 MILP Solver               10+ Deterministic Tools
+ Seasonality & OPD lags    Critical Alert if DOSA < 3.0d         Donor Safety Stock >= 7d  Hallucination-free Copilot
+```
+
+### 1. Multi-Horizon Predictive ML
+* **Models**: Ridge Regression and LightGBM models trained on historical outpatient department (OPD) footfall, weekly epidemiologic cycles, and monsoon disaster factors.
+* **Features**: Moving averages (7d, 14d), 7-day lagged consumption, day-of-week indicators, and disease multiplier curves.
+* **Output**: Accurate 7-day and 14-day expected consumption curves per facility and medicine.
+
+### 2. Risk Intelligence Engine
+* Evaluates **Days of Stock Available ($DOSA$)**:
+  $$\text{DOSA} = \frac{\text{Current Inventory Units}}{\text{Forecasted Daily Demand}}$$
+* **Classification Tiers**:
+  * 🔴 **CRITICAL** ($\text{DOSA} < 3.0\text{ days}$): Immediate stock-out risk; automated high-priority alert generated.
+  * 🟡 **WARNING** ($3.0 \le \text{DOSA} < 7.0\text{ days}$): Emerging vulnerability requiring observation.
+  * 🟢 **ADEQUATE** ($7.0 \le \text{DOSA} \le 30.0\text{ days}$): Balanced inventory runway.
+  * 🔵 **SURPLUS** ($\text{DOSA} > 30.0\text{ days}$): Eligible candidate donor for rebalancing.
+
+### 3. Google OR-Tools Combinatorial Rebalancing
+* Formulated as a **Mixed-Integer Linear Program (MILP)** minimizing total logistics cost and transit distance while rebalancing inventory:
+  $$\min \sum_{i \in \text{Donors}} \sum_{j \in \text{Recipients}} c_{ij} \cdot x_{ij}$$
+* **Strict Constraints**:
+  * **Donor Safety Buffer**: A donor facility must retain at least **7.0 days of safety stock** after any transfer:
+    $$\text{Stock}_i - \sum_j x_{ij} \ge 7.0 \times \text{DailyDemand}_i$$
+  * **Distance Threshold**: Maximum transfer radius is strictly capped at **50 km** for rapid rural road dispatch.
+  * **Deficit Coverage**: Cannot transfer more than the recipient's validated shortfall.
+
+### 4. Grounded Generative Copilot (Gemini 2.5 Flash)
+* **Zero Hallucination Guarantee**: Gemini does not speculate on inventory numbers. It is equipped with **10+ deterministic Python tool functions** via Vertex AI function calling (`get_facility_status`, `calculate_stock_risk`, `recommend_redistribution`, `run_what_if_simulation`).
+* **Auditable Reasoning**: Every clinical or supply recommendation references exact database entity IDs, computed DOSA values, and verified transit times.
 
 ---
 
-## 6. Data Integrity & Provenance
+## 🏆 Judge Demonstration Walkthrough (3 Minutes)
 
-Swasthya Records maintains strict separation between official government data and prototype operational simulations:
+Experience the full emergency resilience lifecycle interactively at `/demo`:
 
-| Dataset | Publisher | Source Type | Coverage | Usage in Swasthya Records |
+| Step | Phase | What Happens | AI Engine | Outcome / Impact |
+| :---: | :--- | :--- | :--- | :--- |
+| **1** | **Normal Baseline** | 33 sentinel facilities across Bihar, UP, and Maharashtra operate with balanced inventory. | Telemetry Monitor | National readiness score: **94%**; all facilities green. |
+| **2** | **Disaster Surge** | User triggers a **Monsoon Flood Surge** in Patna District (+40% diarrheal & trauma demand). | Simulation Engine | Acute footfall spike injected into operational twin. |
+| **3** | **Demand Spike** | Machine learning models detect rapid inventory burn for ORS and Paracetamol. | `LightGBM / Ridge` | 7-day consumption forecast surges by **+420%**. |
+| **4** | **Early Warning** | System raises high-priority alerts: Patna Sadar PHC will run out of ORS in **1.4 days**. | Risk Engine | Alert triggered **72 hours before actual stock-out**. |
+| **5** | **Copilot Analysis** | Ask Gemini Copilot: *"What is the risk at Patna Sadar and how can we mitigate it?"* | `Gemini 2.5 Flash` | Gemini calls tool functions, confirms shortfall, and explains drivers. |
+| **6** | **OR-Tools Rebalancing** | Run optimizer to find donor. Danapur Clinic is selected (200 units, 18 km transit). | `Google OR-Tools` | Donor retains 8.5 days of safety stock; transfer verified safe. |
+| **7** | **Simulate & Approve** | Health Director reviews and approves the transfer order with one click. | State Transition | Patna Sadar runway restored from **1.4 ➔ 14.2 days**! |
+
+---
+
+## 📊 Data Integrity & Provenance
+
+Swasthya Records maintains strict separation between official public government records and prototype operational simulations:
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                                 DATA ARCHITECTURE                                      │
+├──────────────────────────────────────────┬─────────────────────────────────────────────┤
+│  🏛️ OFFICIAL GOVERNMENT BASELINES         │  🧪 SIMULATED OPERATIONAL DIGITAL TWIN      │
+│  (Real Public Data via BigQuery)         │  (Prototype Demonstration Layer)            │
+├──────────────────────────────────────────┼─────────────────────────────────────────────┤
+│  • Rural Health Statistics (RHS) 2022    │  • Daily medicine dispensing telemetry      │
+│  • Health Management Information System  │  • Real-time stock burn and footfall curves │
+│  • National List of Essential Medicines  │  • Monsoon flood demand surge triggers      │
+│  • Census of India Demographics          │  • Synthetic transit delivery updates       │
+└──────────────────────────────────────────┴─────────────────────────────────────────────┘
+```
+
+| Dataset | Publisher | Source Type | Coverage | Usage in Platform |
 | :--- | :--- | :--- | :--- | :--- |
 | **Rural Health Statistics (RHS) 2022** | MoHFW, Govt of India | Official Public | 36 States & UTs | Facility registry, bed counts, geographic coordinates |
-| **HMIS 2022-2023** | NHM, MoHFW | Official Public | District aggregates | Patient footfall and bed occupancy baselines |
+| **HMIS 2022–2023** | NHM, MoHFW | Official Public | District aggregates | Patient footfall and bed occupancy baselines |
 | **National List of Essential Medicines (NLEM 2022)** | Dept of Pharmaceuticals / CDSCO | Government Formulary | 384 formulations | 20 tracked essential therapeutic medicines & pack sizes |
 | **Census of India** | Ministry of Home Affairs | Official Demographics | National | Population distributions and transit distances |
 | **Operational Digital Twin** | Swasthya Records Simulator | Prototype Simulation | 33 Sentinel Clinics | Daily inventory consumption and emergency flood surges |
 
----
-
-## 7. Google Cloud Technologies
-
-* **Google Cloud Run**: Serverless container hosting with non-root security context and auto-scaling.
-* **Google BigQuery**: Analytical data warehouse hosting official public government records (`arcadeaiagent.swasthyagrid`).
-* **Vertex AI / Gemini 2.5 Flash**: Natural language operations copilot and What-If scenario explanation.
-* **Google OR-Tools**: Industrial-grade Mixed-Integer Linear Programming solver for logistics optimization.
-* **Artifact Registry**: Secure Docker container repository in region `asia-south1`.
+> [!NOTE]
+> All public datasets are queryable transparently within the platform at the [`/data-sources`](http://localhost:5173/data-sources) page.
 
 ---
 
-## 8. Local Setup & Installation
+## ☁️ Google Cloud Platform Integration
+
+| GCP Service | Role in Platform | Implementation Detail |
+| :--- | :--- | :--- |
+| **Google Cloud Run** | Serverless Container Hosting | Runs containerized FastAPI backend and React frontend with non-root security context and auto-scaling (`asia-south1`). |
+| **Vertex AI / Gemini 2.5 Flash** | GenAI Operations Copilot | Powers natural language decision support with structured tool declarations and What-If scenario explanation. |
+| **Google BigQuery** | Enterprise Data Warehouse | Stores official RHS, HMIS, and NLEM tables (`arcadeaiagent.swasthyagrid`) for analytics and baselining. |
+| **Google OR-Tools** | Mathematical Optimization | Industrial-strength Mixed-Integer Linear Programming solver computing rebalancing transfers. |
+| **Artifact Registry** | Container Image Management | Secure Docker container repository hosted in Mumbai region (`asia-south1`). |
+
+---
+
+## ⚡ Local Setup & Quickstart
 
 ### Prerequisites
-* Python 3.11+
-* Node.js 18+ and npm
-* Git
+* **Python 3.11+**
+* **Node.js 18+** & **npm**
+* **Git**
 
-### Step 1: Clone Repository
+### 1. Clone Repository
 ```bash
 git clone https://github.com/2007Talha/HealthGrid.git
 cd HealthGrid
 ```
 
-### Step 2: Backend Setup
+### 2. Configure Environment Variables
+Copy the sample environment configuration file:
 ```bash
-python -m venv venv
-# Windows:
-.\venv\Scripts\activate
-# Linux/macOS:
-source venv/bin/activate
-
-pip install -r requirements.txt
-python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000
+cp .env.example .env
 ```
+*(Default settings work out-of-the-box in offline/development mode)*
 
-### Step 3: Frontend Setup
+### 3. Backend Setup
+
+<details open>
+<summary><b>Windows (PowerShell)</b></summary>
+
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload
+```
+</details>
+
+<details>
+<summary><b>Linux / macOS (Bash)</b></summary>
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python3 -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload
+```
+</details>
+
+### 4. Frontend Setup
+
+In a new terminal window:
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-Visit the application at `http://localhost:5173/`.
+Open your browser at **`http://localhost:5173/`**.
 
 ---
 
-## 9. Environment Variables
+## 🐳 Docker Deployment
 
-Create a `.env` file in the root directory (see `.env.example`):
+Run the complete platform with a single command via Docker Compose:
 
-```env
-GCP_PROJECT_ID=arcadeaiagent
-GCP_REGION=asia-south1
-BIGQUERY_DATASET=arcadeaiagent.swasthyagrid
-GEMINI_MODEL=gemini-2.5-flash
-ALLOWED_ORIGINS=http://localhost:5173,http://localhost:3000
-RATE_LIMIT_PER_MINUTE=60
-ENVIRONMENT=development
-```
-
----
-
-## 10. Cloud Run Production Deployment
-
-Execute the automated Cloud Run deployment script:
-
-```bash
-chmod +x scripts/deploy_cloud_run.sh
-./scripts/deploy_cloud_run.sh
-```
-
-Or deploy locally using Docker Compose:
 ```bash
 docker-compose up --build
 ```
 
----
-
-## 11. Judge Demonstration Walkthrough (3 Minutes)
-
-Experience the full resilience lifecycle in 7 steps at `/demo`:
-
-1. **Baseline Operations**: 33 sentinel facilities operate normally across Bihar, UP, and Maharashtra.
-2. **Trigger Emergency**: Inject a Monsoon Flood Surge in Patna District (+40% demand).
-3. **Forecast Spike**: Predictive models detect accelerated burn rate for ORS and Paracetamol.
-4. **Early Warning Alert**: The system alerts officers that Patna Sadar will exhaust stock in 1.4 days.
-5. **Ask Gemini Copilot**: Gemini analyzes the root cause using verified database records.
-6. **OR-Tools Rebalancing**: The optimizer identifies Danapur Clinic as a safe donor (200 units, 18 km).
-7. **Simulate & Approve**: The officer approves the transfer; stock runway restores to 14.2 days.
+Access the unified containerized application at `http://localhost:8000/`.
 
 ---
 
-## 12. Security & Compliance
+## 🔌 Core API Endpoints
 
-* **Role-Based Access Control**: Strict least-privilege scoping (`ADMIN`, `STATE_OPERATOR`, `DISTRICT_OPERATOR`). Unauthorized cross-state queries return **HTTP 403 Forbidden**.
-* **Sliding-Window Rate Limiting**: Protects expensive endpoints with **HTTP 429 Too Many Requests**.
-* **Structured Observability**: Logs all requests in JSON with `X-Request-ID` tracing without logging credentials.
-* **Anti-Hallucination Guardrail**: Regex registry validation rejects non-existent facility queries.
-* **Privacy by Design**: No patient Personally Identifiable Information (PII) is collected or stored.
+<details>
+<summary><b>Click to expand API reference table</b></summary>
 
----
+| Endpoint | Method | Description | Role Required |
+| :--- | :---: | :--- | :--- |
+| `/api/facilities` | `GET` | List all 33 sentinel facilities with live telemetry | Public / Any |
+| `/api/facilities/{id}` | `GET` | Retrieve detailed telemetry, beds, and stock for a facility | Public / Any |
+| `/api/medicines` | `GET` | List tracked essential therapeutic medicines (NLEM 2022) | Public / Any |
+| `/api/forecasts` | `GET` | Multi-horizon (7d/14d) ML demand and stock-out predictions | `DISTRICT_OPERATOR`+ |
+| `/api/alerts` | `GET` | Active stock-out and bed saturation early warning alerts | `DISTRICT_OPERATOR`+ |
+| `/api/rebalancing/optimize`| `POST` | Execute Google OR-Tools MILP logistics optimization | `STATE_OPERATOR`+ |
+| `/api/rebalancing/orders` | `GET` | List active, transit, and completed transfer orders | `STATE_OPERATOR`+ |
+| `/api/copilot/chat` | `POST` | Query Gemini 2.5 Flash Grounded Operations Copilot | `STATE_OPERATOR`+ |
+| `/api/simulations/what-if` | `POST` | Run shadow simulation of demand shocks and transit delays | `ADMIN` |
+| `/api/health` | `GET` | Health check endpoint returning backend and engine status | Public |
 
-## 13. Limitations & Roadmap
-
-* **Live Inventory Integration**: Currently uses simulated operational telemetry because rural PHCs do not yet expose public real-time dispensing APIs. Production deployment will integrate with state e-Aushadhi / DVDMS systems via ABDM standards.
-* **Cold-Chain Sensor Telemetry**: Simulated temperature curves. Future phases will ingest live IoT cold-box telemetry.
-* **Road Conditions**: Travel times are computed using Haversine distance and regional transit averages. Live integration with Google Maps Distance Matrix API is supported.
-
----
-
-## 14. Disclaimers
-
-### Data Disclaimer
-> **Swasthya Records is a prototype decision-support platform. Public/government datasets are used where available, while operational PHC inventory, demand, staffing and emergency conditions may be simulated for demonstration. The prototype does not execute real-world medical logistics.**
-
-### AI Disclaimer
-> **AI-generated forecasts and recommendations are decision-support outputs and should be reviewed by authorized human operators before operational action.**
+</details>
 
 ---
 
-## 15. Final Judge Message
+## 🔒 Security, Compliance & Responsible AI
 
-> *"Swasthya Records turns fragmented healthcare-resource signals into an early-warning and response system—predicting demand, identifying shortages, finding safe redistribution opportunities, and giving decision-makers an explainable AI copilot."*
+* **Role-Based Access Control (RBAC)**: Strict least-privilege scoping across `ADMIN`, `STATE_OPERATOR`, and `DISTRICT_OPERATOR`. Unauthorized cross-state queries are rejected with **HTTP 403 Forbidden**.
+* **Sliding-Window Rate Limiting**: In-memory rate limiting shields endpoints against denial of service (**HTTP 429 Too Many Requests**).
+* **Anti-Hallucination Guardrails**: Regex registry validation and deterministic tool calling prevent Gemini from hallucinating non-existent facilities or fabricated medicines.
+* **Privacy by Design**: No patient Personally Identifiable Information (PII) is collected, stored, or processed. All telemetry represents aggregate facility-level capacity.
+* **Structured Observability**: Structured JSON logging with `X-Request-ID` tracing across every request for compliance auditability.
+
+---
+
+## 🗺️ Roadmap & Real-World Integration
+
+- [x] **Phase 1 (Hackathon MVP)**: Multi-horizon ML forecasting, Google OR-Tools MILP rebalancer, Gemini 2.5 Flash Grounded Copilot, bilingual UI, and interactive judge tour.
+- [ ] **Phase 2 (Government Systems Integration)**: Integration with state **e-Aushadhi** and **DVDMS** inventory portals using Ayushman Bharat Digital Mission (**ABDM**) standards.
+- [ ] **Phase 3 (IoT Cold-Chain Telemetry)**: Ingestion of live BLE/LoRaWAN temperature sensors for vaccine and insulin storage cold-boxes.
+- [ ] **Phase 4 (Live Traffic & Google Maps)**: Real-time route optimization factoring in live monsoon road closures via Google Maps Distance Matrix API.
+
+---
+
+## ⚖️ Disclaimers
+
+> [!CAUTION]
+> **Data Disclaimer**: Swasthya Records is an experimental decision-support platform built for demonstration in the Google Cloud GenAI Hackathon 2026. Official government datasets (RHS, HMIS, NLEM) provide structural baselines, while dynamic inventory dispensing and emergency conditions are simulated. It does not execute live physical logistics.
+
+> [!IMPORTANT]
+> **AI Disclaimer**: AI-generated predictions, risk rankings, and redistribution suggestions are decision-support aids designed to augment human judgment and must be verified by authorized nodal medical officers before execution.
+
+---
+
+<div align="center">
+
+### 💡 Google Cloud GenAI Hackathon 2026
+**Track 3: Smart Health & Supply Chain Resilience**  
+*GCP Project ID: `arcadeaiagent` | Region: `asia-south1` (Mumbai)*
+
+**Repository**: [github.com/2007Talha/HealthGrid](https://github.com/2007Talha/HealthGrid)
+
+<br/>
+
+*“Turning fragmented healthcare signals into an autonomous early-warning and response grid.”*
+
+</div>
