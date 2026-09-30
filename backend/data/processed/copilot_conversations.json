@@ -1,0 +1,790 @@
+{
+  "conv-8248fca6": [
+    {
+      "user_query": "Which PHCs are at highest medicine stock-out risk?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-23T16:42:16.521736+00:00"
+    }
+  ],
+  "conv-70955565": [
+    {
+      "user_query": "\u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936 \u092e\u0947\u0902 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0938\u0902\u0938\u093e\u0927\u0928\u094b\u0902 \u0915\u0940 \u0938\u094d\u0925\u093f\u0924\u093f \u0915\u094d\u092f\u093e \u0939\u0948?",
+      "assistant_response": "**\u0909\u091a\u094d\u091a\u0924\u092e \u0926\u0935\u093e \u0938\u094d\u091f\u0949\u0915-\u0906\u0909\u091f \u091c\u094b\u0916\u093f\u092e \u0935\u093e\u0932\u0947 \u0915\u0947\u0902\u0926\u094d\u0930**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*\u0924\u0924\u094d\u0915\u093e\u0932 \u092a\u0941\u0928\u0930\u094d\u0935\u093f\u0924\u0930\u0923 \u0914\u0930 \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0906\u0935\u0902\u091f\u0928 \u0915\u0940 \u0938\u093f\u092b\u093e\u0930\u093f\u0936 \u0915\u0940 \u091c\u093e\u0924\u0940 \u0939\u0948\u0964*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-23T16:42:27.097084+00:00"
+    }
+  ],
+  "conv-84649ef2": [
+    {
+      "user_query": "Which facilities are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-23T16:42:37.259594+00:00"
+    }
+  ],
+  "test-conv-audit-01": [
+    {
+      "user_query": "Summarize today's health resource situation",
+      "assistant_response": "**National Health Resource Summary**:\n\n\u2022 Total Monitored Facilities: **33** across **5 states**\n\u2022 Active Critical Early Warnings: **180**\n\u2022 Facilities with Immediate Medicine Shortages: **153**\n\u2022 Bed Capacity Warnings: **28** | Staffing Constraints: **0**\n\u2022 Active Emergency Events: **0**\n\nOptimized cross-district redistribution opportunities identified for **5 facilities**.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-23T16:42:59.890700+00:00"
+    },
+    {
+      "user_query": "Summarize today's health resource situation",
+      "assistant_response": "**National Health Resource Summary**:\n\n\u2022 Total Monitored Facilities: **33** across **5 states**\n\u2022 Active Critical Early Warnings: **180**\n\u2022 Facilities with Immediate Medicine Shortages: **153**\n\u2022 Bed Capacity Warnings: **28** | Staffing Constraints: **0**\n\u2022 Active Emergency Events: **0**\n\nOptimized cross-district redistribution opportunities identified for **5 facilities**.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-23T16:46:00.388945+00:00"
+    }
+  ],
+  "e2e-phase5-demo-conv-100": [
+    {
+      "user_query": "Which PHCs are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-23T16:43:10.124727+00:00"
+    },
+    {
+      "user_query": "Which PHCs are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-23T16:46:09.350046+00:00"
+    },
+    {
+      "user_query": "Why is PHC-BR-PAT-001 at critical risk?",
+      "assistant_response": "**Facility Status: PHC Bakhtiyarpur (PHC-BR-PAT-001)**\n\n\u2022 **Location**: Patna, Bihar\n\u2022 **Bed Status**: 6/6 occupied (100.0%)\n\u2022 **Staff on Duty**: Doctors: 2, Nurses: 3\n\u2022 **Critical Medicine Risks**: Paracetamol (0.0 days DOSA), Oral Rehydration Salts (WHO Formula) (5.78 days DOSA), Zinc Sulfate Dispersible (0.0 days DOSA)\n\u2022 **Active Alerts**: 6",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-23T16:46:18.525059+00:00"
+    },
+    {
+      "user_query": "Which PHCs are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T03:45:54.685682+00:00"
+    },
+    {
+      "user_query": "Why is PHC-BR-PAT-001 at critical risk?",
+      "assistant_response": "**Facility Status: PHC Bakhtiyarpur (PHC-BR-PAT-001)**\n\n\u2022 **Location**: Patna, Bihar\n\u2022 **Bed Status**: 6/6 occupied (100.0%)\n\u2022 **Staff on Duty**: Doctors: 2, Nurses: 3\n\u2022 **Critical Medicine Risks**: Paracetamol (0.0 days DOSA), Oral Rehydration Salts (WHO Formula) (5.78 days DOSA), Zinc Sulfate Dispersible (0.0 days DOSA)\n\u2022 **Active Alerts**: 6",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T03:47:00.608023+00:00"
+    },
+    {
+      "user_query": "Can we get supplies and redistribution options for PHC-BR-PAT-001?",
+      "assistant_response": "**Facility Status: PHC Bakhtiyarpur (PHC-BR-PAT-001)**\n\n\u2022 **Location**: Patna, Bihar\n\u2022 **Bed Status**: 6/6 occupied (100.0%)\n\u2022 **Staff on Duty**: Doctors: 2, Nurses: 3\n\u2022 **Critical Medicine Risks**: Paracetamol (0.0 days DOSA), Oral Rehydration Salts (WHO Formula) (5.78 days DOSA), Zinc Sulfate Dispersible (0.0 days DOSA)\n\u2022 **Active Alerts**: 6",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T03:48:00.563590+00:00"
+    },
+    {
+      "user_query": "Which PHCs are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T03:49:46.039328+00:00"
+    },
+    {
+      "user_query": "Why is PHC-BR-PAT-001 at critical risk?",
+      "assistant_response": "**Facility Status: PHC Bakhtiyarpur (PHC-BR-PAT-001)**\n\n\u2022 **Location**: Patna, Bihar\n\u2022 **Bed Status**: 6/6 occupied (100.0%)\n\u2022 **Staff on Duty**: Doctors: 2, Nurses: 3\n\u2022 **Critical Medicine Risks**: Paracetamol (0.0 days DOSA), Oral Rehydration Salts (WHO Formula) (5.78 days DOSA), Zinc Sulfate Dispersible (0.0 days DOSA)\n\u2022 **Active Alerts**: 6",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T03:50:43.549563+00:00"
+    },
+    {
+      "user_query": "Can we get supplies and redistribution options for PHC-BR-PAT-001?",
+      "assistant_response": "Operational data retrieved: {\n  \"status\": \"NOT_NEEDED\",\n  \"recommendation_id\": \"REC-NONE-FB1A2F\",\n  \"message\": \"Facility PHC Bakhtiyarpur already maintains adequate stock (818 units, DOSA 125.3d). Redistribution not required.\",\n  \"destination_id\": \"PHC-BR-PAT-001\",\n  \"medicine_code\": \"MED-AMX-500\",\n  \"recommendation\": \"Facilit",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T03:50:43.674536+00:00"
+    },
+    {
+      "user_query": "What happens if we simulate a transfer of 900 units to PHC-BR-PAT-001?",
+      "assistant_response": "**[WHAT-IF SIMULATION RESULTS]**\n\nFacility: **PHC Bakhtiyarpur** | Medicine: **Paracetamol**\n\n\u2022 **Baseline**: Stock 0 units, Consumption 41.4 units/day, Coverage 0.0 days (CRITICAL)\n\u2022 **Simulated Outcome**: Stock 900 units, Projected Demand 49.7 units/day\n\u2022 **New Coverage Runway**: **18.12 days** (Risk Level: **LOW**)\n\u2022 **Net Impact**: +18.12 days added runway.\n\n*Note: This is an isolated shadow simulation; production state is unmodified.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T03:50:43.787543+00:00"
+    }
+  ],
+  "conv-49ad281b": [
+    {
+      "user_query": "Which PHCs are at highest medicine stock-out risk?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-23T16:45:21.868728+00:00"
+    }
+  ],
+  "conv-938b54a7": [
+    {
+      "user_query": "\u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936 \u092e\u0947\u0902 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0938\u0902\u0938\u093e\u0927\u0928\u094b\u0902 \u0915\u0940 \u0938\u094d\u0925\u093f\u0924\u093f \u0915\u094d\u092f\u093e \u0939\u0948?",
+      "assistant_response": "**\u0909\u091a\u094d\u091a\u0924\u092e \u0926\u0935\u093e \u0938\u094d\u091f\u0949\u0915-\u0906\u0909\u091f \u091c\u094b\u0916\u093f\u092e \u0935\u093e\u0932\u0947 \u0915\u0947\u0902\u0926\u094d\u0930**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*\u0924\u0924\u094d\u0915\u093e\u0932 \u092a\u0941\u0928\u0930\u094d\u0935\u093f\u0924\u0930\u0923 \u0914\u0930 \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0906\u0935\u0902\u091f\u0928 \u0915\u0940 \u0938\u093f\u092b\u093e\u0930\u093f\u0936 \u0915\u0940 \u091c\u093e\u0924\u0940 \u0939\u0948\u0964*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-23T16:45:31.278884+00:00"
+    }
+  ],
+  "conv-28857582": [
+    {
+      "user_query": "Which facilities are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-23T16:45:40.416552+00:00"
+    }
+  ],
+  "conv-b5c37274": [
+    {
+      "user_query": "Which PHCs are at highest medicine stock-out risk?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T03:56:40.583034+00:00"
+    }
+  ],
+  "conv-f635fbb9": [
+    {
+      "user_query": "\u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936 \u092e\u0947\u0902 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0938\u0902\u0938\u093e\u0927\u0928\u094b\u0902 \u0915\u0940 \u0938\u094d\u0925\u093f\u0924\u093f \u0915\u094d\u092f\u093e \u0939\u0948?",
+      "assistant_response": "**\u0909\u091a\u094d\u091a\u0924\u092e \u0926\u0935\u093e \u0938\u094d\u091f\u0949\u0915-\u0906\u0909\u091f \u091c\u094b\u0916\u093f\u092e \u0935\u093e\u0932\u0947 \u0915\u0947\u0902\u0926\u094d\u0930**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*\u0924\u0924\u094d\u0915\u093e\u0932 \u092a\u0941\u0928\u0930\u094d\u0935\u093f\u0924\u0930\u0923 \u0914\u0930 \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0906\u0935\u0902\u091f\u0928 \u0915\u0940 \u0938\u093f\u092b\u093e\u0930\u093f\u0936 \u0915\u0940 \u091c\u093e\u0924\u0940 \u0939\u0948\u0964*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T03:56:59.762696+00:00"
+    }
+  ],
+  "conv-11e54dbd": [
+    {
+      "user_query": "Which facilities are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T03:57:19.361971+00:00"
+    }
+  ],
+  "test-conv-audit-f80e06": [
+    {
+      "user_query": "Summarize today's health resource situation",
+      "assistant_response": "**National Health Resource Summary**:\n\n\u2022 Total Monitored Facilities: **33** across **5 states**\n\u2022 Active Critical Early Warnings: **180**\n\u2022 Facilities with Immediate Medicine Shortages: **153**\n\u2022 Bed Capacity Warnings: **28** | Staffing Constraints: **0**\n\u2022 Active Emergency Events: **0**\n\nOptimized cross-district redistribution opportunities identified for **5 facilities**.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T03:58:03.587250+00:00"
+    }
+  ],
+  "e2e-phase5-demo-8c5a95": [
+    {
+      "user_query": "Which PHCs are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T03:58:23.460889+00:00"
+    },
+    {
+      "user_query": "Why is PHC-BR-PAT-001 at critical risk?",
+      "assistant_response": "**Facility Status: PHC Bakhtiyarpur (PHC-BR-PAT-001)**\n\n\u2022 **Location**: Patna, Bihar\n\u2022 **Bed Status**: 6/6 occupied (100.0%)\n\u2022 **Staff on Duty**: Doctors: 2, Nurses: 3\n\u2022 **Critical Medicine Risks**: Paracetamol (0.0 days DOSA), Oral Rehydration Salts (WHO Formula) (5.78 days DOSA), Zinc Sulfate Dispersible (0.0 days DOSA)\n\u2022 **Active Alerts**: 6",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T03:58:48.421755+00:00"
+    },
+    {
+      "user_query": "Can we get supplies and redistribution options for PHC-BR-PAT-001?",
+      "assistant_response": "Operational data retrieved: {\n  \"status\": \"NOT_NEEDED\",\n  \"recommendation_id\": \"REC-NONE-5D385E\",\n  \"message\": \"Facility PHC Bakhtiyarpur already maintains adequate stock (818 units, DOSA 125.3d). Redistribution not required.\",\n  \"destination_id\": \"PHC-BR-PAT-001\",\n  \"medicine_code\": \"MED-AMX-500\",\n  \"recommendation\": \"Facilit",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T03:58:48.467188+00:00"
+    },
+    {
+      "user_query": "What happens if we simulate a transfer of 900 units to PHC-BR-PAT-001?",
+      "assistant_response": "**[WHAT-IF SIMULATION RESULTS]**\n\nFacility: **PHC Bakhtiyarpur** | Medicine: **Paracetamol**\n\n\u2022 **Baseline**: Stock 0 units, Consumption 41.4 units/day, Coverage 0.0 days (CRITICAL)\n\u2022 **Simulated Outcome**: Stock 900 units, Projected Demand 49.7 units/day\n\u2022 **New Coverage Runway**: **18.12 days** (Risk Level: **LOW**)\n\u2022 **Net Impact**: +18.12 days added runway.\n\n*Note: This is an isolated shadow simulation; production state is unmodified.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T03:58:48.516272+00:00"
+    }
+  ],
+  "conv-2105a2cb": [
+    {
+      "user_query": "Which PHCs are at highest medicine stock-out risk?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T04:03:00.549220+00:00"
+    }
+  ],
+  "conv-8e39fd54": [
+    {
+      "user_query": "\u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936 \u092e\u0947\u0902 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0938\u0902\u0938\u093e\u0927\u0928\u094b\u0902 \u0915\u0940 \u0938\u094d\u0925\u093f\u0924\u093f \u0915\u094d\u092f\u093e \u0939\u0948?",
+      "assistant_response": "**\u0909\u091a\u094d\u091a\u0924\u092e \u0926\u0935\u093e \u0938\u094d\u091f\u0949\u0915-\u0906\u0909\u091f \u091c\u094b\u0916\u093f\u092e \u0935\u093e\u0932\u0947 \u0915\u0947\u0902\u0926\u094d\u0930**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*\u0924\u0924\u094d\u0915\u093e\u0932 \u092a\u0941\u0928\u0930\u094d\u0935\u093f\u0924\u0930\u0923 \u0914\u0930 \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0906\u0935\u0902\u091f\u0928 \u0915\u0940 \u0938\u093f\u092b\u093e\u0930\u093f\u0936 \u0915\u0940 \u091c\u093e\u0924\u0940 \u0939\u0948\u0964*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T04:03:19.547883+00:00"
+    }
+  ],
+  "conv-db86ec22": [
+    {
+      "user_query": "Which facilities are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Azithromycin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T04:03:30.279289+00:00"
+    }
+  ],
+  "test-conv-audit-0c06ca": [
+    {
+      "user_query": "Summarize today's health resource situation",
+      "assistant_response": "**National Health Resource Summary**:\n\n\u2022 Total Monitored Facilities: **33** across **5 states**\n\u2022 Active Critical Early Warnings: **180**\n\u2022 Facilities with Immediate Medicine Shortages: **153**\n\u2022 Bed Capacity Warnings: **28** | Staffing Constraints: **0**\n\u2022 Active Emergency Events: **0**\n\nOptimized cross-district redistribution opportunities identified for **5 facilities**.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T04:03:56.890587+00:00"
+    }
+  ],
+  "e2e-phase5-demo-b7f1ce": [
+    {
+      "user_query": "Which PHCs are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Normal Saline (0.9% Sodium Chloride)**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Iron & Folic Acid (IFA)**: 0.0 days runway (CRITICAL)\n3. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n4. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Zinc Sulfate Dispersible**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T04:05:08.856433+00:00"
+    },
+    {
+      "user_query": "Why is PHC-BR-PAT-001 at critical risk?",
+      "assistant_response": "**Facility Status: PHC Bakhtiyarpur (PHC-BR-PAT-001)**\n\n\u2022 **Location**: Patna, Bihar\n\u2022 **Bed Status**: 6/6 occupied (100.0%)\n\u2022 **Staff on Duty**: Doctors: 2, Nurses: 3\n\u2022 **Critical Medicine Risks**: All essential medicines within normal thresholds\n\u2022 **Active Alerts**: 4",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T04:05:27.494578+00:00"
+    },
+    {
+      "user_query": "Can we get supplies and redistribution options for PHC-BR-PAT-001?",
+      "assistant_response": "Operational data retrieved: {\n  \"status\": \"NOT_NEEDED\",\n  \"recommendation_id\": \"REC-NONE-AF6F5F\",\n  \"message\": \"Facility PHC Bakhtiyarpur already maintains adequate stock (386 units, DOSA 59.1d). Redistribution not required.\",\n  \"destination_id\": \"PHC-BR-PAT-001\",\n  \"medicine_code\": \"MED-AMX-500\",\n  \"recommendation\": \"Facility",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T04:05:27.541497+00:00"
+    },
+    {
+      "user_query": "What happens if we simulate a transfer of 900 units to PHC-BR-PAT-001?",
+      "assistant_response": "**[WHAT-IF SIMULATION RESULTS]**\n\nFacility: **PHC Bakhtiyarpur** | Medicine: **Paracetamol**\n\n\u2022 **Baseline**: Stock 1149 units, Consumption 41.4 units/day, Coverage 27.74 days (LOW)\n\u2022 **Simulated Outcome**: Stock 2049 units, Projected Demand 49.7 units/day\n\u2022 **New Coverage Runway**: **41.24 days** (Risk Level: **LOW**)\n\u2022 **Net Impact**: +13.5 days added runway.\n\n*Note: This is an isolated shadow simulation; production state is unmodified.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T04:05:27.591825+00:00"
+    }
+  ],
+  "conv-a400a2fa": [
+    {
+      "user_query": "Which PHCs are at highest medicine stock-out risk?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Metformin Hydrochloride**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Normal Saline (0.9% Sodium Chloride)**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Artesunate**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Iron & Folic Acid (IFA)**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T14:07:20.602624+00:00"
+    }
+  ],
+  "conv-fb97dbe9": [
+    {
+      "user_query": "\u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936 \u092e\u0947\u0902 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0938\u0902\u0938\u093e\u0927\u0928\u094b\u0902 \u0915\u0940 \u0938\u094d\u0925\u093f\u0924\u093f \u0915\u094d\u092f\u093e \u0939\u0948?",
+      "assistant_response": "**\u0909\u091a\u094d\u091a\u0924\u092e \u0926\u0935\u093e \u0938\u094d\u091f\u0949\u0915-\u0906\u0909\u091f \u091c\u094b\u0916\u093f\u092e \u0935\u093e\u0932\u0947 \u0915\u0947\u0902\u0926\u094d\u0930**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Metformin Hydrochloride**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Normal Saline (0.9% Sodium Chloride)**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Artesunate**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Iron & Folic Acid (IFA)**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n\n*\u0924\u0924\u094d\u0915\u093e\u0932 \u092a\u0941\u0928\u0930\u094d\u0935\u093f\u0924\u0930\u0923 \u0914\u0930 \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0906\u0935\u0902\u091f\u0928 \u0915\u0940 \u0938\u093f\u092b\u093e\u0930\u093f\u0936 \u0915\u0940 \u091c\u093e\u0924\u0940 \u0939\u0948\u0964*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T14:07:57.809867+00:00"
+    }
+  ],
+  "conv-0569cc9c": [
+    {
+      "user_query": "Which facilities are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Metformin Hydrochloride**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Normal Saline (0.9% Sodium Chloride)**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Artesunate**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Iron & Folic Acid (IFA)**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T14:08:45.010986+00:00"
+    }
+  ],
+  "test-conv-audit-e4b6c8": [
+    {
+      "user_query": "Summarize today's health resource situation",
+      "assistant_response": "**National Health Resource Summary**:\n\n\u2022 Total Monitored Facilities: **33** across **5 states**\n\u2022 Active Critical Early Warnings: **241**\n\u2022 Facilities with Immediate Medicine Shortages: **214**\n\u2022 Bed Capacity Warnings: **31** | Staffing Constraints: **0**\n\u2022 Active Emergency Events: **0**\n\nOptimized cross-district redistribution opportunities identified for **5 facilities**.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T14:10:15.904573+00:00"
+    }
+  ],
+  "e2e-phase5-demo-763e80": [
+    {
+      "user_query": "Which PHCs are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T14:13:18.695931+00:00"
+    },
+    {
+      "user_query": "Why is PHC-BR-PAT-001 at critical risk?",
+      "assistant_response": "**Facility Status: PHC Bakhtiyarpur (PHC-BR-PAT-001)**\n\n\u2022 **Location**: Patna, Bihar\n\u2022 **Bed Status**: 6/6 occupied (100.0%)\n\u2022 **Staff on Duty**: Doctors: 2, Nurses: 3\n\u2022 **Critical Medicine Risks**: Paracetamol (0.0 days DOSA), Paracetamol Paediatric Syrup (0.0 days DOSA), Amoxicillin (0.0 days DOSA)\n\u2022 **Active Alerts**: 11",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T14:13:58.275524+00:00"
+    },
+    {
+      "user_query": "Can we get supplies and redistribution options for PHC-BR-PAT-001?",
+      "assistant_response": "Operational data retrieved: {\n  \"recommendation_id\": \"REC-PAT-001-500-03EA\",\n  \"status\": \"OPTIMAL_RECOMMENDED\",\n  \"resource\": {\n    \"medicine_code\": \"MED-AMX-500\",\n    \"medicine_name\": \"Amoxicillin\",\n    \"therapeutic_category\": \"Antibacterial / Penicillin\"\n  },\n  \"destination\": {\n    \"facility_id\": \"PHC-BR-PAT-001\",\n    \"facil",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T14:13:59.974801+00:00"
+    },
+    {
+      "user_query": "What happens if we simulate a transfer of 900 units to PHC-BR-PAT-001?",
+      "assistant_response": "**[WHAT-IF SIMULATION RESULTS]**\n\nFacility: **PHC Bakhtiyarpur** | Medicine: **Paracetamol**\n\n\u2022 **Baseline**: Stock 0 units, Consumption 41.0 units/day, Coverage 0.0 days (CRITICAL)\n\u2022 **Simulated Outcome**: Stock 900 units, Projected Demand 49.2 units/day\n\u2022 **New Coverage Runway**: **18.29 days** (Risk Level: **LOW**)\n\u2022 **Net Impact**: +18.29 days added runway.\n\n*Note: This is an isolated shadow simulation; production state is unmodified.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-08-24T14:14:00.063508+00:00"
+    }
+  ],
+  "conv-33c7aed2": [
+    {
+      "user_query": "Which PHCs are at highest medicine stock-out risk?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-10T15:03:16.403157+00:00"
+    }
+  ],
+  "conv-d7120d6c": [
+    {
+      "user_query": "\u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936 \u092e\u0947\u0902 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0938\u0902\u0938\u093e\u0927\u0928\u094b\u0902 \u0915\u0940 \u0938\u094d\u0925\u093f\u0924\u093f \u0915\u094d\u092f\u093e \u0939\u0948?",
+      "assistant_response": "**\u0909\u091a\u094d\u091a\u0924\u092e \u0926\u0935\u093e \u0938\u094d\u091f\u0949\u0915-\u0906\u0909\u091f \u091c\u094b\u0916\u093f\u092e \u0935\u093e\u0932\u0947 \u0915\u0947\u0902\u0926\u094d\u0930**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*\u0924\u0924\u094d\u0915\u093e\u0932 \u092a\u0941\u0928\u0930\u094d\u0935\u093f\u0924\u0930\u0923 \u0914\u0930 \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0906\u0935\u0902\u091f\u0928 \u0915\u0940 \u0938\u093f\u092b\u093e\u0930\u093f\u0936 \u0915\u0940 \u091c\u093e\u0924\u0940 \u0939\u0948\u0964*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-10T15:04:03.945204+00:00"
+    }
+  ],
+  "conv-bf49a8fb": [
+    {
+      "user_query": "Which facilities are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-10T15:04:54.855955+00:00"
+    }
+  ],
+  "test-conv-audit-f29f53": [
+    {
+      "user_query": "Summarize today's health resource situation",
+      "assistant_response": "**National Health Resource Summary**:\n\n\u2022 Total Monitored Facilities: **33** across **5 states**\n\u2022 Active Critical Early Warnings: **220**\n\u2022 Facilities with Immediate Medicine Shortages: **192**\n\u2022 Bed Capacity Warnings: **30** | Staffing Constraints: **0**\n\u2022 Active Emergency Events: **0**\n\nOptimized cross-district redistribution opportunities identified for **5 facilities**.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-10T15:06:48.305278+00:00"
+    }
+  ],
+  "e2e-phase5-demo-77925b": [
+    {
+      "user_query": "Which PHCs are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Normal Saline (0.9% Sodium Chloride)**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Artesunate**: 0.0 days runway (CRITICAL)\n4. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-10T15:10:47.336655+00:00"
+    },
+    {
+      "user_query": "Why is PHC-BR-PAT-001 at critical risk?",
+      "assistant_response": "**Facility Status: PHC Bakhtiyarpur (PHC-BR-PAT-001)**\n\n\u2022 **Location**: Patna, Bihar\n\u2022 **Bed Status**: 6/6 occupied (100.0%)\n\u2022 **Staff on Duty**: Doctors: 2, Nurses: 4\n\u2022 **Critical Medicine Risks**: Paracetamol (7.07 days DOSA), Ceftriaxone (0.0 days DOSA)\n\u2022 **Active Alerts**: 5",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-10T15:11:34.721216+00:00"
+    },
+    {
+      "user_query": "Can we get supplies and redistribution options for PHC-BR-PAT-001?",
+      "assistant_response": "Operational data retrieved: {\n  \"status\": \"NOT_NEEDED\",\n  \"recommendation_id\": \"REC-NONE-C5646D\",\n  \"message\": \"Facility PHC Bakhtiyarpur already maintains adequate stock (764 units, DOSA 127.9d). Redistribution not required.\",\n  \"destination_id\": \"PHC-BR-PAT-001\",\n  \"medicine_code\": \"MED-AMX-500\",\n  \"recommendation\": \"Facilit",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-10T15:11:34.835325+00:00"
+    },
+    {
+      "user_query": "What happens if we simulate a transfer of 900 units to PHC-BR-PAT-001?",
+      "assistant_response": "**[WHAT-IF SIMULATION RESULTS]**\n\nFacility: **PHC Bakhtiyarpur** | Medicine: **Paracetamol**\n\n\u2022 **Baseline**: Stock 288 units, Consumption 40.7 units/day, Coverage 7.07 days (WARNING)\n\u2022 **Simulated Outcome**: Stock 1188 units, Projected Demand 48.8 units/day\n\u2022 **New Coverage Runway**: **24.32 days** (Risk Level: **LOW**)\n\u2022 **Net Impact**: +17.25 days added runway.\n\n*Note: This is an isolated shadow simulation; production state is unmodified.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-10T15:11:34.974473+00:00"
+    }
+  ],
+  "conv-d6361235": [
+    {
+      "user_query": "What is the current stock level of PHC-999999?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Normal Saline (0.9% Sodium Chloride)**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Artesunate**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-10T15:14:37.477341+00:00"
+    }
+  ],
+  "conv-1d903b83": [
+    {
+      "user_query": "What is the current stock level of PHC-999999?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Normal Saline (0.9% Sodium Chloride)**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Artesunate**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-10T15:15:32.267970+00:00"
+    }
+  ],
+  "conv-2235c8da": [
+    {
+      "user_query": "What is the current stock level of PHC-999999?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Normal Saline (0.9% Sodium Chloride)**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Artesunate**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-10T15:16:12.670334+00:00"
+    }
+  ],
+  "conv-52a7ee74": [
+    {
+      "user_query": "What is the current stock level of PHC-999999?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Normal Saline (0.9% Sodium Chloride)**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Artesunate**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-10T15:17:10.130812+00:00"
+    }
+  ],
+  "conv-0c3188bf": [
+    {
+      "user_query": "What is the current stock level of PHC-999999?",
+      "assistant_response": "Unable to retrieve operational data: Facility ID 'PHC-999999' not found in registry.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-10T15:17:14.779715+00:00"
+    }
+  ],
+  "conv-cbab0fff": [
+    {
+      "user_query": "What is the current stock level of PHC-999999?",
+      "assistant_response": "Unable to retrieve operational data: Facility ID 'PHC-999999' not found in registry.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-10T15:17:33.286774+00:00"
+    }
+  ],
+  "conv-61815f86": [
+    {
+      "user_query": "What is the current stock level of PHC-999999?",
+      "assistant_response": "Unable to retrieve operational data: Facility ID 'PHC-999999' not found in registry.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-10T15:40:39.353181+00:00"
+    }
+  ],
+  "conv-55a14358": [
+    {
+      "user_query": "What is the status of beds?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Normal Saline (0.9% Sodium Chloride)**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Artesunate**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-25T11:48:30.648666+00:00"
+    }
+  ],
+  "floating-session-01": [
+    {
+      "user_query": "Show critical shortages",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Ceftriaxone**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Normal Saline (0.9% Sodium Chloride)**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Artesunate**: 0.0 days runway (CRITICAL)\n5. **PHC Danapur** (PHC-BR-PAT-002) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-25T11:55:53.138600+00:00"
+    },
+    {
+      "user_query": "What is the national situation?",
+      "assistant_response": "**National Health Resource Summary**:\n\n\u2022 Total Monitored Facilities: **33** across **5 states**\n\u2022 Active Critical Early Warnings: **214**\n\u2022 Facilities with Immediate Medicine Shortages: **187**\n\u2022 Bed Capacity Warnings: **28** | Staffing Constraints: **0**\n\u2022 Active Emergency Events: **0**\n\nOptimized cross-district redistribution opportunities identified for **5 facilities**.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-25T12:27:00.995953+00:00"
+    }
+  ],
+  "conv-df5b1508": [
+    {
+      "user_query": "What is the national situation?",
+      "assistant_response": "**National Health Resource Summary**:\n\n\u2022 Total Monitored Facilities: **33** across **5 states**\n\u2022 Active Critical Early Warnings: **446**\n\u2022 Facilities with Immediate Medicine Shortages: **431**\n\u2022 Bed Capacity Warnings: **28** | Staffing Constraints: **0**\n\u2022 Active Emergency Events: **0**\n\nOptimized cross-district redistribution opportunities identified for **5 facilities**.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-25T12:17:06.220738+00:00"
+    }
+  ],
+  "conv-87f362a0": [
+    {
+      "user_query": "Which PHCs are at highest medicine stock-out risk?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T01:42:26.899580+00:00"
+    }
+  ],
+  "conv-c3c086e0": [
+    {
+      "user_query": "\u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936 \u092e\u0947\u0902 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0938\u0902\u0938\u093e\u0927\u0928\u094b\u0902 \u0915\u0940 \u0938\u094d\u0925\u093f\u0924\u093f \u0915\u094d\u092f\u093e \u0939\u0948?",
+      "assistant_response": "**\u0909\u091a\u094d\u091a\u0924\u092e \u0926\u0935\u093e \u0938\u094d\u091f\u0949\u0915-\u0906\u0909\u091f \u091c\u094b\u0916\u093f\u092e \u0935\u093e\u0932\u0947 \u0915\u0947\u0902\u0926\u094d\u0930**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*\u0924\u0924\u094d\u0915\u093e\u0932 \u092a\u0941\u0928\u0930\u094d\u0935\u093f\u0924\u0930\u0923 \u0914\u0930 \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0906\u0935\u0902\u091f\u0928 \u0915\u0940 \u0938\u093f\u092b\u093e\u0930\u093f\u0936 \u0915\u0940 \u091c\u093e\u0924\u0940 \u0939\u0948\u0964*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T01:42:26.908858+00:00"
+    }
+  ],
+  "conv-05931bd0": [
+    {
+      "user_query": "Which facilities are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T01:42:26.926024+00:00"
+    }
+  ],
+  "test-conv-audit-1de845": [
+    {
+      "user_query": "Summarize today's health resource situation",
+      "assistant_response": "**National Health Resource Summary**:\n\n\u2022 Total Monitored Facilities: **33** across **5 states**\n\u2022 Active Critical Early Warnings: **446**\n\u2022 Facilities with Immediate Medicine Shortages: **431**\n\u2022 Bed Capacity Warnings: **28** | Staffing Constraints: **0**\n\u2022 Active Emergency Events: **0**\n\nOptimized cross-district redistribution opportunities identified for **5 facilities**.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T01:42:29.129283+00:00"
+    }
+  ],
+  "e2e-phase5-demo-0f3dad": [
+    {
+      "user_query": "Which PHCs are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T01:42:33.245122+00:00"
+    },
+    {
+      "user_query": "Why is PHC-BR-PAT-001 at critical risk?",
+      "assistant_response": "**Facility Status: PHC Bakhtiyarpur (PHC-BR-PAT-001)**\n\n\u2022 **Location**: Patna, Bihar\n\u2022 **Bed Status**: 6/6 occupied (100.0%)\n\u2022 **Staff on Duty**: Doctors: 2, Nurses: 3\n\u2022 **Critical Medicine Risks**: All essential medicines within normal thresholds\n\u2022 **Active Alerts**: 15",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T01:42:33.507731+00:00"
+    },
+    {
+      "user_query": "Can we get supplies and redistribution options for PHC-BR-PAT-001?",
+      "assistant_response": "Operational data retrieved: {\n  \"status\": \"NOT_NEEDED\",\n  \"recommendation_id\": \"REC-NONE-7B36F7\",\n  \"message\": \"Facility PHC Bakhtiyarpur already maintains adequate stock (278 units, DOSA 40.7d). Redistribution not required.\",\n  \"destination_id\": \"PHC-BR-PAT-001\",\n  \"medicine_code\": \"MED-AMX-500\",\n  \"recommendation\": \"Facility",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T01:42:33.532730+00:00"
+    },
+    {
+      "user_query": "What happens if we simulate a transfer of 900 units to PHC-BR-PAT-001?",
+      "assistant_response": "**[WHAT-IF SIMULATION RESULTS]**\n\nFacility: **PHC Bakhtiyarpur** | Medicine: **Paracetamol**\n\n\u2022 **Baseline**: Stock 1412 units, Consumption 41.8 units/day, Coverage 33.8 days (LOW)\n\u2022 **Simulated Outcome**: Stock 2312 units, Projected Demand 50.2 units/day\n\u2022 **New Coverage Runway**: **46.09 days** (Risk Level: **LOW**)\n\u2022 **Net Impact**: +12.29 days added runway.\n\n*Note: This is an isolated shadow simulation; production state is unmodified.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T01:42:33.557769+00:00"
+    }
+  ],
+  "conv-3a1e7631": [
+    {
+      "user_query": "What is the current stock level of PHC-999999?",
+      "assistant_response": "Unable to retrieve operational data: Facility ID 'PHC-999999' not found in registry.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T01:42:33.641487+00:00"
+    }
+  ],
+  "conv-80e7f0ec": [
+    {
+      "user_query": "Which PHCs are at highest medicine stock-out risk?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:27:54.453000+00:00"
+    }
+  ],
+  "conv-2e1ccc64": [
+    {
+      "user_query": "\u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936 \u092e\u0947\u0902 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0938\u0902\u0938\u093e\u0927\u0928\u094b\u0902 \u0915\u0940 \u0938\u094d\u0925\u093f\u0924\u093f \u0915\u094d\u092f\u093e \u0939\u0948?",
+      "assistant_response": "**\u0909\u091a\u094d\u091a\u0924\u092e \u0926\u0935\u093e \u0938\u094d\u091f\u0949\u0915-\u0906\u0909\u091f \u091c\u094b\u0916\u093f\u092e \u0935\u093e\u0932\u0947 \u0915\u0947\u0902\u0926\u094d\u0930**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*\u0924\u0924\u094d\u0915\u093e\u0932 \u092a\u0941\u0928\u0930\u094d\u0935\u093f\u0924\u0930\u0923 \u0914\u0930 \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0906\u0935\u0902\u091f\u0928 \u0915\u0940 \u0938\u093f\u092b\u093e\u0930\u093f\u0936 \u0915\u0940 \u091c\u093e\u0924\u0940 \u0939\u0948\u0964*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:27:54.479989+00:00"
+    }
+  ],
+  "conv-34070bc4": [
+    {
+      "user_query": "Which facilities are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:27:54.519795+00:00"
+    }
+  ],
+  "test-conv-audit-2bdea3": [
+    {
+      "user_query": "Summarize today's health resource situation",
+      "assistant_response": "**National Health Resource Summary**:\n\n\u2022 Total Monitored Facilities: **33** across **5 states**\n\u2022 Active Critical Early Warnings: **452**\n\u2022 Facilities with Immediate Medicine Shortages: **431**\n\u2022 Bed Capacity Warnings: **33** | Staffing Constraints: **1**\n\u2022 Active Emergency Events: **0**\n\nOptimized cross-district redistribution opportunities identified for **5 facilities**.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:27:54.785338+00:00"
+    }
+  ],
+  "e2e-phase5-demo-9c75ef": [
+    {
+      "user_query": "Which PHCs are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:28:06.011381+00:00"
+    },
+    {
+      "user_query": "Why is PHC-BR-PAT-001 at critical risk?",
+      "assistant_response": "**Facility Status: PHC Bakhtiyarpur (PHC-BR-PAT-001)**\n\n\u2022 **Location**: Patna, Bihar\n\u2022 **Bed Status**: 6/6 occupied (100.0%)\n\u2022 **Staff on Duty**: Doctors: 2, Nurses: 4\n\u2022 **Critical Medicine Risks**: All essential medicines within normal thresholds\n\u2022 **Active Alerts**: 15",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:28:07.464376+00:00"
+    },
+    {
+      "user_query": "Can we get supplies and redistribution options for PHC-BR-PAT-001?",
+      "assistant_response": "Operational data retrieved: {\n  \"status\": \"NOT_NEEDED\",\n  \"recommendation_id\": \"REC-NONE-10054D\",\n  \"message\": \"Facility PHC Bakhtiyarpur already maintains adequate stock (278 units, DOSA 12.6d). Redistribution not required.\",\n  \"destination_id\": \"PHC-BR-PAT-001\",\n  \"medicine_code\": \"MED-AMX-500\",\n  \"recommendation\": \"Facility",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:28:07.488171+00:00"
+    },
+    {
+      "user_query": "What happens if we simulate a transfer of 900 units to PHC-BR-PAT-001?",
+      "assistant_response": "**[WHAT-IF SIMULATION RESULTS]**\n\nFacility: **PHC Bakhtiyarpur** | Medicine: **Paracetamol**\n\n\u2022 **Baseline**: Stock 1462 units, Consumption 78.8 units/day, Coverage 18.56 days (LOW)\n\u2022 **Simulated Outcome**: Stock 2362 units, Projected Demand 94.6 units/day\n\u2022 **New Coverage Runway**: **24.98 days** (Risk Level: **LOW**)\n\u2022 **Net Impact**: +6.42 days added runway.\n\n*Note: This is an isolated shadow simulation; production state is unmodified.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:28:07.505122+00:00"
+    }
+  ],
+  "conv-6e14eff2": [
+    {
+      "user_query": "What is the current stock level of PHC-999999?",
+      "assistant_response": "Unable to retrieve operational data: Facility ID 'PHC-999999' not found in registry.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:28:07.675415+00:00"
+    }
+  ],
+  "conv-bb905f40": [
+    {
+      "user_query": "Which PHCs are at highest medicine stock-out risk?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:30:14.684810+00:00"
+    }
+  ],
+  "conv-a8291a11": [
+    {
+      "user_query": "\u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936 \u092e\u0947\u0902 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0938\u0902\u0938\u093e\u0927\u0928\u094b\u0902 \u0915\u0940 \u0938\u094d\u0925\u093f\u0924\u093f \u0915\u094d\u092f\u093e \u0939\u0948?",
+      "assistant_response": "**\u0909\u091a\u094d\u091a\u0924\u092e \u0926\u0935\u093e \u0938\u094d\u091f\u0949\u0915-\u0906\u0909\u091f \u091c\u094b\u0916\u093f\u092e \u0935\u093e\u0932\u0947 \u0915\u0947\u0902\u0926\u094d\u0930**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*\u0924\u0924\u094d\u0915\u093e\u0932 \u092a\u0941\u0928\u0930\u094d\u0935\u093f\u0924\u0930\u0923 \u0914\u0930 \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0906\u0935\u0902\u091f\u0928 \u0915\u0940 \u0938\u093f\u092b\u093e\u0930\u093f\u0936 \u0915\u0940 \u091c\u093e\u0924\u0940 \u0939\u0948\u0964*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:30:14.703806+00:00"
+    }
+  ],
+  "conv-f84e93d6": [
+    {
+      "user_query": "Which facilities are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:30:14.734679+00:00"
+    }
+  ],
+  "test-conv-audit-9ee53a": [
+    {
+      "user_query": "Summarize today's health resource situation",
+      "assistant_response": "**National Health Resource Summary**:\n\n\u2022 Total Monitored Facilities: **33** across **5 states**\n\u2022 Active Critical Early Warnings: **485**\n\u2022 Facilities with Immediate Medicine Shortages: **431**\n\u2022 Bed Capacity Warnings: **66** | Staffing Constraints: **2**\n\u2022 Active Emergency Events: **0**\n\nOptimized cross-district redistribution opportunities identified for **5 facilities**.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:30:15.036868+00:00"
+    }
+  ],
+  "e2e-phase5-demo-c20d42": [
+    {
+      "user_query": "Which PHCs are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:30:28.917062+00:00"
+    },
+    {
+      "user_query": "Why is PHC-BR-PAT-001 at critical risk?",
+      "assistant_response": "**Facility Status: PHC Bakhtiyarpur (PHC-BR-PAT-001)**\n\n\u2022 **Location**: Patna, Bihar\n\u2022 **Bed Status**: 6/6 occupied (100.0%)\n\u2022 **Staff on Duty**: Doctors: 2, Nurses: 4\n\u2022 **Critical Medicine Risks**: All essential medicines within normal thresholds\n\u2022 **Active Alerts**: 16",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:30:30.808049+00:00"
+    },
+    {
+      "user_query": "Can we get supplies and redistribution options for PHC-BR-PAT-001?",
+      "assistant_response": "Operational data retrieved: {\n  \"recommendation_id\": \"REC-PAT-001-500-625B\",\n  \"status\": \"OPTIMAL_RECOMMENDED\",\n  \"destination_id\": \"PHC-BR-PAT-001\",\n  \"destination_name\": \"PHC Bakhtiyarpur\",\n  \"medicine_code\": \"MED-AMX-500\",\n  \"medicine_name\": \"Amoxicillin\",\n  \"deficit_units\": 23,\n  \"total_transfer_allocated\": 23,\n  \"fulfillm",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:30:30.880052+00:00"
+    },
+    {
+      "user_query": "What happens if we simulate a transfer of 900 units to PHC-BR-PAT-001?",
+      "assistant_response": "**[WHAT-IF SIMULATION RESULTS]**\n\nFacility: **PHC Bakhtiyarpur** | Medicine: **Paracetamol**\n\n\u2022 **Baseline**: Stock 1512 units, Consumption 81.3 units/day, Coverage 18.6 days (LOW)\n\u2022 **Simulated Outcome**: Stock 2412 units, Projected Demand 97.6 units/day\n\u2022 **New Coverage Runway**: **24.72 days** (Risk Level: **LOW**)\n\u2022 **Net Impact**: +6.12 days added runway.\n\n*Note: This is an isolated shadow simulation; production state is unmodified.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:30:30.894034+00:00"
+    }
+  ],
+  "conv-f9d2ac11": [
+    {
+      "user_query": "What is the current stock level of PHC-999999?",
+      "assistant_response": "Unable to retrieve operational data: Facility ID 'PHC-999999' not found in registry.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:30:31.106203+00:00"
+    }
+  ],
+  "conv-aaf081b4": [
+    {
+      "user_query": "What is the current stock level of PHC-999999?",
+      "assistant_response": "Unable to retrieve operational data: Facility ID 'PHC-999999' not found in registry.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:31:53.610960+00:00"
+    }
+  ],
+  "conv-b23a8cd0": [
+    {
+      "user_query": "What is the current stock level of PHC-999999?",
+      "assistant_response": "Unable to retrieve operational data: Facility ID 'PHC-999999' not found in registry.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:33:02.417960+00:00"
+    }
+  ],
+  "conv-c16f1790": [
+    {
+      "user_query": "Which PHCs are at highest medicine stock-out risk?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:33:21.414979+00:00"
+    }
+  ],
+  "conv-ef2e31a7": [
+    {
+      "user_query": "\u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936 \u092e\u0947\u0902 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0938\u0902\u0938\u093e\u0927\u0928\u094b\u0902 \u0915\u0940 \u0938\u094d\u0925\u093f\u0924\u093f \u0915\u094d\u092f\u093e \u0939\u0948?",
+      "assistant_response": "**\u0909\u091a\u094d\u091a\u0924\u092e \u0926\u0935\u093e \u0938\u094d\u091f\u0949\u0915-\u0906\u0909\u091f \u091c\u094b\u0916\u093f\u092e \u0935\u093e\u0932\u0947 \u0915\u0947\u0902\u0926\u094d\u0930**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*\u0924\u0924\u094d\u0915\u093e\u0932 \u092a\u0941\u0928\u0930\u094d\u0935\u093f\u0924\u0930\u0923 \u0914\u0930 \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0906\u0935\u0902\u091f\u0928 \u0915\u0940 \u0938\u093f\u092b\u093e\u0930\u093f\u0936 \u0915\u0940 \u091c\u093e\u0924\u0940 \u0939\u0948\u0964*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:33:21.434990+00:00"
+    }
+  ],
+  "conv-cdb72a17": [
+    {
+      "user_query": "Which facilities are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:33:21.462986+00:00"
+    }
+  ],
+  "test-conv-audit-98fd31": [
+    {
+      "user_query": "Summarize today's health resource situation",
+      "assistant_response": "**National Health Resource Summary**:\n\n\u2022 Total Monitored Facilities: **33** across **5 states**\n\u2022 Active Critical Early Warnings: **452**\n\u2022 Facilities with Immediate Medicine Shortages: **431**\n\u2022 Bed Capacity Warnings: **33** | Staffing Constraints: **1**\n\u2022 Active Emergency Events: **0**\n\nOptimized cross-district redistribution opportunities identified for **5 facilities**.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:33:21.786138+00:00"
+    }
+  ],
+  "e2e-phase5-demo-60824e": [
+    {
+      "user_query": "Which PHCs are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:33:35.767904+00:00"
+    },
+    {
+      "user_query": "Why is PHC-BR-PAT-001 at critical risk?",
+      "assistant_response": "**Facility Status: PHC Bakhtiyarpur (PHC-BR-PAT-001)**\n\n\u2022 **Location**: Patna, Bihar\n\u2022 **Bed Status**: 6/6 occupied (100.0%)\n\u2022 **Staff on Duty**: Doctors: 2, Nurses: 4\n\u2022 **Critical Medicine Risks**: Oral Rehydration Salts (WHO Formula) (1.2 days DOSA), Ceftriaxone (0.0 days DOSA)\n\u2022 **Active Alerts**: 15",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:33:37.777136+00:00"
+    },
+    {
+      "user_query": "Can we get supplies and redistribution options for PHC-BR-PAT-001?",
+      "assistant_response": "Operational data retrieved: {\n  \"status\": \"NOT_NEEDED\",\n  \"recommendation_id\": \"REC-NONE-6C94F3\",\n  \"message\": \"Facility PHC Bakhtiyarpur already maintains adequate stock (673 units, DOSA 27.0d). Redistribution not required.\",\n  \"destination_id\": \"PHC-BR-PAT-001\",\n  \"medicine_code\": \"MED-AMX-500\",\n  \"recommendation\": \"Facility",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:33:37.809137+00:00"
+    },
+    {
+      "user_query": "What happens if we simulate a transfer of 900 units to PHC-BR-PAT-001?",
+      "assistant_response": "**[WHAT-IF SIMULATION RESULTS]**\n\nFacility: **PHC Bakhtiyarpur** | Medicine: **Paracetamol**\n\n\u2022 **Baseline**: Stock 915 units, Consumption 77.0 units/day, Coverage 11.88 days (LOW)\n\u2022 **Simulated Outcome**: Stock 1815 units, Projected Demand 92.4 units/day\n\u2022 **New Coverage Runway**: **19.64 days** (Risk Level: **LOW**)\n\u2022 **Net Impact**: +7.76 days added runway.\n\n*Note: This is an isolated shadow simulation; production state is unmodified.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:33:37.826361+00:00"
+    }
+  ],
+  "conv-a6f6b33c": [
+    {
+      "user_query": "What is the current stock level of PHC-999999?",
+      "assistant_response": "Unable to retrieve operational data: Facility ID 'PHC-999999' not found in registry.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:33:38.135867+00:00"
+    }
+  ],
+  "conv-46be22e2": [
+    {
+      "user_query": "Which PHCs are at highest medicine stock-out risk?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:37:36.734972+00:00"
+    }
+  ],
+  "conv-086d6c97": [
+    {
+      "user_query": "\u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936 \u092e\u0947\u0902 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0938\u0902\u0938\u093e\u0927\u0928\u094b\u0902 \u0915\u0940 \u0938\u094d\u0925\u093f\u0924\u093f \u0915\u094d\u092f\u093e \u0939\u0948?",
+      "assistant_response": "**\u0909\u091a\u094d\u091a\u0924\u092e \u0926\u0935\u093e \u0938\u094d\u091f\u0949\u0915-\u0906\u0909\u091f \u091c\u094b\u0916\u093f\u092e \u0935\u093e\u0932\u0947 \u0915\u0947\u0902\u0926\u094d\u0930**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*\u0924\u0924\u094d\u0915\u093e\u0932 \u092a\u0941\u0928\u0930\u094d\u0935\u093f\u0924\u0930\u0923 \u0914\u0930 \u0921\u093f\u0932\u0940\u0935\u0930\u0940 \u0906\u0935\u0902\u091f\u0928 \u0915\u0940 \u0938\u093f\u092b\u093e\u0930\u093f\u0936 \u0915\u0940 \u091c\u093e\u0924\u0940 \u0939\u0948\u0964*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:37:36.763972+00:00"
+    }
+  ],
+  "conv-6d978bc3": [
+    {
+      "user_query": "Which facilities are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:37:36.805360+00:00"
+    }
+  ],
+  "test-conv-audit-ecb38d": [
+    {
+      "user_query": "Summarize today's health resource situation",
+      "assistant_response": "**National Health Resource Summary**:\n\n\u2022 Total Monitored Facilities: **33** across **5 states**\n\u2022 Active Critical Early Warnings: **485**\n\u2022 Facilities with Immediate Medicine Shortages: **431**\n\u2022 Bed Capacity Warnings: **66** | Staffing Constraints: **2**\n\u2022 Active Emergency Events: **0**\n\nOptimized cross-district redistribution opportunities identified for **5 facilities**.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:37:37.308840+00:00"
+    }
+  ],
+  "e2e-phase5-demo-b4064c": [
+    {
+      "user_query": "Which PHCs are at highest risk today?",
+      "assistant_response": "**Facilities at Highest Stock-out Risk**:\n\n1. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol**: 0.0 days runway (CRITICAL)\n2. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Paracetamol Paediatric Syrup**: 0.0 days runway (CRITICAL)\n3. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin**: 0.0 days runway (CRITICAL)\n4. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Amoxicillin + Clavulanic Acid**: 0.0 days runway (CRITICAL)\n5. **PHC Bakhtiyarpur** (PHC-BR-PAT-001) \u2014 **Oral Rehydration Salts (WHO Formula)**: 0.0 days runway (CRITICAL)\n\n*Redistribution or emergency replenishment is recommended for facilities under 3.0 days.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:37:50.576846+00:00"
+    },
+    {
+      "user_query": "Why is PHC-BR-PAT-001 at critical risk?",
+      "assistant_response": "**Facility Status: PHC Bakhtiyarpur (PHC-BR-PAT-001)**\n\n\u2022 **Location**: Patna, Bihar\n\u2022 **Bed Status**: 6/6 occupied (100.0%)\n\u2022 **Staff on Duty**: Doctors: 2, Nurses: 4\n\u2022 **Critical Medicine Risks**: Paracetamol Paediatric Syrup (4.66 days DOSA), Amoxicillin (7.73 days DOSA), Anti-Snake Venom Serum (Polyvalent) (2.0 days DOSA)\n\u2022 **Active Alerts**: 16",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:37:52.734007+00:00"
+    },
+    {
+      "user_query": "Can we get supplies and redistribution options for PHC-BR-PAT-001?",
+      "assistant_response": "Operational data retrieved: {\n  \"recommendation_id\": \"REC-PAT-001-500-6992\",\n  \"status\": \"OPTIMAL_RECOMMENDED\",\n  \"destination_id\": \"PHC-BR-PAT-001\",\n  \"destination_name\": \"PHC Bakhtiyarpur\",\n  \"medicine_code\": \"MED-AMX-500\",\n  \"medicine_name\": \"Amoxicillin\",\n  \"deficit_units\": 129,\n  \"total_transfer_allocated\": 129,\n  \"fulfil",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:37:52.920488+00:00"
+    },
+    {
+      "user_query": "What happens if we simulate a transfer of 900 units to PHC-BR-PAT-001?",
+      "assistant_response": "**[WHAT-IF SIMULATION RESULTS]**\n\nFacility: **PHC Bakhtiyarpur** | Medicine: **Paracetamol**\n\n\u2022 **Baseline**: Stock 1514 units, Consumption 87.0 units/day, Coverage 17.41 days (LOW)\n\u2022 **Simulated Outcome**: Stock 2414 units, Projected Demand 104.4 units/day\n\u2022 **New Coverage Runway**: **23.12 days** (Risk Level: **LOW**)\n\u2022 **Net Impact**: +5.71 days added runway.\n\n*Note: This is an isolated shadow simulation; production state is unmodified.*",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:37:52.943629+00:00"
+    }
+  ],
+  "conv-2a63e5c0": [
+    {
+      "user_query": "What is the current stock level of PHC-999999?",
+      "assistant_response": "Unable to retrieve operational data: Facility ID 'PHC-999999' not found in registry.",
+      "last_facility_id": "PHC-BR-PAT-001",
+      "timestamp": "2026-09-30T09:37:53.285927+00:00"
+    }
+  ]
+}

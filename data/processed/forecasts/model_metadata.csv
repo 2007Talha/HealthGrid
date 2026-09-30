@@ -1,0 +1,2 @@
+model_version,training_samples,test_samples,medicine_demand_mae,medicine_demand_baseline_mae,mae_improvement_pct,patient_footfall_mae,bed_occupancy_mae,trained_at
+swasthya-demand-v1.0,1320,660,34.58,72.06,52.02,241.77,0.28,2026-08-23T15:49:06.332207+00:00

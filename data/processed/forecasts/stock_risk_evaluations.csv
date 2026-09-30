@@ -1,0 +1,661 @@
+phc_id,facility_name,medicine_code,medicine_name,therapeutic_category,current_stock,average_daily_predicted_demand,days_of_stock_available,safety_stock_threshold,risk_level,projected_stockout_date,anomaly_detected,model_version,evaluated_at
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,21.0,0.0,157,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.366169+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.380937+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.7,0.0,18,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.395413+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.408738+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,10.9,0.0,86,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.422148+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.437176+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.448578+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,16,2.1,7.57,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.461125+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,61,2.2,28.09,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.473722+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,88,2.2,40.0,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.484986+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,54,2.2,25.03,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.498408+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.512075+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,45,2.1,21.0,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.526792+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,74,2.2,34.08,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.540959+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.557267+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.576106+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,15,2.1,7.09,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.587905+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-ART-60,Artesunate,Antimalarial,68,2.2,31.32,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.600001+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-ALB-400,Albendazole,Anthelminthic,17,2.1,7.99,17,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.616067+00:00
+PHC-BR-PAT-001,PHC Bakhtiyarpur,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,3.8,0.0,28,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.629617+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,46.5,0.0,284,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.644027+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,4.6,0.0,36,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.660599+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,8.3,0.0,71,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.676269+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.692459+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,17.5,0.0,135,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.706575+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.720882+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.733374+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.748162+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,52,2.2,24.11,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.763296+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,84,2.2,38.43,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.777441+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,39,2.1,18.32,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.793032+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,5.7,0.0,46,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.808907+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,26,2.1,12.3,16,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.823095+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,63,2.2,29.01,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.834743+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.9,0.0,20,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.848974+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.863961+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.876011+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-ART-60,Artesunate,Antimalarial,54,2.2,25.03,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.889363+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-ALB-400,Albendazole,Anthelminthic,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.900590+00:00
+PHC-BR-PAT-002,PHC Danapur,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,7.1,0.0,59,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.913481+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,36.2,0.0,231,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.929091+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.8,0.0,20,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.941857+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,4.0,0.0,29,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.953712+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.966526+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,15.3,0.0,114,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:06.978832+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:06.993430+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.007202+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,10,2.1,4.76,16,HIGH,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.025066+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,57,2.2,26.42,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.039833+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,84,2.2,38.43,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.052305+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,49,2.1,22.87,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.070751+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,3.9,0.0,29,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.087492+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,38,2.1,17.85,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.100179+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,71,2.2,32.7,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.112769+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.125684+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.140474+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,8,2.1,3.81,16,HIGH,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.153765+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-ART-60,Artesunate,Antimalarial,62,2.2,28.74,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.166116+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-ALB-400,Albendazole,Anthelminthic,9,2.1,4.29,16,HIGH,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.179555+00:00
+PHC-BR-PAT-003,PHC Bihta,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,4.2,0.0,31,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.195000+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,16.6,0.0,125,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.211883+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.232131+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.4,0.0,17,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.246662+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.259609+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,5.9,0.0,48,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.272035+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.283137+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.293950+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,28,2.1,13.15,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.305733+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,67,2.2,30.86,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.321430+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,89,2.2,40.45,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.338461+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,61,2.2,28.09,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.359518+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.381805+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,58,2.2,26.89,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.402191+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,76,2.2,34.77,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.420235+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.434073+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.451092+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,33,2.1,15.5,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.470154+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-ART-60,Artesunate,Antimalarial,73,2.2,33.62,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.484331+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-ALB-400,Albendazole,Anthelminthic,29,2.1,13.62,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.505391+00:00
+PHC-BR-PAT-004,PHC Fatuha,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.524478+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,20.3,0.0,150,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.536635+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,1.9,0.0,13,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.548498+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,3.0,0.0,21,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.566118+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.580272+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,8.6,0.0,71,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.593060+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.605985+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.617246+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,16,2.1,7.67,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.630221+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,63,2.2,29.01,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.644626+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,87,2.2,39.55,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.656391+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,51,2.1,23.8,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.667289+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,2.7,0.0,18,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.684174+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,45,2.1,21.0,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.696275+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,72,2.2,33.16,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.716278+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.729331+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.743978+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,12,2.1,5.71,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.755706+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-ART-60,Artesunate,Antimalarial,70,2.2,32.24,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.768924+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-ALB-400,Albendazole,Anthelminthic,12,2.1,5.75,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.783898+00:00
+PHC-BR-PAT-005,PHC Mokama,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,2.3,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.797174+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,267.6,0.0,1025,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.809969+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,38.8,0.0,247,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.827808+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,78.8,0.0,400,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.841671+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,11.2,0.0,88,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.853568+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,158.6,0.0,668,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.865032+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,13.2,0.0,103,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.880279+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,6.8,0.0,56,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.893296+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,0,2.1,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.912334+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.927041+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,58,2.2,26.89,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.944767+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:07.963980+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,71.0,0.0,358,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.980169+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:07.994211+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,15,2.1,7.09,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.018069+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,25.4,0.0,183,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.044546+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,9.2,0.0,74,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.063271+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,0,2.7,0.0,19,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.078028+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-ART-60,Artesunate,Antimalarial,2,2.1,0.95,16,CRITICAL,2026-08-29,False,swasthya-demand-v1.0,2026-08-23T15:49:08.093351+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-ALB-400,Albendazole,Anthelminthic,0,2.4,0.0,17,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.109862+00:00
+CHC-BR-PAT-001,CHC Phulwari Sharif,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,75.9,0.0,382,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.125506+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,1167.9,0.0,4000,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.137372+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,409.4,0.0,1498,CRITICAL,2026-09-08,False,swasthya-demand-v1.0,2026-08-23T15:49:08.150164+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,542.4,0.0,1917,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.162386+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,256.1,0.0,967,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.176935+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,780.9,0.0,2714,CRITICAL,2026-09-06,False,swasthya-demand-v1.0,2026-08-23T15:49:08.190436+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,243.2,0.0,947,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.201932+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,147.9,0.0,632,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.219201+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,0,49.7,0.0,294,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.234705+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,0,7.6,0.0,62,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.249657+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.263832+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,0,12.4,0.0,95,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.278477+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,472.2,0.0,1699,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.293177+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,0,25.2,0.0,176,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.305320+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,0,3.6,0.0,26,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.316744+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,352.0,0.0,1283,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.331815+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,205.4,0.0,802,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.349901+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,0,90.4,0.0,425,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.363424+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-ART-60,Artesunate,Antimalarial,0,5.8,0.0,46,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.375062+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-ALB-400,Albendazole,Anthelminthic,0,88.1,0.0,424,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.386482+00:00
+DH-BR-PAT-001,District Hospital Gardanibagh,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,488.6,0.0,1766,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.398242+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,4.1,0.0,31,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.413105+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.431423+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.445906+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.469256+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.484907+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.497936+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,4,2.1,1.89,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.512917+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,53,2.1,24.73,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.529454+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,73,2.2,33.62,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.542186+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,91,2.2,41.36,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.553907+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,71,2.2,32.7,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.564938+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.578000+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,64,2.2,29.67,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.589983+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,82,2.2,37.52,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.603470+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.614640+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,16,2.1,7.62,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.628187+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,40,2.1,18.79,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.640291+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-ART-60,Artesunate,Antimalarial,79,2.2,36.14,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.656591+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-ALB-400,Albendazole,Anthelminthic,37,2.1,17.38,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.668672+00:00
+PHC-BR-GAY-001,PHC Bodh Gaya,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.680670+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,3.8,0.0,27,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.693067+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.710081+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.0,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.733806+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,17,2.1,8.04,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.754354+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.766027+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.780300+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,26,2.1,12.3,16,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.804731+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,62,2.2,28.74,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.833114+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,78,2.2,35.69,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.865273+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,92,2.2,41.82,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.886251+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,74,2.2,34.08,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.901105+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.922197+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,68,2.2,31.32,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.939998+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,84,2.2,38.43,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.950784+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:08.962201+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,30,2.1,14.09,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.973459+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,45,2.1,21.0,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.984586+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-ART-60,Artesunate,Antimalarial,80,2.2,36.6,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:08.996766+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-ALB-400,Albendazole,Anthelminthic,51,2.2,23.64,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.008871+00:00
+PHC-BR-GAY-002,PHC Sherghati,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.020143+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,1.8,0.0,13,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.044554+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.069031+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.085353+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,28,2.1,13.24,16,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.104239+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.124273+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,8,2.1,3.86,16,HIGH,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.138677+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,31,2.1,14.56,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.150115+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,69,2.2,31.78,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.163791+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,82,2.2,37.52,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.177907+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,95,2.2,43.18,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.191712+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,78,2.2,35.92,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.206216+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.221104+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,74,2.2,34.08,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.238342+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,87,2.2,39.55,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.252752+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,21,2.1,9.93,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.266396+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,33,2.1,15.61,16,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.286685+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,59,2.2,27.35,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.309390+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-ART-60,Artesunate,Antimalarial,83,2.2,37.97,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.328992+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-ALB-400,Albendazole,Anthelminthic,58,2.1,27.07,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.345772+00:00
+PHC-BR-GAY-003,PHC Tekari,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.364062+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,778.2,0.0,2760,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.380204+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,299.4,0.0,1125,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.396470+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,323.5,0.0,1233,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.414596+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,166.6,0.0,702,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.440016+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,518.2,0.0,1850,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.472246+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,249.7,0.0,976,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.489520+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,129.3,0.0,572,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.500585+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,0,28.8,0.0,203,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.511749+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,0,7.5,0.0,63,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.524464+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,0,2.0,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.537109+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,0,10.4,0.0,82,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.550120+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,453.5,0.0,1652,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.566961+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,0,18.7,0.0,141,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.582426+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,0,3.2,0.0,22,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.596416+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,222.6,0.0,876,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.609251+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,144.7,0.0,614,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.621363+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,0,61.8,0.0,341,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.636230+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-ART-60,Artesunate,Antimalarial,0,5.2,0.0,41,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.647971+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-ALB-400,Albendazole,Anthelminthic,0,71.2,0.0,380,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.662095+00:00
+DH-BR-GAY-001,Jay Prakash Narayan District Hospital Gaya,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,465.4,0.0,1688,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.676815+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,5.1,0.0,40,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.689973+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.706885+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.717810+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.730471+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,1.9,0.0,14,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.745226+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.760008+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,4,2.1,1.9,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.775867+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,52,2.2,24.11,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.790443+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,72,2.2,33.16,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.803439+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,91,2.2,41.36,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.815069+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,70,2.2,32.24,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.832000+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.849825+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,61,2.2,28.09,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.862826+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,80,2.2,36.6,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.877281+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.890013+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,8,2.1,3.81,16,HIGH,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.905763+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,39,2.1,18.2,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.919687+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-ART-60,Artesunate,Antimalarial,80,2.2,36.6,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.933192+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-ALB-400,Albendazole,Anthelminthic,37,2.1,17.38,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:09.947512+00:00
+PHC-UP-VAR-001,PHC Cholapur,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.960142+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,6.3,0.0,52,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.979761+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:09.998797+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.016756+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.034864+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,2.7,0.0,19,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.055516+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.070465+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.083956+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,49,2.1,22.87,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.097038+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,68,2.2,31.32,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.109106+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,89,2.2,40.45,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.124254+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,64,2.2,29.67,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.139558+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.151102+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,58,2.2,26.89,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.165613+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,77,2.2,35.23,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.179656+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.198829+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.218701+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,26,2.1,12.3,16,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.252380+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-ART-60,Artesunate,Antimalarial,73,2.2,33.4,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.286264+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-ALB-400,Albendazole,Anthelminthic,30,2.1,14.09,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.333972+00:00
+PHC-UP-VAR-002,PHC Pindra,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,2.1,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.366687+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,3.4,0.0,24,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.388907+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.0,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.399650+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.410373+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,5,2.1,2.38,16,HIGH,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.421643+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.432457+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.443356+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,18,2.1,8.51,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.454572+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,62,2.2,28.74,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.465339+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,77,2.2,35.23,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.476150+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,91,2.2,41.36,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.489805+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,74,2.2,33.86,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.501191+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.515380+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,68,2.2,31.32,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.529898+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,84,2.2,38.43,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.548772+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,7,2.1,3.33,16,HIGH,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.564778+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,14,2.1,6.67,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.580342+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,50,2.2,23.18,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.598025+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-ART-60,Artesunate,Antimalarial,78,2.2,35.69,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.612132+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-ALB-400,Albendazole,Anthelminthic,46,2.1,21.47,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.630556+00:00
+PHC-UP-VAR-003,PHC Sevapuri,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.650127+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,15.5,0.0,118,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.668397+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.680440+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.701152+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.714057+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,4.4,0.0,33,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.729785+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.742367+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.756185+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,39,2.1,18.2,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.776249+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,62,2.2,28.74,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.788750+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,88,2.2,40.0,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.801831+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,59,2.2,27.17,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.817275+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.829796+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,49,2.2,22.72,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.842661+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,73,2.2,33.4,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.866576+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.881412+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.900813+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,16,2.1,7.57,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.915598+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-ART-60,Artesunate,Antimalarial,69,2.2,31.78,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.927795+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-ALB-400,Albendazole,Anthelminthic,16,2.1,7.52,17,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:10.943242+00:00
+PHC-UP-VAR-004,PHC Kashi Vidyapeeth,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,3.6,0.0,26,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.957492+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,113.7,0.0,510,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.970344+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,6.9,0.0,59,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.983006+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,15.9,0.0,122,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:10.995206+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,3.2,0.0,22,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.008906+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,51.0,0.0,297,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.024218+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,6.5,0.0,53,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.036963+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,3.3,0.0,23,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.048020+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,0,2.0,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.075265+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,14,2.1,6.62,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.088894+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,68,2.2,31.32,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.104268+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.117593+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,17.3,0.0,131,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.131872+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.143844+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,41,2.1,19.26,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.157362+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,4.9,0.0,38,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.169554+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,2.9,0.0,20,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.183413+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.198287+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-ART-60,Artesunate,Antimalarial,24,2.1,11.35,16,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.212215+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-ALB-400,Albendazole,Anthelminthic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.224400+00:00
+CHC-UP-VAR-001,CHC Misirpur,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,27.9,0.0,194,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.236946+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,1040.8,0.0,3560,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.248142+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,366.3,0.0,1344,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.260029+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,520.8,0.0,1842,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.272334+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,271.7,0.0,1026,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.288300+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,700.1,0.0,2502,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.306462+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,274.6,0.0,1048,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.333622+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,236.8,0.0,907,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.349249+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,0,74.2,0.0,367,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.362117+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,0,11.5,0.0,88,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.377637+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.389967+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,0,15.9,0.0,119,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.401271+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,555.1,0.0,1965,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.413797+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,0,35.3,0.0,224,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.425955+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,0,4.4,0.0,33,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.438177+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,275.1,0.0,1036,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.449992+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,198.3,0.0,792,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.463498+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,0,114.2,0.0,504,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.477719+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-ART-60,Artesunate,Antimalarial,0,6.7,0.0,56,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.492434+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-ALB-400,Albendazole,Anthelminthic,0,103.6,0.0,474,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.508031+00:00
+DH-UP-VAR-001,Pandit Deen Dayal Upadhyay District Hospital,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,641.7,0.0,2250,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.520805+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,9.4,0.0,77,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.532427+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.558670+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.570358+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.0,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.582109+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,4.5,0.0,34,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.595943+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.609186+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.620892+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,34,2.1,15.97,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.632465+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,67,2.2,30.86,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.644613+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,88,2.2,40.26,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.656953+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,58,2.2,26.89,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.668597+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,1.9,0.0,14,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.680644+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,48,2.1,22.4,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.698554+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,73,2.2,33.62,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.714683+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.729655+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.742957+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,16,2.1,7.57,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.759466+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-ART-60,Artesunate,Antimalarial,70,2.2,32.24,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.779242+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-ALB-400,Albendazole,Anthelminthic,19,2.1,8.99,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.797066+00:00
+PHC-UP-LUK-001,PHC Bakshi Ka Talab,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,3.4,0.0,24,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.815454+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,6.4,0.0,53,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.832630+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.850081+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.868092+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.885878+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.905369+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:11.923434+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,5,2.1,2.4,16,HIGH,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.943743+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,51,2.2,23.64,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.958243+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,74,2.2,33.86,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.972731+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,91,2.2,41.36,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.983936+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,70,2.2,32.24,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:11.995489+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.007588+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,63,2.2,29.01,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.019669+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,79,2.2,36.14,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.030837+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.043965+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,11,2.1,5.2,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.057859+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,35,2.1,16.33,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.070571+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-ART-60,Artesunate,Antimalarial,78,2.2,35.69,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.083303+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-ALB-400,Albendazole,Anthelminthic,37,2.1,17.27,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.095591+00:00
+PHC-UP-LUK-002,PHC Malihabad,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.108599+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,6.2,0.0,51,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.120891+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.0,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.132516+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.145222+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.160243+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,2.9,0.0,20,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.172633+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.183756+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.206564+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,51,2.1,23.8,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.218318+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,69,2.2,31.78,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.229777+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,90,2.2,40.91,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.242062+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,67,2.2,30.86,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.255386+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.270645+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,61,2.2,28.09,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.284686+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,80,2.2,36.6,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.298722+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.311172+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,4,2.1,1.9,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.327256+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,34,2.1,15.97,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.341716+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-ART-60,Artesunate,Antimalarial,75,2.2,34.54,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.354281+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-ALB-400,Albendazole,Anthelminthic,35,2.1,16.44,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.365213+00:00
+PHC-UP-LUK-003,PHC Mohanlalganj,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.381240+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,1228.5,0.0,4288,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.398610+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,402.6,0.0,1525,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.415816+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,500.9,0.0,1843,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.434027+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,351.3,0.0,1324,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.453186+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,897.7,0.0,3194,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.465591+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,416.8,0.0,1554,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.478133+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,232.5,0.0,916,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.490941+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,0,85.8,0.0,424,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.503192+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,0,18.1,0.0,138,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.514322+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.525647+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,0,36.6,0.0,240,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.539409+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,654.9,0.0,2362,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.556134+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,0,43.3,0.0,270,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.582074+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,0,8.5,0.0,74,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.610060+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,364.4,0.0,1396,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.632774+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,230.4,0.0,927,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.645544+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,0,155.7,0.0,667,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.658333+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-ART-60,Artesunate,Antimalarial,0,15.7,0.0,122,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.670698+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-ALB-400,Albendazole,Anthelminthic,0,152.2,0.0,646,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.689943+00:00
+DH-UP-LUK-001,Balrampur District Hospital Lucknow,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,808.1,0.0,2880,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.704564+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,6.5,0.0,54,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.717055+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.729543+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.742106+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.753658+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.765597+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.779824+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,10,2.1,4.76,16,HIGH,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.796619+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,51,2.2,23.64,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.815330+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,72,2.2,32.94,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.831803+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,92,2.2,41.82,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.850584+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,67,2.2,30.86,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.864017+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.878663+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,62,2.2,28.55,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.892780+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,81,2.2,37.06,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.904664+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.916729+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,4,2.1,1.9,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.932360+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,41,2.1,19.13,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.946085+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-ART-60,Artesunate,Antimalarial,77,2.2,35.23,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.959113+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-ALB-400,Albendazole,Anthelminthic,40,2.1,18.79,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.972155+00:00
+PHC-RJ-JAI-001,PHC Bassi,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:12.983828+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,4.0,0.0,30,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:12.997621+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.011935+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.024651+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,6,2.1,2.88,16,HIGH,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.039194+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.055129+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.069595+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,11,2.1,5.24,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.086886+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,58,2.2,26.89,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.105579+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,74,2.2,34.08,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.125645+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,91,2.2,41.36,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.144128+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,72,2.2,33.16,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.163798+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.182131+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,65,2.2,29.93,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.202877+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,81,2.2,37.06,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.222209+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.237359+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,4,2.1,1.92,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.252735+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,47,2.1,21.93,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.274921+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-ART-60,Artesunate,Antimalarial,78,2.2,35.69,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.292161+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-ALB-400,Albendazole,Anthelminthic,47,2.1,21.93,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.305870+00:00
+PHC-RJ-JAI-002,PHC Chaksu,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.320261+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,10.8,0.0,85,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.332943+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.344688+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.356458+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.367742+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,2.8,0.0,19,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.382580+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.397707+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.412587+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,50,2.1,23.33,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.425525+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,70,2.2,32.24,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.438270+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,88,2.2,40.26,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.453602+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,65,2.2,29.93,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.470722+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.486947+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,53,2.2,24.57,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.499530+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,78,2.2,35.69,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.512568+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.0,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.528127+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.542803+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,27,2.1,12.77,16,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.555668+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-ART-60,Artesunate,Antimalarial,72,2.2,33.16,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.570464+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-ALB-400,Albendazole,Anthelminthic,29,2.1,13.62,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.582275+00:00
+PHC-RJ-JAI-003,PHC Amer,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.594095+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,847.7,0.0,2974,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.607174+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,296.9,0.0,1115,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.619387+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,385.3,0.0,1431,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.633193+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,236.5,0.0,908,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.658132+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,657.6,0.0,2316,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.670559+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,272.4,0.0,1034,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.685327+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,141.0,0.0,601,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.696715+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,0,50.3,0.0,281,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.715151+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,0,9.2,0.0,76,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.733584+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.751015+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,0,11.6,0.0,92,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.765187+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,510.4,0.0,1806,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.780857+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,0,21.6,0.0,159,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.795922+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,0,4.0,0.0,30,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.808276+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,240.1,0.0,937,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.819231+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,190.4,0.0,760,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.830331+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,0,94.3,0.0,437,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.842833+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-ART-60,Artesunate,Antimalarial,0,6.9,0.0,58,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.855228+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-ALB-400,Albendazole,Anthelminthic,0,82.1,0.0,406,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.867837+00:00
+DH-RJ-JAI-001,Kanwatia District Hospital Jaipur,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,561.8,0.0,1991,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.885976+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,2.8,0.0,20,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.904100+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.917899+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.932870+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,22,2.1,10.41,16,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.950283+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.965205+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:13.977782+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,29,2.1,13.62,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:13.990842+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,64,2.2,29.67,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.003349+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,79,2.2,36.14,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.015233+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,92,2.2,41.82,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.029534+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,76,2.2,34.77,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.045212+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.061501+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,71,2.2,32.7,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.082141+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,85,2.2,38.64,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.099877+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,17,2.1,8.04,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.116620+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,26,2.1,12.3,16,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.133377+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,53,2.2,24.57,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.159042+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-ART-60,Artesunate,Antimalarial,83,2.2,37.97,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.175541+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-ALB-400,Albendazole,Anthelminthic,54,2.2,25.03,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.201762+00:00
+PHC-MH-PUN-001,PHC Mulshi,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.217414+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,13.0,0.0,99,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.230878+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.245390+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.258457+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.271318+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,3.7,0.0,27,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.283616+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.295675+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.307713+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,36,2.1,16.8,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.323138+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,65,2.2,29.93,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.342248+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,88,2.2,40.0,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.371356+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,59,2.2,27.17,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.390996+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,2.9,0.0,20,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.403710+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,49,2.2,22.72,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.415731+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,75,2.2,34.31,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.432862+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.445775+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.458229+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,20,2.1,9.46,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.473576+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-ART-60,Artesunate,Antimalarial,67,2.2,30.86,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.486294+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-ALB-400,Albendazole,Anthelminthic,9,2.1,4.29,16,HIGH,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.500030+00:00
+PHC-MH-PUN-002,PHC Haveli,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,2.3,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.514347+00:00
+PHC-MH-PUN-003,PHC Khed,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,6.7,0.0,56,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.529893+00:00
+PHC-MH-PUN-003,PHC Khed,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.549899+00:00
+PHC-MH-PUN-003,PHC Khed,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.567874+00:00
+PHC-MH-PUN-003,PHC Khed,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.592488+00:00
+PHC-MH-PUN-003,PHC Khed,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,2.1,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.610944+00:00
+PHC-MH-PUN-003,PHC Khed,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.629846+00:00
+PHC-MH-PUN-003,PHC Khed,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,8,2.1,3.81,16,HIGH,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.652028+00:00
+PHC-MH-PUN-003,PHC Khed,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,53,2.1,24.73,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.664306+00:00
+PHC-MH-PUN-003,PHC Khed,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,72,2.2,33.16,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.681696+00:00
+PHC-MH-PUN-003,PHC Khed,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,91,2.2,41.36,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.693884+00:00
+PHC-MH-PUN-003,PHC Khed,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,68,2.2,31.32,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.707866+00:00
+PHC-MH-PUN-003,PHC Khed,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.722918+00:00
+PHC-MH-PUN-003,PHC Khed,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,66,2.2,30.39,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.734051+00:00
+PHC-MH-PUN-003,PHC Khed,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,80,2.2,36.6,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.754096+00:00
+PHC-MH-PUN-003,PHC Khed,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.768808+00:00
+PHC-MH-PUN-003,PHC Khed,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,3,2.1,1.43,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.793215+00:00
+PHC-MH-PUN-003,PHC Khed,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,33,2.1,15.4,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.811486+00:00
+PHC-MH-PUN-003,PHC Khed,MED-ART-60,Artesunate,Antimalarial,79,2.2,36.14,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.833678+00:00
+PHC-MH-PUN-003,PHC Khed,MED-ALB-400,Albendazole,Anthelminthic,38,2.1,17.73,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.846555+00:00
+PHC-MH-PUN-003,PHC Khed,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.860641+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,1196.2,0.0,4101,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.875358+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,371.2,0.0,1376,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.887420+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,477.0,0.0,1721,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.898613+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,263.9,0.0,1017,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.912058+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,757.3,0.0,2675,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.930357+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,353.9,0.0,1314,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:14.943462+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,245.2,0.0,950,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.956104+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,0,58.1,0.0,329,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.967643+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,0,17.7,0.0,133,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.982096+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:14.997260+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,0,20.4,0.0,149,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.015514+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,658.8,0.0,2333,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.029998+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,0,38.5,0.0,246,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.044226+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,0,6.7,0.0,55,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.057188+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,343.3,0.0,1259,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.071806+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,284.6,0.0,1077,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.082871+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,0,135.6,0.0,580,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.098491+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-ART-60,Artesunate,Antimalarial,0,12.1,0.0,91,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.111088+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-ALB-400,Albendazole,Anthelminthic,0,100.7,0.0,472,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.125087+00:00
+DH-MH-PUN-001,Aundh District Hospital Pune,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,645.5,0.0,2300,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.140462+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,19.1,0.0,145,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.152244+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.164107+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.1,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.175514+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.187084+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,7.2,0.0,60,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.199855+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.216790+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.241632+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,26,2.1,12.3,16,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.258598+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,56,2.2,25.96,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.270952+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,86,2.2,39.35,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.288494+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,51,2.1,23.8,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.301162+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,3.6,0.0,26,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.312579+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,42,2.1,19.6,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.323980+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,69,2.2,31.78,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.339833+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.358067+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,2.0,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.370887+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,2,2.1,0.96,16,CRITICAL,2026-08-29,False,swasthya-demand-v1.0,2026-08-23T15:49:15.384899+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-ART-60,Artesunate,Antimalarial,61,2.2,28.28,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.398296+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-ALB-400,Albendazole,Anthelminthic,4,2.1,1.9,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.411682+00:00
+PHC-KA-BEN-001,PHC Yelahanka,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,6.0,0.0,49,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.425435+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,7.6,0.0,64,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.438213+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.0,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.455251+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.473061+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.494003+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,2.5,0.0,17,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.508037+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.520613+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.532230+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,44,2.1,20.53,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.543875+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,67,2.2,30.86,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.557454+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,89,2.2,40.45,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.580846+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,65,2.2,29.93,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.605252+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.626030+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,58,2.2,26.89,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.644353+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,79,2.2,36.14,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.663174+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.675409+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,2.1,0.0,16,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.687576+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,27,2.1,12.68,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.701071+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-ART-60,Artesunate,Antimalarial,72,2.2,33.16,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.713307+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-ALB-400,Albendazole,Anthelminthic,27,2.1,12.77,16,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.725445+00:00
+PHC-KA-BEN-002,PHC Anekal,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,2.2,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.738021+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,15.3,0.0,120,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.755449+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.773756+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.792760+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.816236+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,3.7,0.0,27,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.839845+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.860154+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,2.1,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:15.891722+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,36,2.1,16.91,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.934926+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,64,2.2,29.67,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.973421+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,87,2.2,39.55,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:15.989609+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,60,2.2,27.81,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:16.008386+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,1.9,0.0,14,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:16.019441+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,47,2.1,21.93,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:16.030766+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,73,2.2,33.62,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:16.046845+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,2.0,0.0,15,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:16.063602+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,2.0,0.0,16,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:16.077910+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,15,2.1,7.14,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:16.090183+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-ART-60,Artesunate,Antimalarial,68,2.2,31.32,17,LOW,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:16.101162+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-ALB-400,Albendazole,Anthelminthic,16,2.1,7.57,16,WARNING,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:16.114813+00:00
+PHC-KA-BEN-003,PHC Kengeri,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,2.7,0.0,18,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:16.128089+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-PCM-500,Paracetamol,Analgesic / Antipyretic,0,1413.8,0.0,4889,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:16.144975+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-PCM-SYR,Paracetamol Paediatric Syrup,Analgesic / Antipyretic,0,463.0,0.0,1687,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:16.162476+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-AMX-500,Amoxicillin,Antibacterial / Penicillin,0,638.4,0.0,2264,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:16.177361+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-AMC-625,Amoxicillin + Clavulanic Acid,Antibacterial / Broad Spectrum,0,373.1,0.0,1372,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:16.189633+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-ORS-SFT,Oral Rehydration Salts (WHO Formula),Gastrointestinal / Electrolytes,0,1086.0,0.0,3738,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:16.200913+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-ZNC-20,Zinc Sulfate Dispersible,Gastrointestinal / Paediatric,0,452.8,0.0,1644,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:16.215286+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-AZI-500,Azithromycin,Antibacterial / Macrolide,0,331.2,0.0,1236,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:16.227340+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-CTX-1G,Ceftriaxone,Antibacterial / Cephalosporin,0,110.2,0.0,495,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:16.251849+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-RAB-VAC,Anti-Rabies Vaccine (Cell Culture),Vaccines / Immunologicals,0,22.3,0.0,162,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:16.264408+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-ASV-VIAL,Anti-Snake Venom Serum (Polyvalent),Antidotes / Specific Toxins,0,2.0,0.0,15,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:16.280248+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-INS-REG,Human Insulin (Regular / Soluble),Endocrine / Antidiabetic,0,50.5,0.0,291,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:16.290478+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-MET-500,Metformin Hydrochloride,Endocrine / Oral Antidiabetic,0,723.4,0.0,2548,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:16.296770+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-OXY-AMP,Oxytocin,Maternal Health / Oxytocic,0,68.4,0.0,360,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:16.305298+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-MGS-50,Magnesium Sulfate,Maternal Health / Anticonvulsant,0,10.1,0.0,79,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:16.315777+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-IVF-NS500,Normal Saline (0.9% Sodium Chloride),Intravenous Fluids / Plasma Substitute,0,387.7,0.0,1415,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:16.325779+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-IVF-RL500,Ringer's Lactate (Compound Sodium Lactate),Intravenous Fluids / Resuscitation,0,294.8,0.0,1121,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:16.335772+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-IVF-D5500,Dextrose 5% in Water,Intravenous Fluids / Hydration,0,181.0,0.0,735,CRITICAL,NONE,False,swasthya-demand-v1.0,2026-08-23T15:49:16.344239+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-ART-60,Artesunate,Antimalarial,0,18.3,0.0,134,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:16.350755+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-ALB-400,Albendazole,Anthelminthic,0,187.6,0.0,748,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:16.358904+00:00
+DH-KA-BEN-001,KC General District Hospital Malleshwaram,MED-IFA-TAB,Iron & Folic Acid (IFA),Maternal & Child Health / Mineral,0,878.4,0.0,3060,CRITICAL,2026-08-28,False,swasthya-demand-v1.0,2026-08-23T15:49:16.365157+00:00

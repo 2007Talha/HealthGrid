@@ -1,0 +1,1302 @@
+[
+  {
+    "log_id": "04c9aee4-ae47-4fc1-97e4-ce0da18385bf",
+    "conversation_id": "conv-8248fca6",
+    "timestamp": "2026-08-23T16:42:16.520045+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "e111c3f7-1270-49d8-8bba-77d1e199e173",
+    "conversation_id": "conv-70955565",
+    "timestamp": "2026-08-23T16:42:27.095951+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "e5b96f77-4616-4930-b4d9-72def27a7b0b",
+    "conversation_id": "conv-84649ef2",
+    "timestamp": "2026-08-23T16:42:37.258136+00:00",
+    "user_id": "default_user",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "403e84d7-5d57-41b2-ac27-41999ddfd5a2",
+    "conversation_id": "test-conv-audit-01",
+    "timestamp": "2026-08-23T16:42:59.888756+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_national_summary",
+    "tool_parameters": {},
+    "result_summary": "{'total_facilities': 33, 'states_represented': ['Bihar', 'Karnataka', 'Maharashtra', 'Rajasthan', 'Uttar Pradesh'], 'total_states': 5, 'districts_represented_count': 7, 'critical_a"
+  },
+  {
+    "log_id": "017861a5-111e-4803-8291-089a13f1ad51",
+    "conversation_id": "e2e-phase5-demo-conv-100",
+    "timestamp": "2026-08-23T16:43:10.123453+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "ec4f1a6a-5425-43fc-abe0-90e5bf09d6d7",
+    "conversation_id": "conv-49ad281b",
+    "timestamp": "2026-08-23T16:45:21.867368+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "f23f87de-f6ec-41fe-b130-2670ecfaa90d",
+    "conversation_id": "conv-938b54a7",
+    "timestamp": "2026-08-23T16:45:31.277661+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "ad902089-5a43-43fe-93ff-14efc1ba0013",
+    "conversation_id": "conv-28857582",
+    "timestamp": "2026-08-23T16:45:40.415161+00:00",
+    "user_id": "default_user",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "e82be84b-6571-40e7-9ce8-348ee920356f",
+    "conversation_id": "test-conv-audit-01",
+    "timestamp": "2026-08-23T16:46:00.387239+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_national_summary",
+    "tool_parameters": {},
+    "result_summary": "{'total_facilities': 33, 'states_represented': ['Bihar', 'Karnataka', 'Maharashtra', 'Rajasthan', 'Uttar Pradesh'], 'total_states': 5, 'districts_represented_count': 7, 'critical_a"
+  },
+  {
+    "log_id": "a0d0681f-caef-4fa1-a35e-76aa59253407",
+    "conversation_id": "e2e-phase5-demo-conv-100",
+    "timestamp": "2026-08-23T16:46:09.348731+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "14c7fe19-f616-421d-b6f1-2ba0be11d736",
+    "conversation_id": "e2e-phase5-demo-conv-100",
+    "timestamp": "2026-08-23T16:46:18.523764+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-BR-PAT-001"
+    },
+    "result_summary": "{'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'facility_type': 'PHC', 'district': 'Patna', 'state': 'Bihar', 'latitude': 25.46, 'longitude': 85.53, 'bed_ca"
+  },
+  {
+    "log_id": "0c1b4fea-fbc9-4d9f-8c3f-256e0b09d647",
+    "conversation_id": "e2e-phase5-demo-conv-100",
+    "timestamp": "2026-08-24T03:45:54.677002+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "43502695-3a95-4a7e-bf9d-130f0b9eb469",
+    "conversation_id": "e2e-phase5-demo-conv-100",
+    "timestamp": "2026-08-24T03:47:00.602757+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-BR-PAT-001"
+    },
+    "result_summary": "{'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'facility_type': 'PHC', 'district': 'Patna', 'state': 'Bihar', 'latitude': 25.46, 'longitude': 85.53, 'bed_ca"
+  },
+  {
+    "log_id": "0be5111b-8acb-4a16-a0c4-032789e4b56d",
+    "conversation_id": "e2e-phase5-demo-conv-100",
+    "timestamp": "2026-08-24T03:48:00.555690+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-BR-PAT-001"
+    },
+    "result_summary": "{'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'facility_type': 'PHC', 'district': 'Patna', 'state': 'Bihar', 'latitude': 25.46, 'longitude': 85.53, 'bed_ca"
+  },
+  {
+    "log_id": "77b53806-4fc6-40dc-86e7-a0223d61424f",
+    "conversation_id": "e2e-phase5-demo-conv-100",
+    "timestamp": "2026-08-24T03:49:46.024925+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "08897728-b0e6-40ca-9375-cd66d5b07b23",
+    "conversation_id": "e2e-phase5-demo-conv-100",
+    "timestamp": "2026-08-24T03:50:43.542862+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-BR-PAT-001"
+    },
+    "result_summary": "{'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'facility_type': 'PHC', 'district': 'Patna', 'state': 'Bihar', 'latitude': 25.46, 'longitude': 85.53, 'bed_ca"
+  },
+  {
+    "log_id": "519e7e5b-9321-46e6-a3cf-4f13e153b430",
+    "conversation_id": "e2e-phase5-demo-conv-100",
+    "timestamp": "2026-08-24T03:50:43.669900+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_redistribution_options",
+    "tool_parameters": {
+      "destination": "PHC-BR-PAT-001",
+      "resource": "MED-AMX-500"
+    },
+    "result_summary": "{'status': 'NOT_NEEDED', 'recommendation_id': 'REC-NONE-FB1A2F', 'message': 'Facility PHC Bakhtiyarpur already maintains adequate stock (818 units, DOSA 125.3d). Redistribution not"
+  },
+  {
+    "log_id": "4f000a64-272e-4868-907b-74e619b42284",
+    "conversation_id": "e2e-phase5-demo-conv-100",
+    "timestamp": "2026-08-24T03:50:43.781923+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "run_what_if_simulation",
+    "tool_parameters": {
+      "facility_id": "PHC-BR-PAT-001",
+      "surge": 20.0,
+      "transfer": 900
+    },
+    "result_summary": "{'simulation_type': 'WHAT_IF_SCENARIO', 'is_simulation': True, 'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'medicine_code': 'MED-PCM-500', 'medicine_name'"
+  },
+  {
+    "log_id": "61a65771-1267-47ca-85cf-63c393015de9",
+    "conversation_id": "conv-b5c37274",
+    "timestamp": "2026-08-24T03:56:40.579548+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "95ffc83c-9f06-42c3-b99c-50d78163a47c",
+    "conversation_id": "conv-f635fbb9",
+    "timestamp": "2026-08-24T03:56:59.760620+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "6ce52647-8a52-4aba-b908-9337295e82d9",
+    "conversation_id": "conv-11e54dbd",
+    "timestamp": "2026-08-24T03:57:19.359504+00:00",
+    "user_id": "default_user",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "f3051131-eaff-41e1-a5b9-3cd75a2b4e3a",
+    "conversation_id": "test-conv-audit-f80e06",
+    "timestamp": "2026-08-24T03:58:03.583876+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_national_summary",
+    "tool_parameters": {},
+    "result_summary": "{'total_facilities': 33, 'states_represented': ['Bihar', 'Karnataka', 'Maharashtra', 'Rajasthan', 'Uttar Pradesh'], 'total_states': 5, 'districts_represented_count': 7, 'critical_a"
+  },
+  {
+    "log_id": "cf02e2c4-2180-4724-9b8e-062c45feb182",
+    "conversation_id": "e2e-phase5-demo-8c5a95",
+    "timestamp": "2026-08-24T03:58:23.458744+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "47307cac-12aa-428a-b83d-fbfb2909bfcc",
+    "conversation_id": "e2e-phase5-demo-8c5a95",
+    "timestamp": "2026-08-24T03:58:48.418498+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-BR-PAT-001"
+    },
+    "result_summary": "{'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'facility_type': 'PHC', 'district': 'Patna', 'state': 'Bihar', 'latitude': 25.46, 'longitude': 85.53, 'bed_ca"
+  },
+  {
+    "log_id": "23d79b5b-f4ed-415c-8d7f-3a110da5216d",
+    "conversation_id": "e2e-phase5-demo-8c5a95",
+    "timestamp": "2026-08-24T03:58:48.463558+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_redistribution_options",
+    "tool_parameters": {
+      "destination": "PHC-BR-PAT-001",
+      "resource": "MED-AMX-500"
+    },
+    "result_summary": "{'status': 'NOT_NEEDED', 'recommendation_id': 'REC-NONE-5D385E', 'message': 'Facility PHC Bakhtiyarpur already maintains adequate stock (818 units, DOSA 125.3d). Redistribution not"
+  },
+  {
+    "log_id": "182857f7-eb4c-423b-959e-1368936dccd8",
+    "conversation_id": "e2e-phase5-demo-8c5a95",
+    "timestamp": "2026-08-24T03:58:48.513471+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "run_what_if_simulation",
+    "tool_parameters": {
+      "facility_id": "PHC-BR-PAT-001",
+      "surge": 20.0,
+      "transfer": 900
+    },
+    "result_summary": "{'simulation_type': 'WHAT_IF_SCENARIO', 'is_simulation': True, 'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'medicine_code': 'MED-PCM-500', 'medicine_name'"
+  },
+  {
+    "log_id": "6eb2c273-81cc-447b-a951-3155c9e23a1c",
+    "conversation_id": "conv-2105a2cb",
+    "timestamp": "2026-08-24T04:03:00.546633+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "f8fb69ee-a772-4d56-80f2-b618aceb9b8f",
+    "conversation_id": "conv-8e39fd54",
+    "timestamp": "2026-08-24T04:03:19.546557+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "ded8ed5f-88a1-4237-8945-81f7a9b0a8b1",
+    "conversation_id": "conv-db86ec22",
+    "timestamp": "2026-08-24T04:03:30.277081+00:00",
+    "user_id": "default_user",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 153, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "5d582fa8-ead3-49f7-9a13-4e359ed6a88d",
+    "conversation_id": "test-conv-audit-0c06ca",
+    "timestamp": "2026-08-24T04:03:56.888357+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_national_summary",
+    "tool_parameters": {},
+    "result_summary": "{'total_facilities': 33, 'states_represented': ['Bihar', 'Karnataka', 'Maharashtra', 'Rajasthan', 'Uttar Pradesh'], 'total_states': 5, 'districts_represented_count': 7, 'critical_a"
+  },
+  {
+    "log_id": "0e7cd6b4-f5cc-4505-89ee-cf316ff066b8",
+    "conversation_id": "e2e-phase5-demo-b7f1ce",
+    "timestamp": "2026-08-24T04:05:08.853784+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 132, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "0b350214-da35-4876-bfdb-7a3937c2d9c5",
+    "conversation_id": "e2e-phase5-demo-b7f1ce",
+    "timestamp": "2026-08-24T04:05:27.491443+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-BR-PAT-001"
+    },
+    "result_summary": "{'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'facility_type': 'PHC', 'district': 'Patna', 'state': 'Bihar', 'latitude': 25.46, 'longitude': 85.53, 'bed_ca"
+  },
+  {
+    "log_id": "24cbe536-9486-4d67-ad7b-49c6b0319373",
+    "conversation_id": "e2e-phase5-demo-b7f1ce",
+    "timestamp": "2026-08-24T04:05:27.539817+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_redistribution_options",
+    "tool_parameters": {
+      "destination": "PHC-BR-PAT-001",
+      "resource": "MED-AMX-500"
+    },
+    "result_summary": "{'status': 'NOT_NEEDED', 'recommendation_id': 'REC-NONE-AF6F5F', 'message': 'Facility PHC Bakhtiyarpur already maintains adequate stock (386 units, DOSA 59.1d). Redistribution not "
+  },
+  {
+    "log_id": "8bf92ca0-120e-4fca-a8de-7f64fc4b6a8b",
+    "conversation_id": "e2e-phase5-demo-b7f1ce",
+    "timestamp": "2026-08-24T04:05:27.589688+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "run_what_if_simulation",
+    "tool_parameters": {
+      "facility_id": "PHC-BR-PAT-001",
+      "surge": 20.0,
+      "transfer": 900
+    },
+    "result_summary": "{'simulation_type': 'WHAT_IF_SCENARIO', 'is_simulation': True, 'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'medicine_code': 'MED-PCM-500', 'medicine_name'"
+  },
+  {
+    "log_id": "f0e46fb0-279b-414f-93d3-23f451448d70",
+    "conversation_id": "conv-a400a2fa",
+    "timestamp": "2026-08-24T14:07:20.596453+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 214, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "9b79ebbc-4622-4812-ab98-e78f86b6a44f",
+    "conversation_id": "conv-fb97dbe9",
+    "timestamp": "2026-08-24T14:07:57.804732+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 214, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "1f01c006-9d12-4d87-bd59-7e27b6dfe350",
+    "conversation_id": "conv-0569cc9c",
+    "timestamp": "2026-08-24T14:08:45.000608+00:00",
+    "user_id": "default_user",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 214, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "55a707a7-fcc9-4b90-8990-e9fa9d4e72ab",
+    "conversation_id": "test-conv-audit-e4b6c8",
+    "timestamp": "2026-08-24T14:10:15.897248+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_national_summary",
+    "tool_parameters": {},
+    "result_summary": "{'total_facilities': 33, 'states_represented': ['Bihar', 'Karnataka', 'Maharashtra', 'Rajasthan', 'Uttar Pradesh'], 'total_states': 5, 'districts_represented_count': 7, 'critical_a"
+  },
+  {
+    "log_id": "73e7266e-42de-4e3c-a662-268818de531e",
+    "conversation_id": "e2e-phase5-demo-763e80",
+    "timestamp": "2026-08-24T14:13:18.687720+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 129, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "c31be4f2-63fe-46b0-99df-9264b24458d6",
+    "conversation_id": "e2e-phase5-demo-763e80",
+    "timestamp": "2026-08-24T14:13:58.271324+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-BR-PAT-001"
+    },
+    "result_summary": "{'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'facility_type': 'PHC', 'district': 'Patna', 'state': 'Bihar', 'latitude': 25.46, 'longitude': 85.53, 'bed_ca"
+  },
+  {
+    "log_id": "7d75fb90-5870-4b51-9ddb-f033e8545400",
+    "conversation_id": "e2e-phase5-demo-763e80",
+    "timestamp": "2026-08-24T14:13:59.969398+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_redistribution_options",
+    "tool_parameters": {
+      "destination": "PHC-BR-PAT-001",
+      "resource": "MED-AMX-500"
+    },
+    "result_summary": "{'recommendation_id': 'REC-PAT-001-500-03EA', 'status': 'OPTIMAL_RECOMMENDED', 'resource': {'medicine_code': 'MED-AMX-500', 'medicine_name': 'Amoxicillin', 'therapeutic_category': "
+  },
+  {
+    "log_id": "fba80e75-072a-499d-accc-bdba50dcd5ab",
+    "conversation_id": "e2e-phase5-demo-763e80",
+    "timestamp": "2026-08-24T14:14:00.058503+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "run_what_if_simulation",
+    "tool_parameters": {
+      "facility_id": "PHC-BR-PAT-001",
+      "surge": 20.0,
+      "transfer": 900
+    },
+    "result_summary": "{'simulation_type': 'WHAT_IF_SCENARIO', 'is_simulation': True, 'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'medicine_code': 'MED-PCM-500', 'medicine_name'"
+  },
+  {
+    "log_id": "b001a5ab-69b9-41e7-ae44-d81940890010",
+    "conversation_id": "conv-33c7aed2",
+    "timestamp": "2026-09-10T15:03:16.395003+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 192, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "b253ea48-9421-4eae-8c65-5068f73f7987",
+    "conversation_id": "conv-d7120d6c",
+    "timestamp": "2026-09-10T15:04:03.936809+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 192, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "0b5833f3-4f5f-49e7-a548-69436a89184a",
+    "conversation_id": "conv-bf49a8fb",
+    "timestamp": "2026-09-10T15:04:54.849805+00:00",
+    "user_id": "default_user",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 192, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "f85d5462-37e9-4155-9b1b-550396716b9a",
+    "conversation_id": "test-conv-audit-f29f53",
+    "timestamp": "2026-09-10T15:06:48.297041+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_national_summary",
+    "tool_parameters": {},
+    "result_summary": "{'total_facilities': 33, 'states_represented': ['Bihar', 'Karnataka', 'Maharashtra', 'Rajasthan', 'Uttar Pradesh'], 'total_states': 5, 'districts_represented_count': 7, 'critical_a"
+  },
+  {
+    "log_id": "96d7c206-32f0-4b1a-a073-51e0bc6dea36",
+    "conversation_id": "e2e-phase5-demo-77925b",
+    "timestamp": "2026-09-10T15:10:47.328382+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 106, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "5b41cc8b-d6f2-4fc6-aecd-cb03fd7545f2",
+    "conversation_id": "e2e-phase5-demo-77925b",
+    "timestamp": "2026-09-10T15:11:34.713066+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-BR-PAT-001"
+    },
+    "result_summary": "{'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'facility_type': 'PHC', 'district': 'Patna', 'state': 'Bihar', 'latitude': 25.46, 'longitude': 85.53, 'bed_ca"
+  },
+  {
+    "log_id": "ee02ea24-ed40-4285-8d8f-1c39c4aa82c7",
+    "conversation_id": "e2e-phase5-demo-77925b",
+    "timestamp": "2026-09-10T15:11:34.827172+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_redistribution_options",
+    "tool_parameters": {
+      "destination": "PHC-BR-PAT-001",
+      "resource": "MED-AMX-500"
+    },
+    "result_summary": "{'status': 'NOT_NEEDED', 'recommendation_id': 'REC-NONE-C5646D', 'message': 'Facility PHC Bakhtiyarpur already maintains adequate stock (764 units, DOSA 127.9d). Redistribution not"
+  },
+  {
+    "log_id": "6529b15e-99d3-4f20-a071-6ba694d20e03",
+    "conversation_id": "e2e-phase5-demo-77925b",
+    "timestamp": "2026-09-10T15:11:34.966492+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "run_what_if_simulation",
+    "tool_parameters": {
+      "facility_id": "PHC-BR-PAT-001",
+      "surge": 20.0,
+      "transfer": 900
+    },
+    "result_summary": "{'simulation_type': 'WHAT_IF_SCENARIO', 'is_simulation': True, 'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'medicine_code': 'MED-PCM-500', 'medicine_name'"
+  },
+  {
+    "log_id": "de92ec45-18ec-42b3-955c-99da4e0356fb",
+    "conversation_id": "conv-d6361235",
+    "timestamp": "2026-09-10T15:14:37.470190+00:00",
+    "user_id": "judge-evaluator",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 187, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "5b12782a-b606-4b47-b870-2cff3944ff47",
+    "conversation_id": "conv-1d903b83",
+    "timestamp": "2026-09-10T15:15:32.264455+00:00",
+    "user_id": "judge-evaluator",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 187, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "251b53ef-5cae-4845-82ec-989d5d63425d",
+    "conversation_id": "conv-2235c8da",
+    "timestamp": "2026-09-10T15:16:12.666318+00:00",
+    "user_id": "judge-evaluator",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 187, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "ebab40ed-9c27-4d17-ab66-1707600d95e0",
+    "conversation_id": "conv-52a7ee74",
+    "timestamp": "2026-09-10T15:17:10.123368+00:00",
+    "user_id": "default_user",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 187, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "5e878b6c-0f78-48c5-863b-8d77eb5206ba",
+    "conversation_id": "conv-0c3188bf",
+    "timestamp": "2026-09-10T15:17:14.772465+00:00",
+    "user_id": "judge-evaluator",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-999999"
+    },
+    "result_summary": "{'error': \"Facility ID 'PHC-999999' not found in registry.\"}"
+  },
+  {
+    "log_id": "53efcee4-b558-479a-9895-92f13a7b4b91",
+    "conversation_id": "conv-cbab0fff",
+    "timestamp": "2026-09-10T15:17:33.276764+00:00",
+    "user_id": "judge-evaluator",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-999999"
+    },
+    "result_summary": "{'error': \"Facility ID 'PHC-999999' not found in registry.\"}"
+  },
+  {
+    "log_id": "56a68597-3016-4e94-ab4e-2b1d11b616fa",
+    "conversation_id": "conv-61815f86",
+    "timestamp": "2026-09-10T15:40:39.350736+00:00",
+    "user_id": "judge-evaluator",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-999999"
+    },
+    "result_summary": "{'error': \"Facility ID 'PHC-999999' not found in registry.\"}"
+  },
+  {
+    "log_id": "02e0cfa0-afb0-4f14-b4ac-398ee6f71a17",
+    "conversation_id": "conv-55a14358",
+    "timestamp": "2026-09-25T11:48:30.646661+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 187, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "da655b76-9653-4c65-a108-dec0203cb712",
+    "conversation_id": "floating-session-01",
+    "timestamp": "2026-09-25T11:55:53.038974+00:00",
+    "user_id": "usr-admin-national",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 187, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "19decb93-cc97-4c72-abf9-34d385449365",
+    "conversation_id": "conv-df5b1508",
+    "timestamp": "2026-09-25T12:17:06.218738+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_national_summary",
+    "tool_parameters": {},
+    "result_summary": "{'total_facilities': 33, 'states_represented': ['Bihar', 'Karnataka', 'Maharashtra', 'Rajasthan', 'Uttar Pradesh'], 'total_states': 5, 'districts_represented_count': 7, 'critical_a"
+  },
+  {
+    "log_id": "7175d990-7019-4fe5-ac69-d503cbcb986f",
+    "conversation_id": "floating-session-01",
+    "timestamp": "2026-09-25T12:27:00.963572+00:00",
+    "user_id": "usr-admin-national",
+    "user_role": "ADMIN",
+    "tool_called": "get_national_summary",
+    "tool_parameters": {},
+    "result_summary": "{'total_facilities': 33, 'states_represented': ['Bihar', 'Karnataka', 'Maharashtra', 'Rajasthan', 'Uttar Pradesh'], 'total_states': 5, 'districts_represented_count': 7, 'critical_a"
+  },
+  {
+    "log_id": "7e1b6866-a9f0-4914-96dc-35a5cae4caa8",
+    "conversation_id": "conv-87f362a0",
+    "timestamp": "2026-09-30T01:42:26.897441+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "b416c8e0-9db4-48de-a2f3-258aecc424fe",
+    "conversation_id": "conv-c3c086e0",
+    "timestamp": "2026-09-30T01:42:26.906871+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "518a3a88-e71c-4f93-bbbe-dd36b719ee90",
+    "conversation_id": "conv-05931bd0",
+    "timestamp": "2026-09-30T01:42:26.923075+00:00",
+    "user_id": "default_user",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "6f22b485-a96d-4b9d-8cc1-27b1f3f13974",
+    "conversation_id": "test-conv-audit-1de845",
+    "timestamp": "2026-09-30T01:42:29.127299+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_national_summary",
+    "tool_parameters": {},
+    "result_summary": "{'total_facilities': 33, 'states_represented': ['Bihar', 'Karnataka', 'Maharashtra', 'Rajasthan', 'Uttar Pradesh'], 'total_states': 5, 'districts_represented_count': 7, 'critical_a"
+  },
+  {
+    "log_id": "22612f01-0549-41db-ab66-6bcee1b9e869",
+    "conversation_id": "e2e-phase5-demo-0f3dad",
+    "timestamp": "2026-09-30T01:42:33.241122+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "39db766f-5c1b-492c-9901-1ae9bbf92eef",
+    "conversation_id": "e2e-phase5-demo-0f3dad",
+    "timestamp": "2026-09-30T01:42:33.505829+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-BR-PAT-001"
+    },
+    "result_summary": "{'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'facility_type': 'PHC', 'district': 'Patna', 'state': 'Bihar', 'latitude': 25.46, 'longitude': 85.53, 'bed_ca"
+  },
+  {
+    "log_id": "b4d0fc8a-da82-40de-8966-22c71798cb42",
+    "conversation_id": "e2e-phase5-demo-0f3dad",
+    "timestamp": "2026-09-30T01:42:33.529728+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_redistribution_options",
+    "tool_parameters": {
+      "destination": "PHC-BR-PAT-001",
+      "resource": "MED-AMX-500"
+    },
+    "result_summary": "{'status': 'NOT_NEEDED', 'recommendation_id': 'REC-NONE-7B36F7', 'message': 'Facility PHC Bakhtiyarpur already maintains adequate stock (278 units, DOSA 40.7d). Redistribution not "
+  },
+  {
+    "log_id": "797535b1-d8f2-4e5b-a115-5e94ec9202a3",
+    "conversation_id": "e2e-phase5-demo-0f3dad",
+    "timestamp": "2026-09-30T01:42:33.555784+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "run_what_if_simulation",
+    "tool_parameters": {
+      "facility_id": "PHC-BR-PAT-001",
+      "surge": 20.0,
+      "transfer": 900
+    },
+    "result_summary": "{'simulation_type': 'WHAT_IF_SCENARIO', 'is_simulation': True, 'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'medicine_code': 'MED-PCM-500', 'medicine_name'"
+  },
+  {
+    "log_id": "09c09804-2e16-45aa-b1f6-87231f27c930",
+    "conversation_id": "conv-3a1e7631",
+    "timestamp": "2026-09-30T01:42:33.639411+00:00",
+    "user_id": "judge-evaluator",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-999999"
+    },
+    "result_summary": "{'error': \"Facility ID 'PHC-999999' not found in registry.\"}"
+  },
+  {
+    "log_id": "65c506e9-0328-42f9-82bd-8a72ee2a4644",
+    "conversation_id": "conv-80e7f0ec",
+    "timestamp": "2026-09-30T09:27:54.447864+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "8bfcfa18-24ee-4ec3-9fdb-cb60deae58cc",
+    "conversation_id": "conv-2e1ccc64",
+    "timestamp": "2026-09-30T09:27:54.473992+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "f266d453-56a6-4295-a20c-263e5fa6d747",
+    "conversation_id": "conv-34070bc4",
+    "timestamp": "2026-09-30T09:27:54.514858+00:00",
+    "user_id": "default_user",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "89187120-11c6-4d88-8fce-53c61e264c20",
+    "conversation_id": "test-conv-audit-2bdea3",
+    "timestamp": "2026-09-30T09:27:54.782351+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_national_summary",
+    "tool_parameters": {},
+    "result_summary": "{'total_facilities': 33, 'states_represented': ['Bihar', 'Karnataka', 'Maharashtra', 'Rajasthan', 'Uttar Pradesh'], 'total_states': 5, 'districts_represented_count': 7, 'critical_a"
+  },
+  {
+    "log_id": "c75ae903-d9e9-4f98-bd4a-a29372c3fe1a",
+    "conversation_id": "e2e-phase5-demo-9c75ef",
+    "timestamp": "2026-09-30T09:28:06.004380+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "a8023625-a5de-4aee-a9d3-9d71f563b886",
+    "conversation_id": "e2e-phase5-demo-9c75ef",
+    "timestamp": "2026-09-30T09:28:07.460378+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-BR-PAT-001"
+    },
+    "result_summary": "{'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'facility_type': 'PHC', 'district': 'Patna', 'state': 'Bihar', 'latitude': 25.46, 'longitude': 85.53, 'bed_ca"
+  },
+  {
+    "log_id": "558635c1-9ad2-419c-9b6d-18d901b069ca",
+    "conversation_id": "e2e-phase5-demo-9c75ef",
+    "timestamp": "2026-09-30T09:28:07.481821+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_redistribution_options",
+    "tool_parameters": {
+      "destination": "PHC-BR-PAT-001",
+      "resource": "MED-AMX-500"
+    },
+    "result_summary": "{'status': 'NOT_NEEDED', 'recommendation_id': 'REC-NONE-10054D', 'message': 'Facility PHC Bakhtiyarpur already maintains adequate stock (278 units, DOSA 12.6d). Redistribution not "
+  },
+  {
+    "log_id": "8f1cf069-08cc-46ef-bab1-5e0967396fc7",
+    "conversation_id": "e2e-phase5-demo-9c75ef",
+    "timestamp": "2026-09-30T09:28:07.499100+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "run_what_if_simulation",
+    "tool_parameters": {
+      "facility_id": "PHC-BR-PAT-001",
+      "surge": 20.0,
+      "transfer": 900
+    },
+    "result_summary": "{'simulation_type': 'WHAT_IF_SCENARIO', 'is_simulation': True, 'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'medicine_code': 'MED-PCM-500', 'medicine_name'"
+  },
+  {
+    "log_id": "16d33a44-39ee-4e57-b2f0-8bf333abd52f",
+    "conversation_id": "conv-6e14eff2",
+    "timestamp": "2026-09-30T09:28:07.668972+00:00",
+    "user_id": "judge-evaluator",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-999999"
+    },
+    "result_summary": "{'error': \"Facility ID 'PHC-999999' not found in registry.\"}"
+  },
+  {
+    "log_id": "8cbde5e5-ec73-40eb-b489-299ae603adb4",
+    "conversation_id": "conv-bb905f40",
+    "timestamp": "2026-09-30T09:30:14.680802+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "240d8ea4-ae1f-4e85-a78d-d4786589b51b",
+    "conversation_id": "conv-a8291a11",
+    "timestamp": "2026-09-30T09:30:14.700804+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "3b309aba-31df-4f05-b135-d75ac6d09a37",
+    "conversation_id": "conv-f84e93d6",
+    "timestamp": "2026-09-30T09:30:14.728510+00:00",
+    "user_id": "default_user",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "f1434f7e-bf17-4dda-ac5f-cf5b6d5dd53a",
+    "conversation_id": "test-conv-audit-9ee53a",
+    "timestamp": "2026-09-30T09:30:15.032949+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_national_summary",
+    "tool_parameters": {},
+    "result_summary": "{'total_facilities': 33, 'states_represented': ['Bihar', 'Karnataka', 'Maharashtra', 'Rajasthan', 'Uttar Pradesh'], 'total_states': 5, 'districts_represented_count': 7, 'critical_a"
+  },
+  {
+    "log_id": "9446477d-ac73-43e5-9a7d-68a8322e8071",
+    "conversation_id": "e2e-phase5-demo-c20d42",
+    "timestamp": "2026-09-30T09:30:28.913233+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "2c8534b0-1e83-48da-9302-399362aec65b",
+    "conversation_id": "e2e-phase5-demo-c20d42",
+    "timestamp": "2026-09-30T09:30:30.802906+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-BR-PAT-001"
+    },
+    "result_summary": "{'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'facility_type': 'PHC', 'district': 'Patna', 'state': 'Bihar', 'latitude': 25.46, 'longitude': 85.53, 'bed_ca"
+  },
+  {
+    "log_id": "3f31a322-a970-43ec-9b07-43e2a573b167",
+    "conversation_id": "e2e-phase5-demo-c20d42",
+    "timestamp": "2026-09-30T09:30:30.876036+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_redistribution_options",
+    "tool_parameters": {
+      "destination": "PHC-BR-PAT-001",
+      "resource": "MED-AMX-500"
+    },
+    "result_summary": "{'recommendation_id': 'REC-PAT-001-500-625B', 'status': 'OPTIMAL_RECOMMENDED', 'destination_id': 'PHC-BR-PAT-001', 'destination_name': 'PHC Bakhtiyarpur', 'medicine_code': 'MED-AMX"
+  },
+  {
+    "log_id": "7fcd8f33-62c1-4050-a028-676013bee90f",
+    "conversation_id": "e2e-phase5-demo-c20d42",
+    "timestamp": "2026-09-30T09:30:30.890046+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "run_what_if_simulation",
+    "tool_parameters": {
+      "facility_id": "PHC-BR-PAT-001",
+      "surge": 20.0,
+      "transfer": 900
+    },
+    "result_summary": "{'simulation_type': 'WHAT_IF_SCENARIO', 'is_simulation': True, 'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'medicine_code': 'MED-PCM-500', 'medicine_name'"
+  },
+  {
+    "log_id": "441965f1-87ce-412a-b59f-41df09d4102c",
+    "conversation_id": "conv-f9d2ac11",
+    "timestamp": "2026-09-30T09:30:31.101991+00:00",
+    "user_id": "judge-evaluator",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-999999"
+    },
+    "result_summary": "{'error': \"Facility ID 'PHC-999999' not found in registry.\"}"
+  },
+  {
+    "log_id": "a175eb1b-8064-4a31-ac0e-d912ad60ae5e",
+    "conversation_id": "conv-aaf081b4",
+    "timestamp": "2026-09-30T09:31:53.605296+00:00",
+    "user_id": "judge-evaluator",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-999999"
+    },
+    "result_summary": "{'error': \"Facility ID 'PHC-999999' not found in registry.\"}"
+  },
+  {
+    "log_id": "0eb54722-470c-41a1-a45a-c37edec46f26",
+    "conversation_id": "conv-b23a8cd0",
+    "timestamp": "2026-09-30T09:33:02.412499+00:00",
+    "user_id": "judge-evaluator",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-999999"
+    },
+    "result_summary": "{'error': \"Facility ID 'PHC-999999' not found in registry.\"}"
+  },
+  {
+    "log_id": "4ee4d6b2-2a49-4319-8812-721cabc093fc",
+    "conversation_id": "conv-c16f1790",
+    "timestamp": "2026-09-30T09:33:21.408858+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "528c27ff-2e99-4f1d-87c3-85b4c1dd3685",
+    "conversation_id": "conv-ef2e31a7",
+    "timestamp": "2026-09-30T09:33:21.429672+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "c0b4ebf8-8638-4d2f-9d15-2a84306d4ebd",
+    "conversation_id": "conv-cdb72a17",
+    "timestamp": "2026-09-30T09:33:21.458987+00:00",
+    "user_id": "default_user",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "ebfb9950-fc3d-4336-8354-e1fad2ef442e",
+    "conversation_id": "test-conv-audit-98fd31",
+    "timestamp": "2026-09-30T09:33:21.780036+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_national_summary",
+    "tool_parameters": {},
+    "result_summary": "{'total_facilities': 33, 'states_represented': ['Bihar', 'Karnataka', 'Maharashtra', 'Rajasthan', 'Uttar Pradesh'], 'total_states': 5, 'districts_represented_count': 7, 'critical_a"
+  },
+  {
+    "log_id": "72c0163c-af04-4101-bda1-074095dae5e5",
+    "conversation_id": "e2e-phase5-demo-60824e",
+    "timestamp": "2026-09-30T09:33:35.760388+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "882f23e8-a483-4b41-a6db-c388aa1cb491",
+    "conversation_id": "e2e-phase5-demo-60824e",
+    "timestamp": "2026-09-30T09:33:37.767036+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-BR-PAT-001"
+    },
+    "result_summary": "{'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'facility_type': 'PHC', 'district': 'Patna', 'state': 'Bihar', 'latitude': 25.46, 'longitude': 85.53, 'bed_ca"
+  },
+  {
+    "log_id": "58e35236-6158-45cf-b425-212ebf5c013c",
+    "conversation_id": "e2e-phase5-demo-60824e",
+    "timestamp": "2026-09-30T09:33:37.800146+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_redistribution_options",
+    "tool_parameters": {
+      "destination": "PHC-BR-PAT-001",
+      "resource": "MED-AMX-500"
+    },
+    "result_summary": "{'status': 'NOT_NEEDED', 'recommendation_id': 'REC-NONE-6C94F3', 'message': 'Facility PHC Bakhtiyarpur already maintains adequate stock (673 units, DOSA 27.0d). Redistribution not "
+  },
+  {
+    "log_id": "4238491b-f60b-4075-9548-8e7d3cf38efc",
+    "conversation_id": "e2e-phase5-demo-60824e",
+    "timestamp": "2026-09-30T09:33:37.820061+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "run_what_if_simulation",
+    "tool_parameters": {
+      "facility_id": "PHC-BR-PAT-001",
+      "surge": 20.0,
+      "transfer": 900
+    },
+    "result_summary": "{'simulation_type': 'WHAT_IF_SCENARIO', 'is_simulation': True, 'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'medicine_code': 'MED-PCM-500', 'medicine_name'"
+  },
+  {
+    "log_id": "070a19d7-ee06-4e9b-bd6d-449759b2fcce",
+    "conversation_id": "conv-a6f6b33c",
+    "timestamp": "2026-09-30T09:33:38.129001+00:00",
+    "user_id": "judge-evaluator",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-999999"
+    },
+    "result_summary": "{'error': \"Facility ID 'PHC-999999' not found in registry.\"}"
+  },
+  {
+    "log_id": "06d61746-efdf-4e5b-b6f7-976b1f55babf",
+    "conversation_id": "conv-46be22e2",
+    "timestamp": "2026-09-30T09:37:36.729463+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "9b37c27e-857f-43b5-993a-1951895e4237",
+    "conversation_id": "conv-086d6c97",
+    "timestamp": "2026-09-30T09:37:36.755972+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "58d77524-5267-4ee4-862b-93a05ba38fec",
+    "conversation_id": "conv-6d978bc3",
+    "timestamp": "2026-09-30T09:37:36.797823+00:00",
+    "user_id": "default_user",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "8b18df84-da17-402f-9269-075691af2811",
+    "conversation_id": "test-conv-audit-ecb38d",
+    "timestamp": "2026-09-30T09:37:37.304492+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_national_summary",
+    "tool_parameters": {},
+    "result_summary": "{'total_facilities': 33, 'states_represented': ['Bihar', 'Karnataka', 'Maharashtra', 'Rajasthan', 'Uttar Pradesh'], 'total_states': 5, 'districts_represented_count': 7, 'critical_a"
+  },
+  {
+    "log_id": "245b327e-c6d9-4258-8992-95017626be2a",
+    "conversation_id": "e2e-phase5-demo-b4064c",
+    "timestamp": "2026-09-30T09:37:50.572838+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_stockout_risks",
+    "tool_parameters": {
+      "risk_level": "CRITICAL"
+    },
+    "result_summary": "{'total_matches': 419, 'filters': {'state': None, 'district': None, 'medicine': None, 'risk_level': 'CRITICAL', 'horizon_days': None}, 'results': [{'facility_id': 'PHC-BR-PAT-001',"
+  },
+  {
+    "log_id": "7d62960d-48f9-47ae-85fe-6ab9722d0ef2",
+    "conversation_id": "e2e-phase5-demo-b4064c",
+    "timestamp": "2026-09-30T09:37:52.716468+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-BR-PAT-001"
+    },
+    "result_summary": "{'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'facility_type': 'PHC', 'district': 'Patna', 'state': 'Bihar', 'latitude': 25.46, 'longitude': 85.53, 'bed_ca"
+  },
+  {
+    "log_id": "d128aa69-7a87-4eee-bbaa-15e54b625a8b",
+    "conversation_id": "e2e-phase5-demo-b4064c",
+    "timestamp": "2026-09-30T09:37:52.912092+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "get_redistribution_options",
+    "tool_parameters": {
+      "destination": "PHC-BR-PAT-001",
+      "resource": "MED-AMX-500"
+    },
+    "result_summary": "{'recommendation_id': 'REC-PAT-001-500-6992', 'status': 'OPTIMAL_RECOMMENDED', 'destination_id': 'PHC-BR-PAT-001', 'destination_name': 'PHC Bakhtiyarpur', 'medicine_code': 'MED-AMX"
+  },
+  {
+    "log_id": "c2ebef66-8c1e-4899-84dd-cd72d6e263b1",
+    "conversation_id": "e2e-phase5-demo-b4064c",
+    "timestamp": "2026-09-30T09:37:52.938028+00:00",
+    "user_id": "operator-01",
+    "user_role": "ADMIN",
+    "tool_called": "run_what_if_simulation",
+    "tool_parameters": {
+      "facility_id": "PHC-BR-PAT-001",
+      "surge": 20.0,
+      "transfer": 900
+    },
+    "result_summary": "{'simulation_type': 'WHAT_IF_SCENARIO', 'is_simulation': True, 'facility_id': 'PHC-BR-PAT-001', 'facility_name': 'PHC Bakhtiyarpur', 'medicine_code': 'MED-PCM-500', 'medicine_name'"
+  },
+  {
+    "log_id": "510bfbfb-3183-468d-8619-420cbf644e36",
+    "conversation_id": "conv-2a63e5c0",
+    "timestamp": "2026-09-30T09:37:53.279949+00:00",
+    "user_id": "judge-evaluator",
+    "user_role": "ADMIN",
+    "tool_called": "get_facility_status",
+    "tool_parameters": {
+      "phc_id": "PHC-999999"
+    },
+    "result_summary": "{'error': \"Facility ID 'PHC-999999' not found in registry.\"}"
+  }
+]

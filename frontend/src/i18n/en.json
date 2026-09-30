@@ -1,0 +1,76 @@
+{
+  "app": {
+    "title": "Swasthya Records",
+    "subtitle": "AI-Powered Health Resource & Supply Chain Resilience Platform",
+    "tagline": "Predict. Warn. Redistribute. Respond.",
+    "demo_badge": "PROTOTYPE SIMULATION — DECISION SUPPORT ONLY",
+    "status_online": "SYSTEM RUNNING NORMALLY",
+    "status_emergency": "EMERGENCY SURGE ACTIVE",
+    "search_placeholder": "Search clinics, medicines, districts, alerts (Ctrl+K)..."
+  },
+  "nav": {
+    "dashboard": "National Overview",
+    "alerts": "Shortage Alerts",
+    "medicines": "Medicine Stocks",
+    "facilities": "Clinics & Hospitals",
+    "forecasts": "Future Medicine Needs",
+    "redistribution": "Transfer Supplies",
+    "emergencies": "Emergency Help",
+    "copilot": "AI Assistant",
+    "demo": "Try 1-Click Demo",
+    "system": "System Status",
+    "about": "Data Sources"
+  },
+  "kpi": {
+    "facilities_monitored": "Clinics Monitored",
+    "critical_alerts": "Urgent Shortage Alerts",
+    "high_risk_facilities": "Clinics Running Low",
+    "medicine_shortages": "Medicine Shortages",
+    "bed_pressure": "Beds in Use",
+    "staff_availability": "Staff on Duty",
+    "active_emergencies": "Active Emergencies",
+    "redistribution_opps": "Available Supply Transfers"
+  },
+  "severity": {
+    "critical": "URGENT",
+    "high": "HIGH RISK",
+    "warning": "WATCHLIST",
+    "normal": "HEALTHY",
+    "info": "NOTE"
+  },
+  "actions": {
+    "view_details": "View Details",
+    "simulate_transfer": "Approve & Simulate Transfer",
+    "ask_copilot": "Ask AI Assistant",
+    "explain_alert": "Why is this low?",
+    "explain_with_gemini": "Explain in Plain English",
+    "trigger_emergency": "Simulate Emergency Surge",
+    "clear_emergency": "Clear Emergency",
+    "step_day": "Move Forward (+1 Day)",
+    "reset_sim": "Reset to Normal",
+    "retry": "Try Again",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Download Records",
+    "login": "Sign In"
+  },
+  "copilot": {
+    "title": "Swasthya Records AI Assistant",
+    "subtitle": "Helpful AI Guide for Hospital Stocks and Medicine Supplies",
+    "placeholder": "Ask about medicines, shortages, patient demand, or helper clinics...",
+    "speak_btn": "Speak Question",
+    "send_btn": "Ask AI",
+    "evidence_title": "Verified Evidence Records",
+    "what_if_title": "Safe Practice Simulator",
+    "sim_disclaimer": "Practice test — does not change real clinic records"
+  },
+  "common": {
+    "loading": "Loading health records...",
+    "error_title": "Service Temporarily Unavailable",
+    "error_desc": "Could not fetch the latest health records. Please try again.",
+    "no_data": "No records found matching your filters.",
+    "all_states": "All States",
+    "all_districts": "All Districts",
+    "all_severities": "All Risk Levels"
+  }
+}
