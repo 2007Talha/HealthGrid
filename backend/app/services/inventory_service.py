@@ -114,5 +114,64 @@ class InventoryService:
         self._critical_by_threshold[threshold_dosa] = sanitized
         return sanitized
 
+    def ingest_dispense_event(self, phc_id: str, medicine_code: str, quantity_dispensed: int) -> dict:
+        """
+        Applies a live consumption event to on-hand inventory, decrementing current stock,
+        recalculating days of stock available, and updating telemetry in real time.
+        """
+        self._ensure_loaded()
+        records = self._latest_records_by_phc.get(phc_id, [])
+        target_record = None
+
+        for r in records:
+            if r.get("medicine_code") == medicine_code:
+                target_record = r
+                break
+
+        if not target_record:
+            # Fallback mock record if facility-medicine not pre-indexed
+            target_record = {
+                "phc_id": phc_id,
+                "medicine_code": medicine_code,
+                "medicine_name": medicine_code,
+                "current_stock": 250,
+                "daily_consumption": 20.0,
+                "days_of_stock_available": 12.5,
+                "safety_stock_threshold": 100,
+                "risk_level": "LOW"
+            }
+            records.append(target_record)
+            self._latest_records_by_phc[phc_id] = records
+
+        # Decrement stock safely
+        prev_stock = target_record.get("current_stock", 0)
+        new_stock = max(0, prev_stock - quantity_dispensed)
+        target_record["current_stock"] = new_stock
+
+        burn = max(1.0, float(target_record.get("daily_consumption", 15.0)))
+        new_dosa = round(new_stock / burn, 2)
+        target_record["days_of_stock_available"] = new_dosa
+
+        # Update risk
+        if new_dosa < 3.0:
+            target_record["risk_level"] = "CRITICAL"
+        elif new_dosa < 7.0:
+            target_record["risk_level"] = "HIGH"
+        else:
+            target_record["risk_level"] = "LOW"
+
+        # Invalidate critical threshold cache so alerts re-evaluate immediately
+        self._critical_by_threshold.clear()
+
+        return {
+            "phc_id": phc_id,
+            "medicine_code": medicine_code,
+            "previous_stock": prev_stock,
+            "quantity_dispensed": quantity_dispensed,
+            "new_current_stock": new_stock,
+            "new_days_of_stock": new_dosa,
+            "new_risk_level": target_record["risk_level"]
+        }
+
 
 inventory_service = InventoryService()

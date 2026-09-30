@@ -15,7 +15,12 @@ export const redistributionApi = {
   generateRecommendation: async (destinationId: string, medicineCode: string, maxSources = 2): Promise<RedistributionRecommendation> => {
     return fetchJson<RedistributionRecommendation>('/redistribution/recommend', {
       method: 'POST',
-      body: JSON.stringify({ destination_id: destinationId, medicine_code: medicineCode, max_sources: maxSources })
+      body: JSON.stringify({
+        destination_id: destinationId,
+        facility_id: destinationId,
+        medicine_code: medicineCode,
+        max_sources: maxSources
+      })
     });
   },
 

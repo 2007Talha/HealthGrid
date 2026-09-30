@@ -69,25 +69,37 @@ class RedistributionEngine:
                 if r.get("anomaly_detected", False):
                     priority += 15
 
+                loc = geo_routing_service.get_facility_location(r["phc_id"]) or {}
+                district = loc.get("district") or loc.get("district_name") or ""
+                state = loc.get("state") or loc.get("state_name") or ""
+
                 shortages.append(
                     {
                         "shortage_id": f"SHT-{r['phc_id'][-7:]}-{r['medicine_code'][-3:]}",
                         "facility_id": r["phc_id"],
+                        "phc_id": r["phc_id"],
+                        "destination_id": r["phc_id"],
                         "facility_name": r["facility_name"],
+                        "district": district,
+                        "state": state,
                         "medicine_code": r["medicine_code"],
                         "medicine_name": r["medicine_name"],
                         "therapeutic_category": r["therapeutic_category"],
                         "current_stock": current_stock,
+                        "daily_consumption": round(daily_burn, 1),
                         "average_daily_predicted_demand": round(daily_burn, 1),
                         "days_of_stock_available": dosa,
                         "stockout_hours": stockout_hours,
                         "projected_stockout_date": r.get("projected_stockout_date")
                         or "IMMEDIATE",
                         "safety_stock_threshold": safety_stock,
+                        "safety_stock": safety_stock,
                         "target_stock": target_stock,
                         "incoming_deliveries_pending": incoming_total,
                         "net_deficit_quantity": net_need,
+                        "shortage_units": net_need,
                         "risk_level": risk_level,
+                        "urgency": risk_level,
                         "priority_score": priority,
                         "anomaly_detected": r.get("anomaly_detected", False),
                     }

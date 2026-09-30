@@ -44,5 +44,49 @@ export const operationalApi = {
     return fetchJson<{ stockout_alerts_count: number; stockout_alerts: any[]; bed_overflow_alerts_count: number; bed_overflow_alerts: any[] }>(
       `/operational/critical-alerts?dosa_threshold=${dosaThreshold}&bed_threshold_pct=${bedThresholdPct}`
     );
+  },
+
+  getLiveWeather: async () => {
+    return fetchJson<{
+      is_cached: boolean;
+      districts: Array<{
+        district_id: string;
+        district_name: string;
+        state_name: string;
+        current_temperature_c: number;
+        current_humidity_pct: number;
+        current_precipitation_mm_hr: number;
+        daily_precipitation_sum_mm: number;
+        flood_risk_level: string;
+        heatwave_risk_level: string;
+        provider: string;
+      }>;
+      total_monitored: number;
+    }>('/operational/live-weather');
+  },
+
+  harvestLiveWeather: async () => {
+    return fetchJson<{ status: string; harvested_districts: any; automated_actions: string[] }>(
+      '/operational/harvest-live',
+      { method: 'POST' }
+    );
+  },
+
+  ingestTelemetry: async (payload: {
+    facility_id: string;
+    medicine_code: string;
+    quantity_dispensed: number;
+    patient_footfall?: number;
+    bed_occupied_delta?: number;
+    source_system?: string;
+  }) => {
+    return fetchJson<{ status: string; source: string; telemetry_update: any }>(
+      '/operational/ingest',
+      {
+        method: 'POST',
+        body: JSON.stringify(payload)
+      }
+    );
   }
 };
+

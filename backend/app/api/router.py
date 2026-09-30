@@ -13,6 +13,7 @@ from backend.app.api.alerts import router as alerts_router
 from backend.app.api.ai import router as ai_router
 from backend.app.api.redistribution import router as redistribution_router
 from backend.app.api.copilot import router as copilot_router
+from backend.app.api.federated import router as federated_router
 
 api_router = APIRouter()
 
@@ -26,3 +27,4 @@ api_router.include_router(alerts_router, prefix="/alerts", tags=["Early Warnings
 api_router.include_router(ai_router, prefix="/ai", tags=["Gemini Explainer"])
 api_router.include_router(redistribution_router, tags=["Resource Redistribution"])
 api_router.include_router(copilot_router, prefix="/copilot", tags=["Operations Copilot"])
+api_router.include_router(federated_router, tags=["BRICS Federated Learning"])

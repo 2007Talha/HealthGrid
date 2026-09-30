@@ -46,7 +46,23 @@ export const Redistribution: React.FC<RedistributionProps> = ({ targetShortage }
         redistributionApi.getSimulationHistory().catch(() => ({ history: [] }))
       ]);
 
-      const items = shortRes.shortages || [];
+      const rawItems = shortRes.shortages || [];
+      const items: RedistributionShortage[] = rawItems.map((s: any) => ({
+        ...s,
+        phc_id: s.phc_id || s.facility_id || s.destination_id || '',
+        facility_name: s.facility_name || 'Health Facility',
+        district: s.district || s.district_name || 'District',
+        state: s.state || s.state_name || 'State',
+        medicine_code: s.medicine_code || '',
+        medicine_name: s.medicine_name || s.medicine_code || 'Medicine',
+        current_stock: s.current_stock ?? 0,
+        daily_consumption: s.daily_consumption ?? s.average_daily_predicted_demand ?? 1,
+        days_of_stock_available: s.days_of_stock_available ?? 0,
+        safety_stock: s.safety_stock ?? s.safety_stock_threshold ?? 50,
+        shortage_units: s.shortage_units ?? s.net_deficit_quantity ?? 0,
+        urgency: (s.urgency || s.risk_level || ((s.days_of_stock_available ?? 0) < 3.0 ? 'CRITICAL' : 'HIGH')) as any,
+      }));
+
       setShortages(items);
       setHistory(histRes.history || []);
 
@@ -62,7 +78,7 @@ export const Redistribution: React.FC<RedistributionProps> = ({ targetShortage }
         initial = items[0];
       }
 
-      if (initial) {
+      if (initial && initial.phc_id && initial.medicine_code) {
         setSelectedShortage(initial);
         // Automatically optimize recommendation for the target/first shortage
         handleOptimize(initial.phc_id, initial.medicine_code);
@@ -79,6 +95,7 @@ export const Redistribution: React.FC<RedistributionProps> = ({ targetShortage }
   }, [targetShortage]);
 
   const handleOptimize = async (destId: string, medCode: string) => {
+    if (!destId || !medCode) return;
     try {
       setOptimizing(true);
       setSimAudit(null);

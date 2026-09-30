@@ -5,7 +5,10 @@ import {
   Pill,
   RefreshCw,
   ArrowRight,
-  Play
+  Play,
+  Radio,
+  Zap,
+  CloudSun
 } from 'lucide-react';
 import { operationalApi } from '../api/operational';
 import { facilitiesApi } from '../api/facilities';
@@ -44,9 +47,26 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const loadDashboardData = async () => {
+  // Live telemetry & real-time weather state
+  const [liveWeather, setLiveWeather] = useState<any[]>([]);
+  const [isLiveStreaming, setIsLiveStreaming] = useState(true);
+  const [isHarvesting, setIsHarvesting] = useState(false);
+  const [isIngesting, setIsIngesting] = useState(false);
+
+  const loadWeather = async () => {
     try {
-      setLoading(true);
+      const res = await operationalApi.getLiveWeather();
+      if (res?.districts) {
+        setLiveWeather(res.districts);
+      }
+    } catch (e) {
+      console.warn('Live weather poll:', e);
+    }
+  };
+
+  const loadDashboardData = async (showLoadingState = true) => {
+    try {
+      if (showLoadingState) setLoading(true);
       setError(null);
 
       const [kpiRes, facRes, alertRes, emergRes, bedRes] = await Promise.all([
@@ -96,50 +116,177 @@ export const Dashboard: React.FC<DashboardProps> = ({
     } catch (err: any) {
       setError(err.message || 'Failed to load dashboard data.');
     } finally {
-      setLoading(false);
+      if (showLoadingState) setLoading(false);
     }
   };
 
   useEffect(() => {
-    loadDashboardData();
+    loadDashboardData(true);
+    loadWeather();
   }, [user.role]);
+
+  // Real-time automatic polling loop (15s)
+  useEffect(() => {
+    if (!isLiveStreaming) return;
+    const interval = setInterval(() => {
+      loadDashboardData(false);
+      loadWeather();
+    }, 15000);
+    return () => clearInterval(interval);
+  }, [isLiveStreaming]);
 
   const handleStepDay = async () => {
     try {
       await simulationApi.stepForward();
-      await loadDashboardData();
+      await loadDashboardData(true);
     } catch (e: any) {
       alert(`Simulation step failed: ${e.message}`);
     }
   };
 
+  const handleHarvestWeather = async () => {
+    try {
+      setIsHarvesting(true);
+      await operationalApi.harvestLiveWeather();
+      await loadWeather();
+      await loadDashboardData(false);
+    } catch (e: any) {
+      alert(`Weather harvest failed: ${e.message}`);
+    } finally {
+      setIsHarvesting(false);
+    }
+  };
+
+  const handleSimulateLiveDispense = async () => {
+    try {
+      setIsIngesting(true);
+      const res = await operationalApi.ingestTelemetry({
+        facility_id: 'PHC-BR-PAT-001',
+        medicine_code: 'MED-PCM-500',
+        quantity_dispensed: 35,
+        source_system: 'PHC_TABLET_DISPENSER'
+      });
+      await loadDashboardData(false);
+      alert(
+        `✓ Real-Time Ingestion Success!\n\n` +
+        `Source: PHC-BR-PAT-001 Tablet Dispenser\n` +
+        `Medicine: Paracetamol 500mg\n` +
+        `Dispensed: 35 units\n` +
+        `New Current Stock: ${res.telemetry_update.new_current_stock} units\n` +
+        `New Stock Runway: ${res.telemetry_update.new_days_of_stock} days\n` +
+        `Risk Status: ${res.telemetry_update.new_risk_level}`
+      );
+    } catch (e: any) {
+      alert(`Ingestion failed: ${e.message}`);
+    } finally {
+      setIsIngesting(false);
+    }
+  };
+
   return (
-    <div className="p-4 sm:p-6 space-y-6 max-w-[1600px] mx-auto">
+    <div className="p-4 sm:p-6 space-y-5 max-w-[1600px] mx-auto">
       {/* Page Header */}
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-4 rounded-2xl bg-command-900 border border-slate-200">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-4 rounded-2xl bg-white border border-slate-200 shadow-sm">
         <div>
           <h1 className="text-xl font-extrabold text-slate-900 tracking-tight sm:text-2xl">
             Health Resource Command Center
           </h1>
           <p className="text-xs text-slate-500">
-            Supply-chain monitoring, forecasting & redistribution intelligence
+            Supply-chain monitoring, real-time telemetry, forecasting & redistribution intelligence
           </p>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           <button
             onClick={() => onNavigate('demo')}
-            className="px-3 py-2 rounded-xl bg-risk-normal/15 hover:bg-risk-normal/25 text-risk-normal text-xs font-semibold flex items-center gap-1.5 transition-colors border border-risk-normal/25"
+            className="px-3 py-2 rounded-xl bg-risk-normal/15 hover:bg-risk-normal/25 text-risk-normal text-xs font-semibold flex items-center gap-1.5 transition-colors border border-risk-normal/25 cursor-pointer"
           >
             <Play className="w-3.5 h-3.5" />
             <span>Guided Demo</span>
           </button>
           <button
             onClick={handleStepDay}
-            className="px-3 py-2 rounded-xl border border-slate-200 hover:border-slate-300 text-slate-600 text-xs font-medium flex items-center gap-1.5 transition-colors"
+            className="px-3 py-2 rounded-xl bg-white border border-slate-200 hover:border-slate-300 text-slate-700 text-xs font-medium flex items-center gap-1.5 transition-colors shadow-2xs cursor-pointer"
             title="Advance operational day by +1"
           >
-            <RefreshCw className="w-3.5 h-3.5" />
+            <RefreshCw className="w-3.5 h-3.5 text-slate-500" />
             <span>{t('actions.step_day')}</span>
+          </button>
+        </div>
+      </div>
+
+      {/* Live Telemetry Stream & Open-Meteo Meteorological Weather Ticker */}
+      <div className="p-3.5 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col lg:flex-row lg:items-center justify-between gap-3 text-xs">
+        <div className="flex items-center gap-2.5 overflow-x-auto py-0.5">
+          <div className="flex items-center gap-1.5 px-3 py-1 rounded-xl bg-emerald-50 text-emerald-800 font-bold border border-emerald-200 shrink-0">
+            <span className="relative flex h-2 w-2">
+              <span className={`animate-ping absolute inline-flex h-full w-full rounded-full ${isLiveStreaming ? 'bg-emerald-400 opacity-75' : 'bg-slate-400 opacity-0'}`}></span>
+              <span className={`relative inline-flex rounded-full h-2 w-2 ${isLiveStreaming ? 'bg-emerald-500' : 'bg-slate-400'}`}></span>
+            </span>
+            <span className="text-[11px] uppercase tracking-wide">
+              {isLiveStreaming ? 'LIVE TELEMETRY STREAM' : 'STREAM PAUSED'}
+            </span>
+          </div>
+
+          {liveWeather.length > 0 ? (
+            liveWeather.map((w, idx) => (
+              <div
+                key={idx}
+                className="flex items-center gap-2 px-3 py-1 rounded-xl bg-slate-50 border border-slate-200 text-slate-700 shrink-0 font-mono text-[11px]"
+              >
+                <CloudSun className="w-3.5 h-3.5 text-blue-500 shrink-0" />
+                <span className="font-bold text-slate-900 font-sans">{w.district_name}:</span>
+                <span>{w.current_temperature_c}°C</span>
+                <span className="text-slate-300">|</span>
+                <span>{w.current_humidity_pct}% hum</span>
+                <span className="text-slate-300">|</span>
+                <span className={w.current_precipitation_mm_hr > 0 ? 'text-blue-600 font-bold' : 'text-slate-500'}>
+                  {w.daily_precipitation_sum_mm}mm rain
+                </span>
+                {w.flood_risk_level !== 'LOW' && (
+                  <span className="px-1.5 py-0.2 rounded text-[9px] font-bold bg-rose-100 text-rose-700 border border-rose-300 uppercase">
+                    Flood Alert
+                  </span>
+                )}
+              </div>
+            ))
+          ) : (
+            <span className="text-slate-500 font-mono text-[11px] py-1">
+              Synchronizing Open-Meteo real-time climate telemetry...
+            </span>
+          )}
+        </div>
+
+        <div className="flex flex-wrap items-center gap-2 shrink-0">
+          <button
+            onClick={handleSimulateLiveDispense}
+            disabled={isIngesting}
+            className="px-3 py-1.5 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-700 font-bold text-xs flex items-center gap-1.5 border border-blue-200 transition-colors shadow-2xs cursor-pointer disabled:opacity-50"
+            title="Simulates real-time consumption event from a remote Primary Health Centre tablet dispenser"
+          >
+            <Zap className={`w-3.5 h-3.5 text-blue-600 ${isIngesting ? 'animate-bounce' : ''}`} />
+            <span>{isIngesting ? 'Ingesting...' : '+ Ingest Dispense Event'}</span>
+          </button>
+
+          <button
+            onClick={handleHarvestWeather}
+            disabled={isHarvesting}
+            className="px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 text-slate-700 font-semibold text-xs flex items-center gap-1.5 border border-slate-200 transition-colors shadow-2xs cursor-pointer disabled:opacity-50"
+            title="Pull latest live weather from Open-Meteo"
+          >
+            <RefreshCw className={`w-3.5 h-3.5 text-slate-500 ${isHarvesting ? 'animate-spin' : ''}`} />
+            <span>Sync Climate</span>
+          </button>
+
+          <button
+            onClick={() => setIsLiveStreaming(!isLiveStreaming)}
+            className={`px-3 py-1.5 rounded-xl text-xs font-bold flex items-center gap-1.5 border transition-all cursor-pointer ${
+              isLiveStreaming
+                ? 'bg-emerald-50 text-emerald-800 border-emerald-300 shadow-2xs'
+                : 'bg-slate-100 text-slate-600 border-slate-200'
+            }`}
+          >
+            <Radio className="w-3.5 h-3.5" />
+            <span>{isLiveStreaming ? 'Auto-Sync (15s)' : 'Auto-Sync (Off)'}</span>
           </button>
         </div>
       </div>

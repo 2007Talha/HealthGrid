@@ -16,6 +16,7 @@ import { useLanguage } from '../../context/LanguageContext';
 import { useAuth } from '../../context/AuthContext';
 import { VoiceInput } from './VoiceInput';
 import { EvidenceDrawer } from './EvidenceDrawer';
+import { MarkdownMessage } from '../common/MarkdownMessage';
 
 const SUGGESTIONS = [
   'Which PHCs are at highest medicine stock-out risk?',
@@ -180,7 +181,11 @@ export const FloatingCopilot: React.FC<FloatingCopilotProps> = ({ isOpen, onClos
                       : 'bg-command-950 border border-slate-200 text-slate-700 rounded-tl-none space-y-2'
                   }`}
                 >
-                  <p className="whitespace-pre-wrap">{m.text}</p>
+                  {m.sender === 'assistant' ? (
+                    <MarkdownMessage content={m.text} />
+                  ) : (
+                    <p className="whitespace-pre-wrap">{m.text}</p>
+                  )}
 
                   {/* Grounded Evidence Badge & Button */}
                   {m.evidence && Object.keys(m.evidence).length > 0 && (

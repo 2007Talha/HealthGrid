@@ -12,9 +12,17 @@ from backend.app.core.rate_limit import rate_limit
 router = APIRouter(prefix="/redistribution", tags=["Resource Redistribution"])
 
 class RecommendRequest(BaseModel):
-    destination_id: str = Field(..., description="Target facility ID facing resource shortage (e.g. PHC-BR-PAT-001)")
+    destination_id: Optional[str] = Field(None, description="Target facility ID facing resource shortage (e.g. PHC-BR-PAT-001)")
+    facility_id: Optional[str] = None
+    phc_id: Optional[str] = None
     medicine_code: str = Field(..., description="Target essential medicine code (e.g. MED-PCM-500)")
     max_sources: int = Field(2, description="Maximum number of source facilities to combine")
+
+    def get_destination_id(self) -> str:
+        dest = self.destination_id or self.facility_id or self.phc_id
+        if not dest:
+            raise HTTPException(status_code=422, detail="destination_id, facility_id, or phc_id is required")
+        return dest
 
 class SimulateRequest(BaseModel):
     recommendation_id: str = Field(..., description="Unique recommendation ID to approve and simulate")
@@ -53,8 +61,9 @@ async def get_candidate_sources(
 @router.post("/recommend", dependencies=[Depends(rate_limit)])
 async def generate_redistribution_recommendation(payload: RecommendRequest) -> Dict[str, Any]:
     """Runs Google OR-Tools MILP optimizer to generate an optimal redistribution plan."""
+    dest = payload.get_destination_id()
     rec = redistribution_engine.optimize_redistribution(
-        destination_id=payload.destination_id,
+        destination_id=dest,
         medicine_code=payload.medicine_code,
         max_sources=payload.max_sources
     )

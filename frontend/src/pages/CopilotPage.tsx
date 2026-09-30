@@ -18,6 +18,7 @@ import { useAuth } from '../context/AuthContext';
 import { VoiceInput } from '../components/copilot/VoiceInput';
 import { WhatIfPanel } from '../components/copilot/WhatIfPanel';
 import { EvidenceDrawer } from '../components/copilot/EvidenceDrawer';
+import { MarkdownMessage } from '../components/common/MarkdownMessage';
 
 const SUGGESTIONS = [
   'Which PHCs are at highest medicine stock-out risk?',
@@ -216,7 +217,11 @@ export const CopilotPage: React.FC = () => {
                       : 'bg-command-950 border border-slate-200 text-slate-700 rounded-tl-none'
                   }`}
                 >
-                  <p className="whitespace-pre-wrap">{m.text}</p>
+                  {m.sender === 'assistant' ? (
+                    <MarkdownMessage content={m.text} />
+                  ) : (
+                    <p className="whitespace-pre-wrap">{m.text}</p>
+                  )}
 
                   {m.evidence && Object.keys(m.evidence).length > 0 && (
                     <div className="pt-2 border-t border-slate-200/80 flex items-center justify-between">

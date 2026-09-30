@@ -220,6 +220,46 @@ export const SystemStatus: React.FC = () => {
             <span>Records: {simStatus?.total_inventory_records?.toLocaleString() || '18,000+'}</span>
           </div>
         </div>
+
+        {/* BRICS Federated Shared Predictive Node */}
+        <div className="p-5 rounded-2xl border border-indigo-200 bg-command-900 space-y-3 md:col-span-2 lg:col-span-3">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <div className="flex items-center gap-2.5">
+              <div className="p-2 rounded-xl bg-indigo-50 text-indigo-700 border border-indigo-200">
+                <Activity className="w-5 h-5" />
+              </div>
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-indigo-950">
+                  BRICS Federated Shared Predictive Modelling Node
+                </h3>
+                <p className="text-xs text-slate-500">
+                  Collaborative cross-border epidemiological intelligence (Brazil, Russia, India, China, South Africa)
+                </p>
+              </div>
+            </div>
+            <span className="px-3 py-1 rounded-full text-[11px] font-mono font-bold bg-indigo-100 text-indigo-800 border border-indigo-300 w-fit">
+              FEDERATED (FedAvg-DP Active)
+            </span>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1 font-mono text-[11px]">
+            <div className="p-2 rounded-lg bg-slate-50 border border-slate-200">
+              <span className="text-[10px] text-slate-500 font-sans block">Aggregated Round</span>
+              <span className="font-bold text-slate-800">Round #14 Synchronized</span>
+            </div>
+            <div className="p-2 rounded-lg bg-slate-50 border border-slate-200">
+              <span className="text-[10px] text-slate-500 font-sans block">Privacy Guarantee</span>
+              <span className="font-bold text-slate-800">Differential Privacy (ε=1.2)</span>
+            </div>
+            <div className="p-2 rounded-lg bg-slate-50 border border-slate-200">
+              <span className="text-[10px] text-slate-500 font-sans block">Participating Nations</span>
+              <span className="font-bold text-indigo-700">5 Sovereign Nodes (BRICS)</span>
+            </div>
+            <div className="p-2 rounded-lg bg-slate-50 border border-slate-200">
+              <span className="text-[10px] text-slate-500 font-sans block">Accuracy Gain</span>
+              <span className="font-bold text-emerald-700">+27.4% vs Isolated Model</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

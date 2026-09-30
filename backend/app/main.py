@@ -118,6 +118,20 @@ def health_check():
     """Liveness probe endpoint."""
     return {"status": "ok", "health": "HEALTHY", "code": 200}
 
+@app.on_event("startup")
+async def start_periodic_weather_harvester():
+    """Runs a periodic background worker harvesting live Open-Meteo weather every 30 minutes."""
+    async def periodic_worker():
+        await asyncio.sleep(5)
+        while True:
+            try:
+                from backend.app.services.live_weather_service import live_weather_service
+                await live_weather_service.harvest_all_districts()
+            except Exception as e:
+                logger.warning(f"Periodic live weather harvest error: {e}")
+            await asyncio.sleep(1800)
+    asyncio.create_task(periodic_worker())
+
 @app.get("/health/dependencies", tags=["Health"])
 def health_dependencies():
     """

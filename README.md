@@ -58,16 +58,25 @@ While clinics in flood-hit districts exhaust vital supplies of ORS, IV fluids, a
 
 ---
 
-## ⚡ The Challenge vs. The Swasthya Records Solution
+## 🎯 Official Challenge Statement & Architectural Mapping
 
-| Challenge | Status Quo Healthcare Systems | With Swasthya Records |
-| :--- | :--- | :--- |
-| **Visibility** | Siloed monthly paper registers; zero inter-district sharing | **Real-time GIS telemetry** across 33 sentinel facilities with live stock runway tracking |
-| **Forecasting** | Reactive ordering only after shelves empty | **7-day & 14-day multi-horizon AI projections** factoring in seasonal outbreaks and OPD trends |
-| **Redistribution** | Manual bureaucratic phone calls taking 3–7 days | **Google OR-Tools MILP optimization** computing safe transfer pairs in milliseconds |
-| **Donor Safety** | Donors risk stock-outs by over-supplying | **Strict 7-day safety stock safeguard** prevents any facility from being depleted |
-| **Decision Support**| Static spreadsheets with no contextual reasoning | **Gemini 2.5 Flash Operations Copilot** with 10+ deterministic Python tools and voice input |
-| **Readiness** | No pre-disaster simulation capability | **Interactive What-If Sandbox** (+30% demand spikes, transit delays, emergency shipments) |
+> **The Problem:** Public healthcare systems across developing nations face persistent supply chain vulnerabilities. The inability to track medicines, patient footfall, and resource utilisation in real time across vast networks of Primary Health Centres leads to stock-outs and limits a nation's capacity to respond when it matters most.
+> 
+> **The Challenge:** Build a federated AI platform for national-scale health resource and supply chain management — real-time visibility into medicine stocks, bed availability, and medical personnel attendance across a nation's entire PHC network. It should forecast demand, generate early warnings for potential stock-outs during health emergencies, and recommend automated cross-district resource redistribution, while allowing for shared predictive modelling across BRICS nations.
+
+<br/>
+
+### ⚡ Challenge Requirements vs. Swasthya Records Implementation
+
+| Challenge Requirement | Traditional Healthcare Systems | Swasthya Records Solution | Codebase Module |
+| :--- | :--- | :--- | :--- |
+| **Real-Time PHC Network Visibility** | Paper registers; delayed monthly reporting; zero staff/bed synchronization | **Continuous real-time telemetry** across 33 sentinel facilities covering medicine stocks, bed occupancy, doctor/nurse attendance, and stockout hours | [`Facilities.tsx`](frontend/src/pages/Facilities.tsx), [`Dashboard.tsx`](frontend/src/pages/Dashboard.tsx) |
+| **Demand Forecasting** | Reactive ordering only after inventory depletes | **14-day multi-horizon ML models** (Ridge, LightGBM, Random Forest) with P10/P50/P90 prediction intervals | [`forecasting_engine.py`](backend/app/services/forecasting_engine.py), [`Forecasts.tsx`](frontend/src/pages/Forecasts.tsx) |
+| **Early Warning System** | Late discovery after patient treatment delays | **Predictive DOSA countdowns (&lt; 36h)** and automated alerts during floods, heatwaves, or epidemic disease surges | [`risk_engine.py`](backend/app/services/risk_engine.py), [`Alerts.tsx`](frontend/src/pages/Alerts.tsx) |
+| **Automated Cross-District Redistribution** | Manual telephone calls taking 3–7 days with donor risk | **Google OR-Tools CBC MILP optimizer** finding safe donor pairs while guaranteeing 10-day donor safety buffer | [`redistribution_engine.py`](backend/app/services/redistribution_engine.py), [`Redistribution.tsx`](frontend/src/pages/Redistribution.tsx) |
+| **BRICS Shared Predictive Modelling** | Complete isolation between developing nations | **Federated Learning architecture (FedAvg with Differential Privacy)** aggregating model weights across BRICS nodes without moving sovereign patient records | [`federated_learning.py`](backend/app/services/federated_learning.py), [`About.tsx`](frontend/src/pages/About.tsx) |
+| **Explainable AI Decision Support** | Unverified black-box responses or static tables | **Grounded AI Operations Assistant** executing 10+ deterministic tools with zero hallucination and bilingual support | [`copilot_service.py`](backend/app/services/copilot_service.py), [`CopilotPage.tsx`](frontend/src/pages/CopilotPage.tsx) |
+| **Emergency Crisis Readiness** | No pre-disaster operational simulation | **Interactive What-If Sandbox** (+40% demand spikes, delivery delays, multi-facility emergency transfers) | [`simulation_manager.py`](backend/app/services/simulation_manager.py), [`DemoFlow.tsx`](frontend/src/pages/DemoFlow.tsx) |
 
 ---
 
@@ -78,10 +87,13 @@ While clinics in flood-hit districts exhaust vital supplies of ORS, IV fluids, a
 | Feature | Description | Tech Component |
 | :--- | :--- | :--- |
 | **🗺️ National Command Center** | Real-time Leaflet GIS mapping with live color-coded facility vulnerability status across Bihar, UP, and Maharashtra. | `React 19` + `Leaflet GIS` |
+| **🌦️ Real-Time Climate Harvester** | Live meteorological telemetry (precipitation, temperature, humidity) via Open-Meteo API auto-triggering flood/heatwave demand surges. | `Open-Meteo REST API` + Cron Worker |
+| **⚡ Live Ingestion Webhook** | High-throughput endpoint (`/api/v1/operational/ingest`) allowing remote PHC tablets and dispensary lockers to stream real-time events. | `FastAPI Async Ingestion` |
+| **🤝 BRICS Shared Predictive Node** | Federated learning architecture (FedAvg with Differential Privacy $\epsilon=1.2$) enabling collaborative disease forecasting across BRICS nations. | `BRICS Federated Engine` |
 | **📈 Multi-Horizon AI Forecasting** | Machine-learning models forecasting medicine demand over 7- and 14-day horizons with seasonal anomaly weights. | `Ridge Regression` + `LightGBM` |
 | **⚠️ Risk Intelligence Engine** | Automated classification of stock runways using Days of Stock Available ($DOSA$). Triggers alerts 72 hours early. | Mathematical Scoring Engine |
 | **🚚 Google OR-Tools Optimizer** | Mixed-Integer Linear Programming (MILP) solving donor-recipient matching under road distance ($\le 50\text{ km}$) and safety stock constraints. | `Google OR-Tools 9.9+` |
-| **🤖 Gemini 2.5 Operations Copilot** | Conversational assistant grounded in live operational databases via 10+ deterministic backend tool declarations. | `Gemini 2.5 Flash` + Function Calling |
+| **🤖 Gemini 2.5 Operations Copilot** | Conversational assistant grounded in live operational databases with rich markdown formatting and zero hallucination. | `Gemini 2.5 Flash` + Markdown Renderer |
 | **🧪 What-If Scenario Sandbox** | Dynamic stress-testing sandbox evaluating sudden disease outbreaks, monsoon flash floods, and supply delays. | Interactive Simulation Engine |
 | **🌐 Bilingual Localization** | Instant, zero-latency toggle between **English** and **हिन्दी (Hindi)** across all navigation, KPI cards, charts, and alerts. | `i18n Context Engine` |
 | **🔒 Role-Based Access Control** | Least-privilege views for `ADMIN` (National Director), `STATE_OPERATOR` (State Director), and `DISTRICT_OPERATOR` (Nodal Officer). | `FastAPI Security` + JWT/RBAC |

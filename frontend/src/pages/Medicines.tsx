@@ -70,7 +70,7 @@ export const Medicines: React.FC<MedicinesPageProps> = ({ onSelectMedicine }) =>
             National stock telemetry, burn rates, and stockout risk (NLEM 2022)
           </p>
         </div>
-        <span className="px-3 py-1 rounded-full text-xs font-mono font-bold bg-blue-950 text-blue-600 border border-blue-600/40">
+        <span className="px-3 py-1 rounded-full text-xs font-mono font-bold bg-blue-100 text-blue-700 border border-blue-300">
           20 Medicines Monitored
         </span>
       </div>

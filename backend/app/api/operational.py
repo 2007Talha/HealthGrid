@@ -3,6 +3,7 @@ Swasthya Records - Real-time Operational Telemetry API
 """
 
 from typing import List, Optional
+from pydantic import BaseModel, Field
 from fastapi import APIRouter, HTTPException, Query
 from backend.app.services.inventory_service import inventory_service
 from backend.app.services.bed_service import bed_service
@@ -199,4 +200,52 @@ def get_national_kpis():
         "active_emergencies": len(emergencies),
         "redistribution_opportunities": max(len(shortages), 8)
     }
+
+
+class IngestTelemetryRequest(BaseModel):
+    facility_id: str = Field(..., description="Target PHC Facility ID (e.g. PHC-BR-PAT-001)")
+    medicine_code: str = Field(..., description="Essential Medicine Code (e.g. MED-PCM-500)")
+    quantity_dispensed: int = Field(..., gt=0, description="Quantity of units dispensed to patients")
+    patient_footfall: Optional[int] = Field(None, description="Optional patient footfall increment")
+    bed_occupied_delta: Optional[int] = Field(None, description="Optional net bed occupancy change (+1 or -1)")
+    source_system: Optional[str] = Field("PHC_TABLET_DISPENSER", description="Source of transaction event")
+
+
+@router.post("/ingest", summary="Live Telemetry Ingestion Webhook for real-time dispensing events")
+async def ingest_live_telemetry(payload: IngestTelemetryRequest):
+    """
+    Real-Time Ingestion Webhook:
+    Accepts live dispensing transactions from PHC tablets, EMRs, or e-Aushadhi connectors,
+    immediately updating on-hand stock and triggering early warning alerts.
+    """
+    res = inventory_service.ingest_dispense_event(
+        phc_id=payload.facility_id,
+        medicine_code=payload.medicine_code,
+        quantity_dispensed=payload.quantity_dispensed
+    )
+    return {
+        "status": "INGESTED_SUCCESSFULLY",
+        "source": payload.source_system,
+        "telemetry_update": res
+    }
+
+
+@router.get("/live-weather", summary="Get real-time meteorological conditions and climate risks")
+async def get_live_weather():
+    """Returns live Open-Meteo weather telemetry for sentinel healthcare districts."""
+    from backend.app.services.live_weather_service import live_weather_service
+    cached = live_weather_service.get_cached_status()
+    if not cached["is_cached"]:
+        await live_weather_service.harvest_all_districts()
+        cached = live_weather_service.get_cached_status()
+    return cached
+
+
+@router.post("/harvest-live", summary="Trigger on-demand meteorological and climate risk sync")
+async def harvest_live_data():
+    """Forces an immediate synchronization with real-world Open-Meteo feeds."""
+    from backend.app.services.live_weather_service import live_weather_service
+    result = await live_weather_service.harvest_all_districts()
+    return result
+
 
