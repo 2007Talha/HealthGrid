@@ -12,6 +12,7 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  SECRETS_SCAN_OMIT_KEYS = "VITE_API_BASE_URL,VITE_API_URL"
 
 # Optional: If you deploy the FastAPI backend (e.g. Google Cloud Run or Render),
 # you can uncomment this block to automatically proxy /api/* without CORS issues.
