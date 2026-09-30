@@ -7,6 +7,7 @@ import {
   Sparkles,
   AlertCircle
 } from 'lucide-react';
+import { Logo } from '../common/Logo';
 import { useLanguage, Language } from '../../context/LanguageContext';
 import { useAuth, PRESET_USERS } from '../../context/AuthContext';
 import { useNotifications } from '../../context/NotificationContext';
@@ -31,9 +32,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch, onOpenCopilot }) =
         {/* Left: Brand */}
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-2.5">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-white font-bold text-sm">
-              SR
-            </div>
+            <Logo size={34} glow />
             <div>
               <span className="font-bold tracking-tight text-slate-900 text-sm sm:text-base">
                 {t('app.title')}

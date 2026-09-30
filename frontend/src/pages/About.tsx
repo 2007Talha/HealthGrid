@@ -1,13 +1,14 @@
 import React from 'react';
 import { Database, ShieldCheck, ExternalLink, Cpu, Layers, CheckCircle2 } from 'lucide-react';
+import { Logo } from '../components/common/Logo';
 
 export const About: React.FC = () => {
   return (
     <div className="p-4 sm:p-6 space-y-8 max-w-4xl mx-auto">
       {/* Header */}
       <div className="text-center space-y-3">
-        <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-tr from-blue-600 to-cyan-500 shadow-xl text-slate-900 font-black text-2xl">
-          SR
+        <div className="flex justify-center">
+          <Logo size={64} glow />
         </div>
         <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
           Swasthya Records (SwasthyaGrid AI)

@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🏥 Swasthya Records
+<img src="./frontend/public/favicon.svg" alt="Swasthya Records Logo" width="88" height="88" />
+
+# Swasthya Records
 ### **Autonomous AI Health Resource & Supply Chain Resilience Platform**
 
 [![Google Cloud GenAI Hackathon 2026](https://img.shields.io/badge/Google_Cloud_GenAI_Hackathon-Track_3:_Smart_Health_%26_Supply_Chain-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://github.com/2007Talha/HealthGrid)

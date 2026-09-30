@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Shield, ArrowRight, Activity, Database, CheckCircle2 } from 'lucide-react';
+import { Logo } from '../components/common/Logo';
 import { useAuth, PRESET_USERS } from '../context/AuthContext';
 import { UserRole } from '../types';
 import { useLanguage } from '../context/LanguageContext';
@@ -18,9 +19,9 @@ export const Login: React.FC<{ onLoginSuccess: () => void }> = ({ onLoginSuccess
     <div className="min-h-screen w-full flex items-center justify-center p-4 bg-gradient-to-b from-command-950 via-command-900 to-command-950">
       <div className="w-full max-w-md rounded-2xl border border-slate-200 bg-command-900/90 shadow-2xl p-8 space-y-6 backdrop-blur-xl">
         {/* Brand Header */}
-        <div className="text-center space-y-2">
-          <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-tr from-blue-600 to-cyan-500 shadow-lg shadow-blue-500/20 text-white font-black text-2xl">
-            SR
+        <div className="text-center space-y-3">
+          <div className="flex justify-center">
+            <Logo size={68} glow />
           </div>
           <h1 className="text-xl font-extrabold text-slate-900 tracking-tight sm:text-2xl">
             {t('app.title')}
